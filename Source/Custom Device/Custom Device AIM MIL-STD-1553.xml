@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+	<AddMenu>
+		<eng>AIM MIL-STD-1553</eng>
+		<loc>AIM MIL-STD-1553</loc>
+	</AddMenu>
+	<Version>1.0.0</Version>
+	<Type>Inline HW Interface</Type>
+	<MaxOccurrence>-1</MaxOccurrence>
+	<MainPageGUID>CA7BC298-6196-4AAD-B3DA-33017CCDCA53</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Initialization VI.vi</Path>
+		</Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Windows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Engine Windows.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\AIM\MIL-STD-1553\AIM MIL-STD-1553 Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\AIM\MIL-STD-1553\Linux_x64\AIM MIL-STD-1553 Engine Linux64.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\AIM\MIL-STD-1553\AIM MIL-STD-1553 Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+	<Dependencies>
+		<Dependency>
+			<SupportedTarget>Linux_x64</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Linux_x64\AIM MIL-STD-1553 Engine.lvlibp</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\AIM\MIL-STD-1553\AIM MIL-STD-1553 Engine.lvlibp</RealTimeSystemDestination>
+		</Dependency>
+	</Dependencies>
+	<Pages>
+		<Page>
+			<Name>
+				<eng>AIM MIL-STD-1553</eng>
+				<loc>AIM MIL-STD-1553</loc>
+			</Name>
+			<GUID>CA7BC298-6196-4AAD-B3DA-33017CCDCA53</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\Glyphs\Fighter.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>F6EEBCD8-EEFC-4E93-975B-2E242A4A5A6B</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Export Configuration RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>8EE36D08-B70A-4E3E-82BC-6658F0A445E1</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Import Configuration RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>c90d1b42-9eb1-4e89-92b6-6c073196ade9-Button</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Export.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>F6EEBCD8-EEFC-4E93-975B-2E242A4A5A6B</ReferencedGUID>
+					<ButtonText>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Export Custom Device Configuration</eng>
+						<loc>Export Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Export Custom Device Configuration</eng>
+						<loc>Export Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>089728fe-9b2f-4073-8646-572ad1172b32-Button</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Import.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>8EE36D08-B70A-4E3E-82BC-6658F0A445E1</ReferencedGUID>
+					<ButtonText>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
+			</ButtonList>
+			<ActionVIOnLoad>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\ActionVIOnLoad.vi</Path>
+			</ActionVIOnLoad>
+			<ActionVIOnCompile>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\ActionVIOnCompile.vi</Path>
+			</ActionVIOnCompile>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Configuration Files</eng>
+				<loc>Configuration Files</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>4CECF82F-8008-49E9-B19E-08BF1610E0CB</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\file.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Status Word</eng>
+				<loc>Status Word</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>4F17096B-6A8A-45AE-95B7-2B9A14354A17</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Terminal Status</eng>
+				<loc>Terminal Status</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>FA190BB6-A886-4D21-B6CE-80C0AB8E079B</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Receive Time</eng>
+				<loc>Receive Time</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>9D586491-763E-487A-BBEE-45C3FF68028A</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Bus Controller</eng>
+				<loc>Bus Controller</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>21F44F0E-FD4D-4419-B4D7-B1E61B610078</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\Glyphs\Bus Controller.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Remote Terminal</eng>
+				<loc>Remote Terminal</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>DAD7DF52-76CE-4065-A310-4B0BE1A080E9</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\Glyphs\Remote Terminal.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Acyclic Frames</eng>
+				<loc>Acyclic Frames</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>F3618C32-A245-4B8A-914D-0D9E1138716E</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\Glyphs\Acyclic Frames.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Message</eng>
+				<loc>Message</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>941EF121-AA5F-4AD9-93DB-CAE27E79D660</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Subaddress</eng>
+				<loc>Subaddress</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>2426566F-3E8E-40D3-A563-51778DC75F65</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\Glyphs\Subaddress.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Status</eng>
+				<loc>Status</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>0759D1A8-2B34-4241-8F80-014629B4FE9E</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Trigger</eng>
+				<loc>Trigger</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>F72813BC-5DD4-4A12-98AF-AF2ACE05D3F3</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\Triggers.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Port %d</eng>
+				<loc>Port %d</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<Copy>Copy</Copy>
+			<GUID>4AC0C534-27A2-477F-ADF0-74A57AB22AEF</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Command Channel</eng>
+				<loc>Command Channel</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>48F3F7DC-E070-4BBC-8C4E-16148CE3ABED</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\Glyphs\Start_Stop.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Channel</eng>
+				<loc>Channel</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>FC881C7F-B684-4A91-BDA4-2949993470AC</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Status</eng>
+				<loc>Status</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>0759D1A8-2B34-4241-8F80-014629B4FE9E</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Error Count</eng>
+				<loc>Error Count</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>46BBEDAC-F271-4EC3-BEC8-7D31AAD38E4D</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Error.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Logging</eng>
+				<loc>Logging</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>4CB50BEB-8E6A-4546-8042-31B06CA15D92</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+	</Pages>
+	<CustomXML>
+		<Dummy></Dummy>
+	</CustomXML>
+</CustomDevice>
