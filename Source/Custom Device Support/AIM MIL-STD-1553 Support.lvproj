@@ -113,7 +113,7 @@
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Utility/Post-Build Action.vi"/>
 		</Item>
 		<Item Name="AIM MIL-STD-1553 Engine.lvlib" Type="Library" URL="../Engine/AIM MIL-STD-1553 Engine.lvlib"/>
-		<Item Name="AIM MIL-STD-1553 Hardware API.lvlib" Type="Library" URL="../Wrapped AIM Palette/AIM MIL-STD-1553 Hardware API.lvlib"/>
+		<Item Name="AIM MIL-STD-1553 Hardware API.lvlib" Type="Library" URL="../Hardware API/AIM MIL-STD-1553 Hardware API.lvlib"/>
 		<Item Name="AIM MIL-STD-1553 Scripting.lvlib" Type="Library" URL="../Scripting/AIM MIL-STD-1553 Scripting.lvlib"/>
 		<Item Name="AIM MIL-STD-1553 System Explorer.lvlib" Type="Library" URL="../System Explorer/Implementation/System Explorer/AIM MIL-STD-1553 System Explorer.lvlib"/>
 		<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Encoding and Decoding/Encoding and Decoding.lvlib"/>
@@ -586,6 +586,7 @@
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Module Reference.ctl" Type="VI" URL="../Wrapped AIM Palette/Module Reference.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -897,7 +898,7 @@
 			</Item>
 			<Item Name="1553 Channel.ctl" Type="VI" URL="../Shared/1553 Channel.ctl"/>
 			<Item Name="Address.ctl" Type="VI" URL="../Shared/Address.ctl"/>
-			<Item Name="AIM MIL-STD-1553 Hardware API.lvlib" Type="Library" URL="../Wrapped AIM Palette/AIM MIL-STD-1553 Hardware API.lvlib"/>
+			<Item Name="AIM MIL-STD-1553 Hardware API.lvlib" Type="Library" URL="../Hardware API/AIM MIL-STD-1553 Hardware API.lvlib"/>
 			<Item Name="AIM MIL-STD-1553 Scripting.lvlib" Type="Library" URL="../Scripting/AIM MIL-STD-1553 Scripting.lvlib"/>
 			<Item Name="BTI1553LV.dll" Type="Document" URL="BTI1553LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -925,6 +926,7 @@
 			<Item Name="Message Map Key.ctl" Type="VI" URL="../Shared/Message Map Key.ctl"/>
 			<Item Name="Message Type.ctl" Type="VI" URL="../Shared/Message Type.ctl"/>
 			<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="../Import/MIL-STD 1553 Import.lvlib"/>
+			<Item Name="Module Reference.ctl" Type="VI" URL="../Wrapped AIM Palette/Module Reference.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

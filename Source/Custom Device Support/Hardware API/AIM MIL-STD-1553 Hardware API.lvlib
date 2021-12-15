@@ -9,7 +9,7 @@
 </Property>
 	<Item Name="Init Board" Type="Folder">
 		<Item Name="Initialize 1553 Module.vi" Type="VI" URL="../Init Board/Initialize 1553 Module.vi"/>
-		<Item Name="Module Reference.ctl" Type="VI" URL="../Module Reference.ctl"/>
+		<Item Name="Module Reference.ctl" Type="VI" URL="../Init Board/Module Reference.ctl"/>
 	</Item>
 	<Item Name="Stop All.vi" Type="VI" URL="../Stop All.vi"/>
 </Library>
