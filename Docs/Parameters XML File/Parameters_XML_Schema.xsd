@@ -37,7 +37,7 @@
                <xs:element name="majorFrames" minOccurs="0" maxOccurs="1">
                   <xs:complexType>
                      <xs:sequence>
-                        <xs:element name="majorFrame" minOccurs="0" maxOccurs="32">
+                        <xs:element name="majorFrame" minOccurs="0" maxOccurs="unbounded">
                            <xs:complexType>
                                  <xs:sequence>
                                     <xs:element type="xs:string" name="name"/>
@@ -58,7 +58,7 @@
                <xs:element name="minorFrames" minOccurs="0" maxOccurs="1">
                   <xs:complexType>
                      <xs:sequence>
-                        <xs:element name="minorFrame" minOccurs="0" maxOccurs="32">
+                        <xs:element name="minorFrame" minOccurs="0" maxOccurs="unbounded">
                            <xs:complexType>
                                 <xs:sequence>
                                     <xs:element type="xs:string" name="name"/>
