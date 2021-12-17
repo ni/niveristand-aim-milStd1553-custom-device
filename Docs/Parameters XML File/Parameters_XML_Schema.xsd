@@ -34,13 +34,67 @@
                      </xs:sequence>
                   </xs:complexType>
                </xs:element>
-               <xs:element name="acyclicFrame" minOccurs="0" maxOccurs="unbounded">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="createTriggerChannel" type="xs:boolean" minOccurs="0" maxOccurs="1" default="false"/>
-                    <xs:element name="name" type="xs:string"/>
-                  </xs:sequence>
-                </xs:complexType>
+               <xs:element name="majorFrames" minOccurs="0" maxOccurs="1">
+                  <xs:complexType>
+                     <xs:sequence>
+                        <xs:element name="majorFrame" minOccurs="0" maxOccurs="32">
+                           <xs:complexType>
+                                 <xs:sequence>
+                                    <xs:element type="xs:string" name="name"/>
+                                    <xs:element name="minorFrames">
+                                       <xs:complexType>
+                                             <xs:sequence>
+                                                <xs:element type="xs:string" name="minorFrame"/>
+                                             </xs:sequence>
+                                       </xs:complexType>
+                                    </xs:element>
+                                    <xs:element type="xs:integer" name="rate"/>
+                                 </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                     </xs:sequence>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="minorFrames" minOccurs="0" maxOccurs="1">
+                  <xs:complexType>
+                     <xs:sequence>
+                        <xs:element name="minorFrame" minOccurs="0" maxOccurs="32">
+                           <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element type="xs:string" name="name"/>
+                                    <xs:element name="messageNames" minOccurs="0" maxOccurs="1">
+                                       <xs:complexType>
+                                             <xs:sequence>
+                                                <xs:element type="xs:string" name="messageName" minOccurs="0" maxOccurs="unbounded"/>
+                                             </xs:sequence>
+                                       </xs:complexType>
+                                    </xs:element>
+                                 </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                     </xs:sequence>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="acyclicFrames" minOccurs="0" maxOccurs="1">
+                  <xs:complexType>
+                     <xs:sequence>
+                        <xs:element name="acyclicFrame" minOccurs="0" maxOccurs="unbounded">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element name="createTriggerChannel" type="xs:boolean" minOccurs="0" maxOccurs="1" default="false"/>
+                                 <xs:element name="name" type="xs:string"/>
+                                 <xs:element name="messageNames">
+                                    <xs:complexType>
+                                       <xs:sequence>
+                                          <xs:element type="xs:string" name="messageName"/>
+                                       </xs:sequence>
+                                    </xs:complexType>
+                                 </xs:element>
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                     </xs:sequence>
+                  </xs:complexType>
                </xs:element>
                <xs:element name="message" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
