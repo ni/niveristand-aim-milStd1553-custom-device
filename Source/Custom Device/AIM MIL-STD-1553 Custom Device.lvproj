@@ -50,6 +50,10 @@
 		<Item Name="AIM MIL-STD-1553 System Explorer.lvlib" Type="Library" URL="../System Explorer/AIM MIL-STD-1553 System Explorer.lvlib"/>
 		<Item Name="Custom Device AIM MIL-STD-1553.xml" Type="Document" URL="../Custom Device AIM MIL-STD-1553.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="BTI1553LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI1553Lib/BTI1553LV.lvlib"/>
+				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -390,6 +394,10 @@
 		<Item Name="AIM MIL-STD-1553 Engine.lvlib" Type="Library" URL="../Engine/AIM MIL-STD-1553 Engine.lvlib"/>
 		<Item Name="AIM MIL-STD-1553 Shared.lvlib" Type="Library" URL="../Shared/AIM MIL-STD-1553 Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="BTI1553LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI1553Lib/BTI1553LV.lvlib"/>
+				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -429,11 +437,26 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="AIM MIL-STD-1553 Engine.lvlibp" Type="LVLibp" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp">
+				<Item Name="1553 BC - Stop.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Stop.vi"/>
+				<Item Name="1553 BITE Result.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/AIM Controls/1553 BITE Result.ctl"/>
+				<Item Name="1553 BM - Stop.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Stop.vi"/>
 				<Item Name="1553 Channel.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/1553 Channel.ctl"/>
+				<Item Name="1553 General - Device Reset.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Device Reset.vi"/>
+				<Item Name="1553 General - ErrorHandler.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - ErrorHandler.vi"/>
+				<Item Name="1553 General - Exit the API.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Exit the API.vi"/>
+				<Item Name="1553 General - GetErrorDescriptionCvi.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - GetErrorDescriptionCvi.vi"/>
+				<Item Name="1553 General - Obtain a Device Reference.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Obtain a Device Reference.vi"/>
+				<Item Name="1553 General - Set API Debug Level.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Set API Debug Level.vi"/>
+				<Item Name="1553 RT - Stop All RTs.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Stop All RTs.vi"/>
+				<Item Name="1553 System - Execute BIT Tests.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Execute BIT Tests.vi"/>
+				<Item Name="1553 Utility - AIM Error Code Array Global.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - AIM Error Code Array Global.vi"/>
+				<Item Name="1553 Utility - Convert Debug Flags to Debug Level.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Convert Debug Flags to Debug Level.vi"/>
+				<Item Name="1553 Utility - DLL Path Global.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - DLL Path Global.vi"/>
+				<Item Name="1553 Utility - NI error Offset for AIM Global.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - NI error Offset for AIM Global.vi"/>
+				<Item Name="1553 Utility - RT Mode Global.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Mid-Level Release/1553 Utility - RT Mode Global.vi"/>
 				<Item Name="Address.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Address.ctl"/>
+				<Item Name="AIM MIL-STD-1553 Hardware API.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Hardware API/AIM MIL-STD-1553 Hardware API.lvlib"/>
 				<Item Name="AIM MIL-STD-1553 Scripting.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Scripting/AIM MIL-STD-1553 Scripting.lvlib"/>
-				<Item Name="BTI1553LV.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/BTI1553Lib/BTI1553LV.lvlib"/>
-				<Item Name="BTICardLV.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/BTICardLib/BTICardLV.lvlib"/>
 				<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Build Linux Log File Path.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
@@ -452,6 +475,7 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Direction.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Direction.ctl"/>
+				<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NI VeriStand Encoding and Decoding/Encoding and Decoding.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Error Count Channel Refs.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Error Count Channel Refs.ctl"/>
@@ -467,6 +491,7 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Implementation.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Implementation.lvlib"/>
 				<Item Name="Initialization Method.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Initialization Method.ctl"/>
+				<Item Name="Initialize 1553 Module.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Hardware API/Initialize 1553 Module.vi"/>
 				<Item Name="Interfaces.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Interfaces.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
@@ -486,7 +511,6 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Terminal Endpoint.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Terminal Endpoint.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
