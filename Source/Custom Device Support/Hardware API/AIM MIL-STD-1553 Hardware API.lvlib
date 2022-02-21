@@ -8,12 +8,15 @@
 
 </Property>
 	<Item Name="BC Transfer Descriptor.ctl" Type="VI" URL="../BC Transfer Descriptor.ctl"/>
+	<Item Name="Configure Major Frame.vi" Type="VI" URL="../Configure Major Frame.vi"/>
+	<Item Name="Configure Minor Frame.vi" Type="VI" URL="../Configure Minor Frame.vi"/>
 	<Item Name="Configure Simple Frame.vi" Type="VI" URL="../Configure Simple Frame.vi"/>
 	<Item Name="Create BC Transfer and Buffer.vi" Type="VI" URL="../Create BC Transfer and Buffer.vi"/>
 	<Item Name="Initialize 1553 Driver.vi" Type="VI" URL="../Initialize 1553 Driver.vi"/>
 	<Item Name="Initialize Bus Controller.vi" Type="VI" URL="../Initialize Bus Controller.vi"/>
 	<Item Name="Initialize RT.vi" Type="VI" URL="../Initialize RT.vi"/>
 	<Item Name="Initialize Subaddress.vi" Type="VI" URL="../Initialize Subaddress.vi"/>
+	<Item Name="Library Initialize and Exit.vi" Type="VI" URL="../Library Initialize and Exit.vi"/>
 	<Item Name="Module Reference.ctl" Type="VI" URL="../Module Reference.ctl"/>
 	<Item Name="Read Buffer.vi" Type="VI" URL="../Read Buffer.vi"/>
 	<Item Name="Read Global Message Count.vi" Type="VI" URL="../Read Global Message Count.vi"/>
