@@ -84,6 +84,7 @@
 	</Item>
 	<Item Name="Message" Type="Folder">
 		<Item Name="Add BC to RT Message.vi" Type="VI" URL="../Message/Add BC to RT Message.vi"/>
+		<Item Name="Add Major and Minor Frames.vi" Type="VI" URL="../Message/Add Major and Minor Frames.vi"/>
 		<Item Name="Add Message (BC to RT, RT to BC).vi" Type="VI" URL="../Message/Add Message (BC to RT, RT to BC).vi"/>
 		<Item Name="Add Message Status Channel.vi" Type="VI" URL="../Message/Add Message Status Channel.vi"/>
 		<Item Name="Add Messages.vi" Type="VI" URL="../Message/Add Messages.vi"/>
@@ -146,4 +147,5 @@
 		<Item Name="Set Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Set Terminal Subaddress.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+	<Item Name="Read Major and Minor Frames.vi" Type="VI" URL="../Message/Read Major and Minor Frames.vi"/>
 </Library>

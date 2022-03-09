@@ -9,61 +9,102 @@
 			<terminal>
 				<terminalAddress>1</terminalAddress>
 			</terminal>
+			<terminal>
+				<terminalAddress>2</terminalAddress>
+			</terminal>
 		</terminals>
-		<message>
-			<name>BC to RT1 (SA1)</name>
-			<address>
-				<terminalAddress>1</terminalAddress>
-				<subAddress>1</subAddress>
-				<direction>Rx</direction>
-			</address>
-			<messageType>BC to RT</messageType>
-			<numberOfWords>32</numberOfWords>
-			<createTimestampChannel>false</createTimestampChannel>
-		</message>
-		<message>
-			<name>BC to RT1 (SA2)</name>
-			<address>
-				<terminalAddress>1</terminalAddress>
-				<subAddress>2</subAddress>
-				<direction>Rx</direction>
-			</address>
-			<messageType>BC to RT</messageType>
-			<numberOfWords>4</numberOfWords>
-			<createTimestampChannel>false</createTimestampChannel>
-			<parameters>
-				<parameter>
-					<encoding>BNR</encoding>
-					<signed>true</signed>
-					<startBit>0</startBit>
-					<numberOfBits>32</numberOfBits>
-					<scale>1</scale>
-					<offset>0.0</offset>
-					<name>Parameter 0</name>
-					<defaultValue>0</defaultValue>
-				</parameter>
-				<parameter>
-					<encoding>BNR</encoding>
-					<signed>false</signed>
-					<startBit>32</startBit>
-					<numberOfBits>32</numberOfBits>
-					<scale>1</scale>
-					<offset>0.0</offset>
-					<name>Parameter 1</name>
-					<defaultValue>0</defaultValue>
-				</parameter>
-			</parameters>
-		</message>
-		<message>
-			<name>RT1 to BC (SA3)</name>
-			<address>
-				<terminalAddress>1</terminalAddress>
-				<subAddress>3</subAddress>
-				<direction>Tx</direction>
-			</address>
-			<messageType>RT to BC</messageType>
-			<numberOfWords>32</numberOfWords>
-			<createTimestampChannel>false</createTimestampChannel>
-		</message>
+		<majorFrames>
+			<majorFrame>
+				<name>MajorFrame1</name>
+				<minorFrameRefs>
+					<minorFrameRef>MinorFrame1</minorFrameRef>
+				</minorFrameRefs>
+				<rate>100000</rate>
+			</majorFrame>
+		</majorFrames>
+		<minorFrames>
+			<minorFrame>
+				<name>MinorFrame1</name>
+				<messageRefs>
+					<messageRef>BC to RT1 (SA1)</messageRef>
+					<messageRef>BC to RT1 (SA2)</messageRef>
+					<messageRef>RT1 to BC (SA3)</messageRef>
+					<messageRef>RT1 (SA4) to RT2 (SA5)</messageRef>
+				</messageRefs>
+			</minorFrame>
+		</minorFrames>
+		<messages>
+			<message>
+				<name>BC to RT1 (SA1)</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>1</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>BC to RT</messageType>
+				<numberOfWords>32</numberOfWords>
+				<createTimestampChannel>false</createTimestampChannel>
+			</message>
+			<message>
+				<name>BC to RT1 (SA2)</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>2</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>BC to RT</messageType>
+				<numberOfWords>4</numberOfWords>
+				<createTimestampChannel>false</createTimestampChannel>
+				<parameters>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>true</signed>
+						<startBit>0</startBit>
+						<numberOfBits>32</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 0</name>
+						<defaultValue>0</defaultValue>
+					</parameter>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>false</signed>
+						<startBit>32</startBit>
+						<numberOfBits>32</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 1</name>
+						<defaultValue>0</defaultValue>
+					</parameter>
+				</parameters>
+			</message>
+			<message>
+				<name>RT1 to BC (SA3)</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>3</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<messageType>RT to BC</messageType>
+				<numberOfWords>32</numberOfWords>
+				<createTimestampChannel>false</createTimestampChannel>
+			</message>
+			<message>
+				<name>RT1 (SA4) to RT2 (SA5)</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>4</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<address>
+					<terminalAddress>2</terminalAddress>
+					<subAddress>5</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>RT to RT</messageType>
+				<numberOfWords>32</numberOfWords>
+				<createTimestampChannel>false</createTimestampChannel>
+			</message>
+		</messages>
 	</channel>
 </parameters>
