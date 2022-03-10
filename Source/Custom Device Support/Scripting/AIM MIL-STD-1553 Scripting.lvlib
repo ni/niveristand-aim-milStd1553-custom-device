@@ -107,6 +107,7 @@
 		<Item Name="Get Remote Terminal Endpoint.vi" Type="VI" URL="../Message/Get Remote Terminal Endpoint.vi"/>
 		<Item Name="Get Rx and Tx Status Channels for Message.vi" Type="VI" URL="../Message/Get Rx and Tx Status Channels for Message.vi"/>
 		<Item Name="Get Terminal Type.vi" Type="VI" URL="../Message/Get Terminal Type.vi"/>
+		<Item Name="Read Major and Minor Frames.vi" Type="VI" URL="../Message/Read Major and Minor Frames.vi"/>
 		<Item Name="Read Messages.vi" Type="VI" URL="../Message/Read Messages.vi"/>
 		<Item Name="Remove Message.vi" Type="VI" URL="../Message/Remove Message.vi"/>
 		<Item Name="Set Direction.vi" Type="VI" URL="../Message/Set Direction.vi"/>
@@ -147,5 +148,4 @@
 		<Item Name="Set Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Set Terminal Subaddress.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
-	<Item Name="Read Major and Minor Frames.vi" Type="VI" URL="../Message/Read Major and Minor Frames.vi"/>
 </Library>
