@@ -84,6 +84,7 @@
 	</Item>
 	<Item Name="Message" Type="Folder">
 		<Item Name="Add BC to RT Message.vi" Type="VI" URL="../Message/Add BC to RT Message.vi"/>
+		<Item Name="Add Major and Minor Frames.vi" Type="VI" URL="../Message/Add Major and Minor Frames.vi"/>
 		<Item Name="Add Message (BC to RT, RT to BC).vi" Type="VI" URL="../Message/Add Message (BC to RT, RT to BC).vi"/>
 		<Item Name="Add Message Status Channel.vi" Type="VI" URL="../Message/Add Message Status Channel.vi"/>
 		<Item Name="Add Messages.vi" Type="VI" URL="../Message/Add Messages.vi"/>
@@ -106,6 +107,7 @@
 		<Item Name="Get Remote Terminal Endpoint.vi" Type="VI" URL="../Message/Get Remote Terminal Endpoint.vi"/>
 		<Item Name="Get Rx and Tx Status Channels for Message.vi" Type="VI" URL="../Message/Get Rx and Tx Status Channels for Message.vi"/>
 		<Item Name="Get Terminal Type.vi" Type="VI" URL="../Message/Get Terminal Type.vi"/>
+		<Item Name="Read Major and Minor Frames.vi" Type="VI" URL="../Message/Read Major and Minor Frames.vi"/>
 		<Item Name="Read Messages.vi" Type="VI" URL="../Message/Read Messages.vi"/>
 		<Item Name="Remove Message.vi" Type="VI" URL="../Message/Remove Message.vi"/>
 		<Item Name="Set Direction.vi" Type="VI" URL="../Message/Set Direction.vi"/>

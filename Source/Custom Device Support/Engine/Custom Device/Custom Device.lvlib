@@ -12,7 +12,6 @@
 			<Item Name="Calculate Next Rx Indexes.vi" Type="VI" URL="../Calculate Next Rx Indexes.vi"/>
 			<Item Name="Create Map from Message Indexes to Tx Write Info.vi" Type="VI" URL="../Create Map from Message Indexes to Tx Write Info.vi"/>
 			<Item Name="Create Map from Messages to Value Indexes.vi" Type="VI" URL="../Create Map from Messages to Value Indexes.vi"/>
-			<Item Name="Get 1553 Configuration.vi" Type="VI" URL="../Get 1553 Configuration.vi"/>
 			<Item Name="Get Bus Controller and Remote Terminals Handles from BTI Channel.vi" Type="VI" URL="../Get Bus Controller and Remote Terminals Handles from BTI Channel.vi"/>
 			<Item Name="Initialize Bus Controller.vi" Type="VI" URL="../Initialize Bus Controller.vi"/>
 			<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
@@ -49,6 +48,7 @@
 		<Item Name="Asynchronous Execution Unit Compiled Information.ctl" Type="VI" URL="../Asynchronous Execution Unit Compiled Information.ctl"/>
 		<Item Name="Asynchronous Execution Unit Runtime Information.ctl" Type="VI" URL="../Asynchronous Execution Unit Runtime Information.ctl"/>
 		<Item Name="Asynchronous Process Parameters.ctl" Type="VI" URL="../Asynchronous Process Parameters.ctl"/>
+		<Item Name="Bus Controller Configuration.ctl" Type="VI" URL="../Bus Controller Configuration.ctl"/>
 		<Item Name="Compiled Message.ctl" Type="VI" URL="../Compiled Message.ctl"/>
 		<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
 		<Item Name="Hardware Handles.ctl" Type="VI" URL="../Hardware Handles.ctl"/>
@@ -58,6 +58,7 @@
 		<Item Name="Major Frame Configuration.ctl" Type="VI" URL="../Major Frame Configuration.ctl"/>
 		<Item Name="Message Configuration.ctl" Type="VI" URL="../Message Configuration.ctl"/>
 		<Item Name="Minor Frame Configuration.ctl" Type="VI" URL="../Minor Frame Configuration.ctl"/>
+		<Item Name="Remote Terminal Configuration.ctl" Type="VI" URL="../Remote Terminal Configuration.ctl"/>
 		<Item Name="RTStateVariables.ctl" Type="VI" URL="../RTStateVariables.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>

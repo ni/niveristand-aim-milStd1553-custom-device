@@ -50,6 +50,8 @@
 			<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../Shared/Build Linux Log File Path.vi"/>
 			<Item Name="Rx Read Info.ctl" Type="VI" URL="../Shared/Rx Read Info.ctl"/>
 			<Item Name="NI VeriStand - Set Custom Device Channel Value Table_offline.vi" Type="VI" URL="../Shared/NI VeriStand - Set Custom Device Channel Value Table_offline.vi"/>
+			<Item Name="Major Frame Definition.ctl" Type="VI" URL="../Shared/Major Frame Definition.ctl"/>
+			<Item Name="Minor Frame Definition.ctl" Type="VI" URL="../Shared/Minor Frame Definition.ctl"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="ballardMILSTD1553-errors.txt" Type="Document" URL="../Docs/ballardMILSTD1553-errors.txt"/>
@@ -979,12 +981,14 @@
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="Initialize 1553 Module.vi" Type="VI" URL="../Hardware API/Initialize 1553 Module.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="Major Frame Definition.ctl" Type="VI" URL="../Shared/Major Frame Definition.ctl"/>
 			<Item Name="Map of Message Indexes to Tx Write Info.ctl" Type="VI" URL="../Shared/Map of Message Indexes to Tx Write Info.ctl"/>
 			<Item Name="Map of Messages to Value Indexes.ctl" Type="VI" URL="../Shared/Map of Messages to Value Indexes.ctl"/>
 			<Item Name="Message Definition.ctl" Type="VI" URL="../Shared/Message Definition.ctl"/>
 			<Item Name="Message Map Key.ctl" Type="VI" URL="../Shared/Message Map Key.ctl"/>
 			<Item Name="Message Type.ctl" Type="VI" URL="../Shared/Message Type.ctl"/>
 			<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="../Import/MIL-STD 1553 Import.lvlib"/>
+			<Item Name="Minor Frame Definition.ctl" Type="VI" URL="../Shared/Minor Frame Definition.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
