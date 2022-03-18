@@ -9,125 +9,141 @@ For the full schema file, see `Parameters_XML_Schema.xsd` in the same directory 
 ### Example (RT to BC)
 
 ```xml
-<message>
-	<name>Latitude</name>
-	<address>
-		<terminalAddress>21</terminalAddress>
-		<subAddress>7</subAddress>
-		<direction>Tx</direction>
-	</address>
-	<messageType>RT to BC</messageType>
-	<numberOfWords>3</numberOfWords>
-	<createTimestampChannel>true</createTimestampChannel>
-	<parameters>
-		<parameter>
-			<encoding>BNR</encoding>
-			<signed>true</signed>
-			<startBit>16</startBit>
-			<numberOfBits>32</numberOfBits>
-			<scale>3600</scale>
-			<offset>0.0</offset>
-			<name>Parameter 0</name>
-			<unit>deg</unit>
-			<defaultValue>0.0</defaultValue>
-		</parameter>
-	</parameters>
-</message>
+<channel>
+	<messages>
+		<message>
+			<name>Latitude</name>
+			<address>
+				<terminalAddress>21</terminalAddress>
+				<subAddress>7</subAddress>
+				<direction>Tx</direction>
+			</address>
+			<messageType>RT to BC</messageType>
+			<numberOfWords>3</numberOfWords>
+			<createTimestampChannel>true</createTimestampChannel>
+			<parameters>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>true</signed>
+					<startBit>16</startBit>
+					<numberOfBits>32</numberOfBits>
+					<scale>3600</scale>
+					<offset>0.0</offset>
+					<name>Parameter 0</name>
+					<unit>deg</unit>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+			</parameters>
+		</message>
+	</messages>
+</channel>
 ```
 
 ### Example (BC to RT)
 
 ```xml
-<message>
-	<name>Longitude</name>
-	<address>
-		<terminalAddress>21</terminalAddress>
-		<subAddress>7</subAddress>
-		<direction>Rx</direction>
-	</address>
-	<messageType>BC to RT</messageType>
-	<numberOfWords>3</numberOfWords>
-	<createTimestampChannel>true</createTimestampChannel>
-	<parameters>
-		<parameter>
-			<encoding>BNR</encoding>
-			<signed>true</signed>
-			<startBit>16</startBit>
-			<numberOfBits>32</numberOfBits>
-			<scale>3600</scale>
-			<offset>0.0</offset>
-			<name>Parameter 0</name>
-			<unit>deg</unit>
-			<defaultValue>0.0</defaultValue>
-		</parameter>
-	</parameters>
-</message>
+<channel>
+	<messages>
+		<message>
+			<name>Longitude</name>
+			<address>
+				<terminalAddress>21</terminalAddress>
+				<subAddress>7</subAddress>
+				<direction>Rx</direction>
+			</address>
+			<messageType>BC to RT</messageType>
+			<numberOfWords>3</numberOfWords>
+			<createTimestampChannel>true</createTimestampChannel>
+			<parameters>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>true</signed>
+					<startBit>16</startBit>
+					<numberOfBits>32</numberOfBits>
+					<scale>3600</scale>
+					<offset>0.0</offset>
+					<name>Parameter 0</name>
+					<unit>deg</unit>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+			</parameters>
+		</message>
+	</messages>
+</channel>
 ```
 
 ### Example (RT to RT)
 
 ```xml
-<message>
-	<name>Position</name>
-	<address>
-		<terminalAddress>1</terminalAddress>
-		<subAddress>2</subAddress>
-		<direction>Tx</direction>
-	</address>
-	<address>
-		<terminalAddress>11</terminalAddress>
-		<subAddress>12</subAddress>
-		<direction>Rx</direction>
-	</address>
-	<messageType>RT to RT</messageType>
-	<numberOfWords>6</numberOfWords>
-	<createTimestampChannel>true</createTimestampChannel>
-	<parameters>
-		<parameter>
-			<encoding>BNR</encoding>
-			<signed>true</signed>
-			<startBit>16</startBit>
-			<numberOfBits>32</numberOfBits>
-			<scale>360000</scale>
-			<offset>0.0</offset>
-			<name>Latitude</name>
-			<unit>deg</unit>
-			<defaultValue>0.0</defaultValue>
-		</parameter>
-		<parameter>
-			<encoding>BNR</encoding>
-			<signed>true</signed>
-			<startBit>64</startBit>
-			<numberOfBits>32</numberOfBits>
-			<scale>360000</scale>
-			<offset>0.0</offset>
-			<name>Longitude</name>
-			<unit>deg</unit>
-			<defaultValue>0.0</defaultValue>
-		</parameter>
-	</parameters>
-</message>
+<channel>
+	<messages>
+		<message>
+			<name>Position</name>
+			<address>
+				<terminalAddress>1</terminalAddress>
+				<subAddress>2</subAddress>
+				<direction>Tx</direction>
+			</address>
+			<address>
+				<terminalAddress>11</terminalAddress>
+				<subAddress>12</subAddress>
+				<direction>Rx</direction>
+			</address>
+			<messageType>RT to RT</messageType>
+			<numberOfWords>6</numberOfWords>
+			<createTimestampChannel>true</createTimestampChannel>
+			<parameters>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>true</signed>
+					<startBit>16</startBit>
+					<numberOfBits>32</numberOfBits>
+					<scale>360000</scale>
+					<offset>0.0</offset>
+					<name>Latitude</name>
+					<unit>deg</unit>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>true</signed>
+					<startBit>64</startBit>
+					<numberOfBits>32</numberOfBits>
+					<scale>360000</scale>
+					<offset>0.0</offset>
+					<name>Longitude</name>
+					<unit>deg</unit>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+			</parameters>
+		</message>
+	</messages>
+</channel>
 ```
 
 ### Example (RT to RT - no scaling)
 
 ```xml
-<message>
-	<name>Missile Status</name>
-	<address>
-		<terminalAddress>4</terminalAddress>
-		<subAddress>9</subAddress>
-		<direction>Tx</direction>
-	</address>
-	<address>
-		<terminalAddress>13</terminalAddress>
-		<subAddress>9</subAddress>
-		<direction>Rx</direction>
-	</address>
-	<messageType>RT to RT</messageType>
-	<numberOfWords>6</numberOfWords>
-	<createTimestampChannel>true</createTimestampChannel>
-</message>
+<channel>
+	<messages>
+		<message>
+			<name>Missile Status</name>
+			<address>
+				<terminalAddress>4</terminalAddress>
+				<subAddress>9</subAddress>
+				<direction>Tx</direction>
+			</address>
+			<address>
+				<terminalAddress>13</terminalAddress>
+				<subAddress>9</subAddress>
+				<direction>Rx</direction>
+			</address>
+			<messageType>RT to RT</messageType>
+			<numberOfWords>6</numberOfWords>
+			<createTimestampChannel>true</createTimestampChannel>
+		</message>
+	</messages>
+</channel>
 ```
 Notes:
 - The above snippet will result in six VeriStand channels. Six words are transmitted from terminal address 4, subaddress 9 to terminal address 13, subaddress 9. Each U16 word is mapped to a VS channel. The default value for each VS channel will be 0.0.
@@ -135,28 +151,32 @@ Notes:
 ### Example (Mode Code)
 
 ```xml
-<message>
-	<name>"MC 16"</name>
-	<modeCode>16</modeCode>
-	<messageType>MC</messageType>
-	<numberOfWords>1</numberOfWords>
-	<address>
-		<terminalAddress>1</terminalAddress>
-		<subAddress>31</subAddress>
-		<direction>Tx</direction>
-	</address>
-</message>
-<message>
-	<name>"MC 17"</name>
-	<modeCode>17</modeCode>
-	<messageType>MC</messageType>
-	<numberOfWords>1</numberOfWords>
-	<address>
-		<terminalAddress>21</terminalAddress>
-		<subAddress>31</subAddress>
-		<direction>Rx</direction>
-	</address>
-</message>
+<channel>
+	<messages>
+		<message>
+			<name>"MC 16"</name>
+			<modeCode>16</modeCode>
+			<messageType>MC</messageType>
+			<numberOfWords>1</numberOfWords>
+			<address>
+				<terminalAddress>1</terminalAddress>
+				<subAddress>31</subAddress>
+				<direction>Tx</direction>
+			</address>
+		</message>
+		<message>
+			<name>"MC 17"</name>
+			<modeCode>17</modeCode>
+			<messageType>MC</messageType>
+			<numberOfWords>1</numberOfWords>
+			<address>
+				<terminalAddress>21</terminalAddress>
+				<subAddress>31</subAddress>
+				<direction>Rx</direction>
+			</address>
+		</message>
+	</messages>
+</channel>
 ```
 
 Notes:
@@ -215,7 +235,7 @@ Notes:
 - If simulating the Bus Controller (terminal 0), all frames and messages must be defined in the Parameters XML file. This determines the frames and messages simulated on the bus and the channels created in VeriStand.
 - If only simulating Remote Terminals, only the frames and messages to be read and written by VeriStand need to be defined. This determines only the channels created in VeriStand.
 
-### Example (Triggers for Acyclic Frames)
+### Example (Acyclic Frames)
 
 ```xml
 <channel>
