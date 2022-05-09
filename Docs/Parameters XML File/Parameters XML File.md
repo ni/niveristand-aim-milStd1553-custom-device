@@ -221,7 +221,7 @@ Notes:
 	<minorFrames>
 		<minorFrame>
 			<name>MinorFrame1</name>
-			<rate>100000</rate>
+			<period>100000</period>
 			<messageRefs>
 				<messageRef>Message1</messageRef>
 			</messageRefs>
@@ -296,7 +296,7 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |→`<minorFrames>`|No<sup>2</sup>|complex|0/1|Opening tag for minor frames definition.|
 |→→`<minorFrame>`|Yes|complex|1/unbounded|Opening tag for minor frame definition.|
 |→→→`<name>`|Yes|string|1|Specifies the minor frame name.|
-|→→→`<rate>`|Yes|integer|1|Specifies the rate in microseconds to transmit the minor frame|
+|→→→`<period>`|Yes|integer|1|Specifies the period, in microseconds, to transmit the minor frame|
 |→→→`<messageRefs>`|Yes|complex|1|Opening tag for messages contained in the minor frame|
 |→→→→`<messageRef>`|Yes|string|1/unbounded|Specifies the message reference to include in the minor frame. This string must match the message name.|
 ||||||
