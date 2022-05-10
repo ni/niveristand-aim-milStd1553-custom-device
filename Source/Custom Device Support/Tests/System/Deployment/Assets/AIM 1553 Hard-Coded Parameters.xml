@@ -19,12 +19,12 @@
 				<minorFrameRefs>
 					<minorFrameRef>MinorFrame1</minorFrameRef>
 				</minorFrameRefs>
-				<rate>100000</rate>
 			</majorFrame>
 		</majorFrames>
 		<minorFrames>
 			<minorFrame>
 				<name>MinorFrame1</name>
+				<period>100000</period>
 				<messageRefs>
 					<messageRef>BC to RT1 (SA1)</messageRef>
 					<messageRef>BC to RT1 (SA2)</messageRef>
