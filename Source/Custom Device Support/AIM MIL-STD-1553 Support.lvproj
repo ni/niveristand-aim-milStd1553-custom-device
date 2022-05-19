@@ -28,6 +28,8 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="1553 Channel.ctl" Type="VI" URL="../Shared/1553 Channel.ctl"/>
 			<Item Name="Address.ctl" Type="VI" URL="../Shared/Address.ctl"/>
+			<Item Name="Bus Selection.ctl" Type="VI" URL="../Shared/Bus Selection.ctl"/>
+			<Item Name="Coupling Mode.ctl" Type="VI" URL="../Shared/Coupling Mode.ctl"/>
 			<Item Name="Check Value in Range.vim" Type="VI" URL="../Shared/Check Value in Range.vim"/>
 			<Item Name="Command Word.ctl" Type="VI" URL="../Shared/Command Word.ctl"/>
 			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
@@ -141,7 +143,6 @@
 				<Item Name="1553 Buffer - Read BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Read BC or RT Buffer.vi"/>
 				<Item Name="1553 Buffer - Write BC or RT Buffer Word.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Write BC or RT Buffer Word.vi"/>
 				<Item Name="1553 Calibration - Set Bus Coupling.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Cal/1553 Calibration - Set Bus Coupling.vi"/>
-				<Item Name="1553 Couplingmodes.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Couplingmodes.ctl"/>
 				<Item Name="1553 Error Injection.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Error Injection.ctl"/>
 				<Item Name="1553 General - Device Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Device Reset.vi"/>
 				<Item Name="1553 General - ErrorHandler.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - ErrorHandler.vi"/>
@@ -160,6 +161,7 @@
 				<Item Name="1553 Select Direction.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Select Direction.ctl"/>
 				<Item Name="1553 Status Word Exception.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Status Word Exception.ctl"/>
 				<Item Name="1553 System - Execute BIT Tests.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Execute BIT Tests.vi"/>
+				<Item Name="1553 System - PXI Geographical Address.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - PXI Geographical Address.vi"/>
 				<Item Name="1553 Transfer Descriptor.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Transfer Descriptor.ctl"/>
 				<Item Name="1553 Utility - AIM Error Code Array Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - AIM Error Code Array Global.vi"/>
 				<Item Name="1553 Utility - Convert Debug Flags to Debug Level.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Convert Debug Flags to Debug Level.vi"/>
@@ -615,7 +617,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Initialize 1553 Module.vi" Type="VI" URL="../Hardware API/Initialize 1553 Module.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -874,7 +875,6 @@
 				<Item Name="1553 Buffer - Read BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Read BC or RT Buffer.vi"/>
 				<Item Name="1553 Buffer - Write BC or RT Buffer Word.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Write BC or RT Buffer Word.vi"/>
 				<Item Name="1553 Calibration - Set Bus Coupling.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Cal/1553 Calibration - Set Bus Coupling.vi"/>
-				<Item Name="1553 Couplingmodes.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Couplingmodes.ctl"/>
 				<Item Name="1553 Error Injection.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Error Injection.ctl"/>
 				<Item Name="1553 General - Device Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Device Reset.vi"/>
 				<Item Name="1553 General - ErrorHandler.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - ErrorHandler.vi"/>
@@ -893,6 +893,7 @@
 				<Item Name="1553 Select Direction.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Select Direction.ctl"/>
 				<Item Name="1553 Status Word Exception.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Status Word Exception.ctl"/>
 				<Item Name="1553 System - Execute BIT Tests.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Execute BIT Tests.vi"/>
+				<Item Name="1553 System - PXI Geographical Address.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - PXI Geographical Address.vi"/>
 				<Item Name="1553 Transfer Descriptor.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Transfer Descriptor.ctl"/>
 				<Item Name="1553 Utility - AIM Error Code Array Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - AIM Error Code Array Global.vi"/>
 				<Item Name="1553 Utility - Convert Debug Flags to Debug Level.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Convert Debug Flags to Debug Level.vi"/>
@@ -967,8 +968,10 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../Shared/Build Linux Log File Path.vi"/>
+			<Item Name="Bus Selection.ctl" Type="VI" URL="../Shared/Bus Selection.ctl"/>
 			<Item Name="Check Value in Range.vim" Type="VI" URL="../Shared/Check Value in Range.vim"/>
 			<Item Name="Command Word.ctl" Type="VI" URL="../Shared/Command Word.ctl"/>
+			<Item Name="Coupling Mode.ctl" Type="VI" URL="../Shared/Coupling Mode.ctl"/>
 			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
@@ -979,7 +982,6 @@
 			<Item Name="Error Count Channel Refs.ctl" Type="VI" URL="../Shared/Error Count Channel Refs.ctl"/>
 			<Item Name="Get File MD5 Checksum.vi" Type="VI" URL="../Shared/Get File MD5 Checksum.vi"/>
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
-			<Item Name="Initialize 1553 Module.vi" Type="VI" URL="../Hardware API/Initialize 1553 Module.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Major Frame Definition.ctl" Type="VI" URL="../Shared/Major Frame Definition.ctl"/>
 			<Item Name="Map of Message Indexes to Tx Write Info.ctl" Type="VI" URL="../Shared/Map of Message Indexes to Tx Write Info.ctl"/>
