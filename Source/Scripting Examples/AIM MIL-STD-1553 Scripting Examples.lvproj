@@ -13,9 +13,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Support" Type="Folder">
+			<Item Name="AIM MIL-STD-1553 Scripting Example Support.lvlib" Type="Library" URL="../AIM MIL-STD-1553 Scripting Example Support.lvlib"/>
 			<Item Name="AIM MIL-STD-1553 Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Scripting/AIM MIL-STD-1553 Scripting.lvlib"/>
 			<Item Name="Ballard MIL-STD-1553 Hardware.xml" Type="Document" URL="../Support/Ballard MIL-STD-1553 Hardware.xml"/>
-			<Item Name="Ballard MIL-STD-1553 Scripting Example Support.lvlib" Type="Library" URL="../Ballard MIL-STD-1553 Scripting Example Support.lvlib"/>
 			<Item Name="Base.nivssdf" Type="Document" URL="../Support/Base.nivssdf"/>
 			<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Import/MIL-STD 1553 Import.lvlib"/>
 			<Item Name="VeriStand MIL-STD-1553 Parameters.xml" Type="Document" URL="../Support/VeriStand MIL-STD-1553 Parameters.xml"/>
@@ -158,15 +158,15 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Support/Ballard MIL-STD-1553 Scripting Example Support.lvlib</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Support/AIM MIL-STD-1553 Scripting Example Support.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Support/Ballard MIL-STD-1553 Scripting Example Support.lvlib/Convert to Absolute Path.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Support/AIM MIL-STD-1553 Scripting Example Support.lvlib/Convert to Absolute Path.vi</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support/Ballard MIL-STD-1553 Scripting Example Support.lvlib/Open System Definition.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support/AIM MIL-STD-1553 Scripting Example Support.lvlib/Open System Definition.vi</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Support/Ballard MIL-STD-1553 Hardware.xml</Property>
