@@ -20,8 +20,8 @@
 			<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Import/MIL-STD 1553 Import.lvlib"/>
 			<Item Name="VeriStand MIL-STD-1553 Parameters.xml" Type="Document" URL="../Support/VeriStand MIL-STD-1553 Parameters.xml"/>
 		</Item>
-		<Item Name="Build New Ballard MIL-STD-1553 Custom Device.vi" Type="VI" URL="../Build New Ballard MIL-STD-1553 Custom Device.vi"/>
-		<Item Name="Import Parameters Configuration to New Ballard MIL-STD-1553 Custom Device.vi" Type="VI" URL="../Import Parameters Configuration to New Ballard MIL-STD-1553 Custom Device.vi"/>
+		<Item Name="Build New AIM MIL-STD-1553 Custom Device.vi" Type="VI" URL="../Build New AIM MIL-STD-1553 Custom Device.vi"/>
+		<Item Name="Import Parameters Configuration to New AIM MIL-STD-1553 Custom Device.vi" Type="VI" URL="../Import Parameters Configuration to New AIM MIL-STD-1553 Custom Device.vi"/>
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Post-Build Action.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -32,7 +32,6 @@
 				<Item Name="Add Port.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Scripting/Port/Add Port.vi"/>
 				<Item Name="Add Remote Terminal.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Scripting/Remote Terminal/Add Remote Terminal.vi"/>
 				<Item Name="Address.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Shared/Address.ctl"/>
-				<Item Name="Address.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Shared/Address.ctl"/>
 				<Item Name="Assert Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Floating-Point Numeric Type.vim"/>
 				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -49,7 +48,6 @@
 				<Item Name="Data Word Format.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Shared/Data Word Format.ctl"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="Device Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Shared/Device Parameters.ctl"/>
-				<Item Name="Device Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Shared/Device Parameters.ctl"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Direction.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Shared/Direction.ctl"/>
@@ -69,7 +67,6 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Import Configuration File.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Scripting/Configuration Files/Import Configuration File.vi"/>
 				<Item Name="Initialization Method.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Shared/Initialization Method.ctl"/>
-				<Item Name="Initialization Method.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Shared/Initialization Method.ctl"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
@@ -147,14 +144,14 @@
 				<Property Name="Source[0].itemID" Type="Str">{E6B01708-F4E3-4DBC-A074-E3620A55A983}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Build New Ballard MIL-STD-1553 Custom Device.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Build New AIM MIL-STD-1553 Custom Device.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Support/VeriStand MIL-STD-1553 Parameters.xml</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Import Parameters Configuration to New Ballard MIL-STD-1553 Custom Device.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Import Parameters Configuration to New AIM MIL-STD-1553 Custom Device.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">1</Property>
