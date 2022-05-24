@@ -15,7 +15,6 @@
 		<Item Name="Support" Type="Folder">
 			<Item Name="AIM MIL-STD-1553 Scripting Example Support.lvlib" Type="Library" URL="../AIM MIL-STD-1553 Scripting Example Support.lvlib"/>
 			<Item Name="AIM MIL-STD-1553 Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Scripting/AIM MIL-STD-1553 Scripting.lvlib"/>
-			<Item Name="Ballard MIL-STD-1553 Hardware.xml" Type="Document" URL="../Support/Ballard MIL-STD-1553 Hardware.xml"/>
 			<Item Name="Base.nivssdf" Type="Document" URL="../Support/Base.nivssdf"/>
 			<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Import/MIL-STD 1553 Import.lvlib"/>
 			<Item Name="VeriStand MIL-STD-1553 Parameters.xml" Type="Document" URL="../Support/VeriStand MIL-STD-1553 Parameters.xml"/>
@@ -26,11 +25,6 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1553 Channel.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Shared/1553 Channel.ctl"/>
-				<Item Name="Add Bus Controller.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Scripting/Bus Controller/Add Bus Controller.vi"/>
-				<Item Name="Add Custom Device.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Scripting/Custom Device/Add Custom Device.vi"/>
-				<Item Name="Add Messages.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Scripting/Message/Add Messages.vi"/>
-				<Item Name="Add Port.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Scripting/Port/Add Port.vi"/>
-				<Item Name="Add Remote Terminal.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Scripting/Remote Terminal/Add Remote Terminal.vi"/>
 				<Item Name="Address.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Shared/Address.ctl"/>
 				<Item Name="Assert Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Floating-Point Numeric Type.vim"/>
 				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
@@ -65,7 +59,6 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Import Configuration File.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Scripting/Configuration Files/Import Configuration File.vi"/>
 				<Item Name="Initialization Method.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Shared/Initialization Method.ctl"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
@@ -83,9 +76,6 @@
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Description.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Scripting/Custom Device/Set Description.vi"/>
-				<Item Name="Set Device Parameters.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Scripting/Device/Set Device Parameters.vi"/>
-				<Item Name="Set Hardware Configuration File.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Scripting/Configuration Files/Set Hardware Configuration File.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="String to Value.vim" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM MIL-STD-1553/Shared/String to Value.vim"/>
@@ -141,15 +131,12 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Scripting Examples/Support</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E6B01708-F4E3-4DBC-A074-E3620A55A983}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{55E40BF7-6A24-465E-A5E0-6E684CCAC69E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Build New AIM MIL-STD-1553 Custom Device.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Support/VeriStand MIL-STD-1553 Parameters.xml</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Import Parameters Configuration to New AIM MIL-STD-1553 Custom Device.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -166,22 +153,19 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support/AIM MIL-STD-1553 Scripting Example Support.lvlib/Open System Definition.vi</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Support/Ballard MIL-STD-1553 Hardware.xml</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref"></Property>
-				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Exclude</Property>
-				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Support/Base.nivssdf</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Support/Base.nivssdf</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Support/MIL-STD 1553 Import.lvlib</Property>
+				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[8].type" Type="Str">Library</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Support/MIL-STD 1553 Import.lvlib</Property>
-				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
-				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Support/VeriStand MIL-STD-1553 Parameters.xml</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 		</Item>
 	</Item>
