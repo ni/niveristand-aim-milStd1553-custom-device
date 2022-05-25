@@ -13,11 +13,7 @@
 			<Item Name="Create Map from Message Indexes to Tx Write Info.vi" Type="VI" URL="../Create Map from Message Indexes to Tx Write Info.vi"/>
 			<Item Name="Create Map from Messages to Value Indexes.vi" Type="VI" URL="../Create Map from Messages to Value Indexes.vi"/>
 			<Item Name="Get Bus Controller and Remote Terminals Handles from BTI Channel.vi" Type="VI" URL="../Get Bus Controller and Remote Terminals Handles from BTI Channel.vi"/>
-			<Item Name="Initialize Bus Controller.vi" Type="VI" URL="../Initialize Bus Controller.vi"/>
-			<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 			<Item Name="Initialize Inline Execution Units.vi" Type="VI" URL="../Initialize Inline Execution Units.vi"/>
-			<Item Name="Initialize Logging.vi" Type="VI" URL="../Initialize Logging.vi"/>
-			<Item Name="Initialize Remote Terminals.vi" Type="VI" URL="../Initialize Remote Terminals.vi"/>
 			<Item Name="Initialize Shared Resources.vi" Type="VI" URL="../Initialize Shared Resources.vi"/>
 			<Item Name="Launch Asynchronous Execution Units.vi" Type="VI" URL="../Launch Asynchronous Execution Units.vi"/>
 			<Item Name="Rx Message to Map Key.vi" Type="VI" URL="../Rx Message to Map Key.vi"/>
