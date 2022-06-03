@@ -33,4 +33,7 @@ Hardware configuration file path must equal a path to an existing hardware confi
 <nierror code="-732609">
 Parameter configuration file MD5 checksum is not equal to the MD5 checksum saved in the system definition. This difference indicates that the parameter configuration file has changed since import.
 </nierror>
+<nierror code="-732610">
+Tried to add a hardware channel to this BIU when one already exists.  AIM MIL-STD 1553 only supports one hardware channel in the parameters file.
+</nierror>
 </nidocument>
