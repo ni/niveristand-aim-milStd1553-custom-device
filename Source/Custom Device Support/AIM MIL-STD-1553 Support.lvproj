@@ -709,7 +709,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Errors</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8B5485A6-31A4-428A-B5F4-1ABEEBDC8189}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E14D3054-F276-4773-9DC2-8318611A3C4C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AIM MIL-STD-1553 System Explorer.lvlib</Property>
@@ -719,7 +719,7 @@
 				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Support Files/aimMILSTD1553-errors.txt</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
