@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nidocument>
 <nicomment>
-https://github.com/ni/niveristand-ballard-milStd1553-custom-device/
+https://github.com/ni/niveristand-aim-milStd1553-custom-device/
 </nicomment>
 <nierror code="-732550">
-The item with the specified name is not a Ballard MIL-STD-1553 custom device.
+The item with the specified name is not an AIM MIL-STD-1553 custom device.
 </nierror>
 <nierror code="-732551">
 The configuration file is missing a required element.
@@ -35,5 +35,14 @@ Parameter configuration file MD5 checksum is not equal to the MD5 checksum saved
 </nierror>
 <nierror code="-732560">
 Tried to add a hardware channel to this BIU when one already exists.  AIM MIL-STD 1553 only supports one hardware channel in the parameters file.
+</nierror>
+<nierror code="-732561">
+Failed to find a Rx buffer ID for a terminal.
+</nierror>
+<nierror code="-732562">
+Failed to find a Tx buffer ID for a terminal.
+</nierror>
+<nierror code="-732563">
+Data loss occurred during encoding of a data word.
 </nierror>
 </nidocument>
