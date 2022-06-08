@@ -44,18 +44,18 @@
 		<Item Name="Add Custom Device.vi" Type="VI" URL="../Custom Device/Add Custom Device.vi"/>
 		<Item Name="Check If Error Exists.vi" Type="VI" URL="../Custom Device/Check If Error Exists.vi"/>
 		<Item Name="Export Custom Device.vi" Type="VI" URL="../Custom Device/Export Custom Device.vi"/>
-		<Item Name="Find All Ballard MIL-STD-1553 Custom Devices.vi" Type="VI" URL="../Custom Device/Find All Ballard MIL-STD-1553 Custom Devices.vi"/>
-		<Item Name="Find Ballard MIL-STD-1553 Custom Device.vi" Type="VI" URL="../Custom Device/Find Ballard MIL-STD-1553 Custom Device.vi"/>
+		<Item Name="Find All Custom Devices.vi" Type="VI" URL="../Custom Device/Find All Custom Devices.vi"/>
+		<Item Name="Find Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find Custom Device by Name.vi"/>
 		<Item Name="Get Description.vi" Type="VI" URL="../Custom Device/Get Description.vi"/>
 		<Item Name="Import Custom Device (In Place).vi" Type="VI" URL="../Custom Device/Import Custom Device (In Place).vi"/>
 		<Item Name="Import Custom Device (New).vi" Type="VI" URL="../Custom Device/Import Custom Device (New).vi"/>
 		<Item Name="Import Custom Device.vi" Type="VI" URL="../Custom Device/Import Custom Device.vi"/>
 		<Item Name="Initialize Custom Device.vi" Type="VI" URL="../Custom Device/Initialize Custom Device.vi"/>
-		<Item Name="Read Configuration.vi" Type="VI" URL="../Custom Device/Read Configuration.vi"/>
+		<Item Name="Read BIU Configuration.vi" Type="VI" URL="../Custom Device/Read BIU Configuration.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
 		<Item Name="Set Description.vi" Type="VI" URL="../Custom Device/Set Description.vi"/>
 		<Item Name="Update Error.vi" Type="VI" URL="../Custom Device/Update Error.vi"/>
-		<Item Name="Write Configuration.vi" Type="VI" URL="../Custom Device/Write Configuration.vi"/>
+		<Item Name="Write BIU Configuration.vi" Type="VI" URL="../Custom Device/Write BIU Configuration.vi"/>
 	</Item>
 	<Item Name="Device" Type="Folder">
 		<Item Name="Get Device Parameters.vi" Type="VI" URL="../Device/Get Device Parameters.vi"/>
