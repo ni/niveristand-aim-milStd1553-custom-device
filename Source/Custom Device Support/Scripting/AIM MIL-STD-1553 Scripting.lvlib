@@ -57,9 +57,9 @@
 		<Item Name="Update Error.vi" Type="VI" URL="../Custom Device/Update Error.vi"/>
 		<Item Name="Write BIU Configuration.vi" Type="VI" URL="../Custom Device/Write BIU Configuration.vi"/>
 	</Item>
-	<Item Name="Device" Type="Folder">
-		<Item Name="Get Device Parameters.vi" Type="VI" URL="../Device/Get Device Parameters.vi"/>
-		<Item Name="Set Device Parameters.vi" Type="VI" URL="../Device/Set Device Parameters.vi"/>
+	<Item Name="Hardware Parameters" Type="Folder">
+		<Item Name="Get AIM Hardware Parameters.vi" Type="VI" URL="../Device/Get AIM Hardware Parameters.vi"/>
+		<Item Name="Set AIM Hardware Parameters.vi" Type="VI" URL="../Device/Set AIM Hardware Parameters.vi"/>
 	</Item>
 	<Item Name="Logging" Type="Folder">
 		<Item Name="Add Logging Section.vi" Type="VI" URL="../Logging/Add Logging Section.vi"/>
