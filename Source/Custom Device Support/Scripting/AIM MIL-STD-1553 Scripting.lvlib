@@ -36,10 +36,10 @@
 		<Item Name="Add Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Add Configuration Files Section.vi"/>
 		<Item Name="Get Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Get Configuration Files Section.vi"/>
 		<Item Name="Get Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File.vi"/>
-		<Item Name="Get Property Parameters Configuration File Required.vi" Type="VI" URL="../Configuration Files/Get Property Parameters Configuration File Required.vi"/>
+		<Item Name="Get Property - Parameters Configuration File Required.vi" Type="VI" URL="../Configuration Files/Get Property - Parameters Configuration File Required.vi"/>
 		<Item Name="Import Configuration File.vi" Type="VI" URL="../Configuration Files/Import Configuration File.vi"/>
 		<Item Name="Set Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File.vi"/>
-		<Item Name="Set Property Parameters Configuration File Required.vi" Type="VI" URL="../Configuration Files/Set Property Parameters Configuration File Required.vi"/>
+		<Item Name="Set Property - Parameters Configuration File Required.vi" Type="VI" URL="../Configuration Files/Set Property - Parameters Configuration File Required.vi"/>
 		<Item Name="Update Parameters Configuration File Error.vi" Type="VI" URL="../Configuration Files/Update Parameters Configuration File Error.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
