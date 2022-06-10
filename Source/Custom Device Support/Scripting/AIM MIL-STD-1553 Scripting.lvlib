@@ -123,21 +123,25 @@
 	<Item Name="Remote Terminal" Type="Folder">
 		<Item Name="Add Message to Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Add Message to Remote Terminal.vi"/>
 		<Item Name="Add Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Add Remote Terminal.vi"/>
+		<Item Name="Find All Remote Terminals.vi" Type="VI" URL="../Remote Terminal/Find All Remote Terminals.vi"/>
+		<Item Name="Find Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Find Remote Terminal.vi"/>
+		<Item Name="Get Remote Terminal Address.vi" Type="VI" URL="../Remote Terminal/Get Remote Terminal Address.vi"/>
+		<Item Name="Get Remote Terminal Name.vi" Type="VI" URL="../Remote Terminal/Get Remote Terminal Name.vi"/>
+		<Item Name="Remove Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Remove Remote Terminal.vi"/>
+		<Item Name="Set Remote Terminal Address.vi" Type="VI" URL="../Remote Terminal/Set Remote Terminal Address.vi"/>
+		<Item Name="Set Remote Terminal Name.vi" Type="VI" URL="../Remote Terminal/Set Remote Terminal Name.vi"/>
+	</Item>
+	<Item Name="Subaddress" Type="Folder">
 		<Item Name="Add Subaddress.vi" Type="VI" URL="../Remote Terminal/Add Subaddress.vi"/>
+		<Item Name="Find Subaddress.vi" Type="VI" URL="../Remote Terminal/Find Subaddress.vi"/>
+		<Item Name="Get All Subaddresses.vi" Type="VI" URL="../Remote Terminal/Get All Subaddresses.vi"/>
+		<Item Name="Get Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Get Terminal Subaddress.vi"/>
+		<Item Name="Set Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Set Terminal Subaddress.vi"/>
+	</Item>
+	<Item Name="Terminal" Type="Folder">
 		<Item Name="Add Terminal Status Channel.vi" Type="VI" URL="../Remote Terminal/Add Terminal Status Channel.vi"/>
 		<Item Name="Conditionally Create Default Terminal Name.vi" Type="VI" URL="../Remote Terminal/Conditionally Create Default Terminal Name.vi"/>
-		<Item Name="Find Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Find Remote Terminal.vi"/>
-		<Item Name="Find Subaddress.vi" Type="VI" URL="../Remote Terminal/Find Subaddress.vi"/>
-		<Item Name="Get All Remote Terminals.vi" Type="VI" URL="../Remote Terminal/Get All Remote Terminals.vi"/>
-		<Item Name="Get All Subaddresses.vi" Type="VI" URL="../Remote Terminal/Get All Subaddresses.vi"/>
-		<Item Name="Get Terminal Address.vi" Type="VI" URL="../Remote Terminal/Get Terminal Address.vi"/>
-		<Item Name="Get Terminal Name.vi" Type="VI" URL="../Remote Terminal/Get Terminal Name.vi"/>
 		<Item Name="Get Terminal Status Channel.vi" Type="VI" URL="../Remote Terminal/Get Terminal Status Channel.vi"/>
-		<Item Name="Get Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Get Terminal Subaddress.vi"/>
-		<Item Name="Remove Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Remove Remote Terminal.vi"/>
-		<Item Name="Set Terminal Address.vi" Type="VI" URL="../Remote Terminal/Set Terminal Address.vi"/>
-		<Item Name="Set Terminal Name.vi" Type="VI" URL="../Remote Terminal/Set Terminal Name.vi"/>
-		<Item Name="Set Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Set Terminal Subaddress.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 </Library>
