@@ -33,8 +33,8 @@
 		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="AIM Hardware Parameters to Configuration Elements.vi" Type="VI" URL="../System Explorer/subVIs/AIM Hardware Parameters to Configuration Elements.vi"/>
 		<Item Name="Channel Cluster to Table.vi" Type="VI" URL="../System Explorer/subVIs/Channel Cluster to Table.vi"/>
-		<Item Name="Device Parameters to Configuration Elements.vi" Type="VI" URL="../System Explorer/subVIs/Device Parameters to Configuration Elements.vi"/>
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
 		<Item Name="Set System Explorer Busy.vi" Type="VI" URL="../System Explorer/subVIs/Set System Explorer Busy.vi"/>
 		<Item Name="Unset System Explorer Busy.vi" Type="VI" URL="../System Explorer/subVIs/Unset System Explorer Busy.vi"/>

@@ -27,13 +27,13 @@
 		<Item Name="Shared" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="1553 Channel.ctl" Type="VI" URL="../Shared/1553 Channel.ctl"/>
+			<Item Name="AIM Hardware Parameters.ctl" Type="VI" URL="../Shared/AIM Hardware Parameters.ctl"/>
 			<Item Name="Address.ctl" Type="VI" URL="../Shared/Address.ctl"/>
 			<Item Name="Bus Selection.ctl" Type="VI" URL="../Shared/Bus Selection.ctl"/>
 			<Item Name="Coupling Mode.ctl" Type="VI" URL="../Shared/Coupling Mode.ctl"/>
 			<Item Name="Check Value in Range.vim" Type="VI" URL="../Shared/Check Value in Range.vim"/>
 			<Item Name="Command Word.ctl" Type="VI" URL="../Shared/Command Word.ctl"/>
 			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
-			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
 			<Item Name="Get File MD5 Checksum.vi" Type="VI" URL="../Shared/Get File MD5 Checksum.vi"/>
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
@@ -960,6 +960,7 @@
 			<Item Name="1553 Channel Handles.ctl" Type="VI" URL="../Shared/1553 Channel Handles.ctl"/>
 			<Item Name="1553 Channel.ctl" Type="VI" URL="../Shared/1553 Channel.ctl"/>
 			<Item Name="Address.ctl" Type="VI" URL="../Shared/Address.ctl"/>
+			<Item Name="AIM Hardware Parameters.ctl" Type="VI" URL="../Shared/AIM Hardware Parameters.ctl"/>
 			<Item Name="AIM MIL-STD-1553 Hardware API.lvlib" Type="Library" URL="../Hardware API/AIM MIL-STD-1553 Hardware API.lvlib"/>
 			<Item Name="AIM MIL-STD-1553 Scripting.lvlib" Type="Library" URL="../Scripting/AIM MIL-STD-1553 Scripting.lvlib"/>
 			<Item Name="BTI1553LV.dll" Type="Document" URL="BTI1553LV.dll">
@@ -975,7 +976,6 @@
 			<Item Name="Coupling Mode.ctl" Type="VI" URL="../Shared/Coupling Mode.ctl"/>
 			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
-			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
