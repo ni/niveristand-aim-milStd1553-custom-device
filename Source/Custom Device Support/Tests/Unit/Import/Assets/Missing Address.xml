@@ -13,11 +13,13 @@
 				<terminalAddress>15</terminalAddress>
 			</terminal>
 		</terminals>
-		<message>
-			<name>BC to RT1 (SA2)</name>
-			<messageType>BC to RT</messageType>
-			<numberOfWords>4</numberOfWords>
-			<createTimestampChannel>true</createTimestampChannel>
-		</message>
+		<messages>
+			<message>
+				<name>BC to RT1 (SA2)</name>
+				<messageType>BC to RT</messageType>
+				<numberOfWords>4</numberOfWords>
+				<createTimestampChannel>true</createTimestampChannel>
+			</message>
+		</messages>
 	</channel>
 </parameters>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<chanel>
+	<channeltypo>
 		<hardwareChannel>0</hardwareChannel>
 		<terminals>
 			<terminal>
@@ -13,11 +13,13 @@
 				<terminalAddress>15</terminalAddress>
 			</terminal>
 		</terminals>
-		<message>
-			<name>BC to RT1 (SA2)</name>
-			<messageType>BC to RT</messageType>
-			<numberOfWords>4</numberOfWords>
-			<createTimestampChannel>true</createTimestampChannel>
-		</message>
-	</chanel>
+		<messages>
+			<message>
+				<name>BC to RT1 (SA2)</name>
+				<messageType>BC to RT</messageType>
+				<numberOfWords>4</numberOfWords>
+				<createTimestampChannel>true</createTimestampChannel>
+			</message>
+		</messages>
+	</channeltypo>
 </parameters>

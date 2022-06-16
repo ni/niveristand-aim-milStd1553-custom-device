@@ -27,15 +27,14 @@
 		<Item Name="Shared" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="1553 Channel.ctl" Type="VI" URL="../Shared/1553 Channel.ctl"/>
+			<Item Name="AIM Hardware Parameters.ctl" Type="VI" URL="../Shared/AIM Hardware Parameters.ctl"/>
 			<Item Name="Address.ctl" Type="VI" URL="../Shared/Address.ctl"/>
 			<Item Name="Bus Selection.ctl" Type="VI" URL="../Shared/Bus Selection.ctl"/>
 			<Item Name="Coupling Mode.ctl" Type="VI" URL="../Shared/Coupling Mode.ctl"/>
 			<Item Name="Check Value in Range.vim" Type="VI" URL="../Shared/Check Value in Range.vim"/>
 			<Item Name="Command Word.ctl" Type="VI" URL="../Shared/Command Word.ctl"/>
 			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
-			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
-			<Item Name="Error Count Channel Refs.ctl" Type="VI" URL="../Shared/Error Count Channel Refs.ctl"/>
 			<Item Name="Get File MD5 Checksum.vi" Type="VI" URL="../Shared/Get File MD5 Checksum.vi"/>
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="Map of Message Indexes to Tx Write Info.ctl" Type="VI" URL="../Shared/Map of Message Indexes to Tx Write Info.ctl"/>
@@ -54,9 +53,10 @@
 			<Item Name="NI VeriStand - Set Custom Device Channel Value Table_offline.vi" Type="VI" URL="../Shared/NI VeriStand - Set Custom Device Channel Value Table_offline.vi"/>
 			<Item Name="Major Frame Definition.ctl" Type="VI" URL="../Shared/Major Frame Definition.ctl"/>
 			<Item Name="Minor Frame Definition.ctl" Type="VI" URL="../Shared/Minor Frame Definition.ctl"/>
+			<Item Name="1553 Channel Handles.ctl" Type="VI" URL="../Shared/1553 Channel Handles.ctl"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
-			<Item Name="ballardMILSTD1553-errors.txt" Type="Document" URL="../Docs/ballardMILSTD1553-errors.txt"/>
+			<Item Name="aimMILSTD1553-errors.txt" Type="Document" URL="../Docs/aimMILSTD1553-errors.txt"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="System" Type="Folder">
@@ -709,7 +709,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Errors</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4D32E3D4-445F-4115-8850-6315AEC666FF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E14D3054-F276-4773-9DC2-8318611A3C4C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AIM MIL-STD-1553 System Explorer.lvlib</Property>
@@ -720,7 +720,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Support Files/ballardMILSTD1553-errors.txt</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Support Files/aimMILSTD1553-errors.txt</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Communication Bus Engine</Property>
@@ -957,8 +957,10 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="1553 Channel Handles.ctl" Type="VI" URL="../Shared/1553 Channel Handles.ctl"/>
 			<Item Name="1553 Channel.ctl" Type="VI" URL="../Shared/1553 Channel.ctl"/>
 			<Item Name="Address.ctl" Type="VI" URL="../Shared/Address.ctl"/>
+			<Item Name="AIM Hardware Parameters.ctl" Type="VI" URL="../Shared/AIM Hardware Parameters.ctl"/>
 			<Item Name="AIM MIL-STD-1553 Hardware API.lvlib" Type="Library" URL="../Hardware API/AIM MIL-STD-1553 Hardware API.lvlib"/>
 			<Item Name="AIM MIL-STD-1553 Scripting.lvlib" Type="Library" URL="../Scripting/AIM MIL-STD-1553 Scripting.lvlib"/>
 			<Item Name="BTI1553LV.dll" Type="Document" URL="BTI1553LV.dll">
@@ -974,12 +976,10 @@
 			<Item Name="Coupling Mode.ctl" Type="VI" URL="../Shared/Coupling Mode.ctl"/>
 			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
-			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Error Count Channel Refs.ctl" Type="VI" URL="../Shared/Error Count Channel Refs.ctl"/>
 			<Item Name="Get File MD5 Checksum.vi" Type="VI" URL="../Shared/Get File MD5 Checksum.vi"/>
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
