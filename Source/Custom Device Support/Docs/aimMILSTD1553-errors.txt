@@ -37,10 +37,10 @@ Parameter configuration file MD5 checksum is not equal to the MD5 checksum saved
 Tried to add a hardware channel to this BIU when one already exists.  AIM MIL-STD 1553 only supports one hardware channel in the parameters file.
 </nierror>
 <nierror code="-732561">
-Failed to find a Rx buffer ID for a terminal.
+Failed to find a Rx buffer ID for a terminal. Ensure all messages have a frame.
 </nierror>
 <nierror code="-732562">
-Failed to find a Tx buffer ID for a terminal.
+Failed to find a Tx buffer ID for a terminal. Ensure all messages have a frame.
 </nierror>
 <nierror code="-732563">
 Data loss occurred during encoding of a data word.
