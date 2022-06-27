@@ -22,8 +22,6 @@
 		<Item Name="Port.vi" Type="VI" URL="../System Explorer/Pages/Port.vi"/>
 		<Item Name="Receive Time.vi" Type="VI" URL="../System Explorer/Pages/Receive Time.vi"/>
 		<Item Name="Remote Terminal.vi" Type="VI" URL="../System Explorer/Pages/Remote Terminal.vi"/>
-		<Item Name="Status Section.vi" Type="VI" URL="../System Explorer/Pages/Status Section.vi"/>
-		<Item Name="Status.vi" Type="VI" URL="../System Explorer/Pages/Status.vi"/>
 		<Item Name="Subaddress.vi" Type="VI" URL="../System Explorer/Pages/Subaddress.vi"/>
 		<Item Name="Terminal Status.vi" Type="VI" URL="../System Explorer/Pages/Terminal Status.vi"/>
 		<Item Name="Trigger Channel.vi" Type="VI" URL="../System Explorer/Pages/Trigger Channel.vi"/>

@@ -26,8 +26,8 @@
 				<name>MinorFrame1</name>
 				<period>100000</period>
 				<messageRefs>
-					<messageRef>MC 16</messageRef>
-					<messageRef>MC 17</messageRef>
+					<!-- <messageRef>MC 16</messageRef>
+					<messageRef>MC 17</messageRef> -->
 					<messageRef>BC to RT1 (SA2)</messageRef>
 					<messageRef>BC to RT15 (SA3)</messageRef>
 					<messageRef>RT1 to RT15 (SA20)</messageRef>
@@ -35,7 +35,7 @@
 				</messageRefs>
 			</minorFrame>
 		</minorFrames>
-		<acyclicFrames>
+		<!--<acyclicFrames>
 			<acyclicFrame>
 				<name>acyclicFrame1</name>
 				<createTriggerChannel>true</createTriggerChannel>
@@ -44,7 +44,7 @@
 					<messageRef>RT15 to BC (SA6)</messageRef>
 				</messageRefs>
 			</acyclicFrame>
-		</acyclicFrames>
+		</acyclicFrames>-->
 		<messages>
 			<message>
 				<name>BC to RT1 (SA2)</name>
@@ -90,7 +90,7 @@
 					</parameter>
 				</parameters>
 			</message>
-			<message>
+			<!-- <message>
 				<name>RT1 to BC (SA5)</name>
 				<address>
 					<terminalAddress>1</terminalAddress>
@@ -100,8 +100,8 @@
 				<messageType>RT to BC</messageType>
 				<numberOfWords>4</numberOfWords>
 				<createTimestampChannel>true</createTimestampChannel>
-			</message>
-			<message>
+			</message> -->
+			<!-- <message>
 				<name>RT15 to BC (SA6)</name>
 				<address>
 					<terminalAddress>15</terminalAddress>
@@ -133,7 +133,7 @@
 						<defaultValue>0</defaultValue>
 					</parameter>
 				</parameters>
-			</message>
+			</message> -->
 			<message>
 				<name>RT1 to RT15 (SA20)</name>
 				<address>
@@ -188,7 +188,7 @@
 					</parameter>
 				</parameters>
 			</message>
-			<message>
+			<!-- <message>
 				<name>MC 16</name>
 				<address>
 					<terminalAddress>1</terminalAddress>
@@ -211,7 +211,7 @@
 				<numberOfWords>1</numberOfWords>
 				<modeCode>17</modeCode>
 				<createTimestampChannel>true</createTimestampChannel>
-			</message>
+			</message> -->
 		</messages>
 	</channel>
 </parameters>
