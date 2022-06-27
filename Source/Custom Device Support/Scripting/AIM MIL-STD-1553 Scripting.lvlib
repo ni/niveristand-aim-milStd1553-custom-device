@@ -86,7 +86,6 @@
 		<Item Name="Add Messages-Subaddresses from Configurations.vi" Type="VI" URL="../Messages and Subaddresses/Add Messages-Subaddresses from Configurations.vi"/>
 		<Item Name="Add Mode Code Message-Subaddress Pair.vi" Type="VI" URL="../Messages and Subaddresses/Add Mode Code Message-Subaddress Pair.vi"/>
 		<Item Name="Add Parameter Channels with Definitions.vi" Type="VI" URL="../Messages and Subaddresses/Add Parameter Channels with Definitions.vi"/>
-		<Item Name="Add Status Channel.vi" Type="VI" URL="../Messages and Subaddresses/Add Status Channel.vi"/>
 		<Item Name="Add Subaddress to Remote Terminal.vi" Type="VI" URL="../Messages and Subaddresses/Add Subaddress to Remote Terminal.vi"/>
 		<Item Name="Add Subaddress.vi" Type="VI" URL="../Messages and Subaddresses/Add Subaddress.vi"/>
 		<Item Name="Find Messages and Subaddresses by Name.vi" Type="VI" URL="../Messages and Subaddresses/Find Messages and Subaddresses by Name.vi"/>
@@ -103,8 +102,6 @@
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Messages and Subaddresses/Get Number of Words.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Messages and Subaddresses/Get Parameter Definition.vi"/>
 		<Item Name="Get Parameters.vi" Type="VI" URL="../Messages and Subaddresses/Get Parameters.vi"/>
-		<Item Name="Get Rx and Tx Status Channels.vi" Type="VI" URL="../Messages and Subaddresses/Get Rx and Tx Status Channels.vi"/>
-		<Item Name="Get Status Channels.vi" Type="VI" URL="../Messages and Subaddresses/Get Status Channels.vi"/>
 		<Item Name="Get Subaddress Endpoint.vi" Type="VI" URL="../Messages and Subaddresses/Get Subaddress Endpoint.vi"/>
 		<Item Name="Get Terminal Subaddress.vi" Type="VI" URL="../Messages and Subaddresses/Get Terminal Subaddress.vi"/>
 		<Item Name="Get Terminal Type.vi" Type="VI" URL="../Messages and Subaddresses/Get Terminal Type.vi"/>
