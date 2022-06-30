@@ -25,6 +25,5 @@
 	<Item Name="Set Device Coupling.vi" Type="VI" URL="../Set Device Coupling.vi"/>
 	<Item Name="Start All.vi" Type="VI" URL="../Start All.vi"/>
 	<Item Name="Stop All.vi" Type="VI" URL="../Stop All.vi"/>
-	<Item Name="Write All Data Words.vi" Type="VI" URL="../Write All Data Words.vi"/>
-	<Item Name="Write Data Word.vi" Type="VI" URL="../Write Data Word.vi"/>
+	<Item Name="Update Buffer Words.vi" Type="VI" URL="../Update Buffer Words.vi"/>
 </Library>

@@ -35,7 +35,7 @@
 					<messageRef>RT 1.4 to BC</messageRef>
 					<messageRef>RT 2.3 to RT 30.2</messageRef>
 					<messageRef>RT 30.28 to RT 2.4</messageRef>
-					<!--<messageRef>MC 16</messageRef>-->
+					<messageRef>MC 16</messageRef>
 				</messageRefs>
 			</minorFrame>
 			<minorFrame>
@@ -45,8 +45,8 @@
 					<messageRef>BC to RT 1.2</messageRef>
 					<messageRef>RT 2.2 to BC</messageRef>
 					<messageRef>RT 30.1 to BC</messageRef>
-					<!--<messageRef>MC 01</messageRef>
-					<messageRef>MC 17</messageRef>-->
+					<messageRef>MC 01</messageRef>
+					<messageRef>MC 17</messageRef>
 				</messageRefs>
 			</minorFrame>
 		</minorFrames>
@@ -265,7 +265,7 @@
 				</parameters>
 			</message>
 			<!-- Mode Codes -->
-<!--		<message>
+			<message>
 				<name>MC 01</name>
 				<address>
 					<terminalAddress>31</terminalAddress>
@@ -297,7 +297,7 @@
 				<messageType>MC</messageType>
 				<numberOfWords>1</numberOfWords>
 				<modeCode>17</modeCode>
-			</message>-->
+			</message>
 		</messages>
 	</channel>
 </parameters>
