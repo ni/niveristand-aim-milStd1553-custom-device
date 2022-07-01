@@ -92,7 +92,7 @@
 		<Item Name="Find Subaddress.vi" Type="VI" URL="../Messages and Subaddresses/Find Subaddress.vi"/>
 		<Item Name="Get All Message Configurations.vi" Type="VI" URL="../Messages and Subaddresses/Get All Message Configurations.vi"/>
 		<Item Name="Get All Messages and Subaddresses.vi" Type="VI" URL="../Messages and Subaddresses/Get All Messages and Subaddresses.vi"/>
-		<Item Name="Get All Subaddress Sections.vi" Type="VI" URL="../Messages and Subaddresses/Get All Subaddress Sections.vi"/>
+		<Item Name="Get All Subaddress and Mode Codes in Remote Terminal.vi" Type="VI" URL="../Messages and Subaddresses/Get All Subaddress and Mode Codes in Remote Terminal.vi"/>
 		<Item Name="Get Direction.vi" Type="VI" URL="../Messages and Subaddresses/Get Direction.vi"/>
 		<Item Name="Get Message Definition.vi" Type="VI" URL="../Messages and Subaddresses/Get Message Definition.vi"/>
 		<Item Name="Get Message Endpoint.vi" Type="VI" URL="../Messages and Subaddresses/Get Message Endpoint.vi"/>

@@ -72,9 +72,6 @@
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Create Execution Unit" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="Hardware - BC.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Hardware - BC.xml"/>
-						<Item Name="Hardware - RT.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Hardware - RT.xml"/>
-						<Item Name="Hardware.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Hardware.xml"/>
 						<Item Name="Parameters - BC.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Parameters - BC.xml"/>
 						<Item Name="Parameters - RT.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Parameters - RT.xml"/>
 						<Item Name="Parameters.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Parameters.xml"/>
@@ -136,7 +133,6 @@
 				<Item Name="1553 Buffer - Define BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC or RT Buffer.vi"/>
 				<Item Name="1553 Buffer - Define RT Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define RT Buffer Header.vi"/>
 				<Item Name="1553 Buffer - Read BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Read BC or RT Buffer.vi"/>
-				<Item Name="1553 Buffer - Write BC or RT Buffer Word.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Write BC or RT Buffer Word.vi"/>
 				<Item Name="1553 Calibration - Set Bus Coupling.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Cal/1553 Calibration - Set Bus Coupling.vi"/>
 				<Item Name="1553 Error Injection.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Error Injection.ctl"/>
 				<Item Name="1553 General - Device Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Device Reset.vi"/>
@@ -145,6 +141,7 @@
 				<Item Name="1553 General - GetErrorDescriptionCvi.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - GetErrorDescriptionCvi.vi"/>
 				<Item Name="1553 General - Initialize the API.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Initialize the API.vi"/>
 				<Item Name="1553 General - Obtain a Device Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Obtain a Device Reference.vi"/>
+				<Item Name="1553 RT - Configure a Mode Code.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Configure a Mode Code.vi"/>
 				<Item Name="1553 RT - Configure a Sub-address.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Configure a Sub-address.vi"/>
 				<Item Name="1553 RT - Initialize an RT.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Initialize an RT.vi"/>
 				<Item Name="1553 RT - Start All RTs.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Start All RTs.vi"/>
@@ -455,6 +452,7 @@
 				<Item Name="Remove Duplicates from 1D Array (U32)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Remove Duplicates from 1D Array (U32)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (U64)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Remove Duplicates from 1D Array (U64)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (Variant)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Remove Duplicates from 1D Array (Variant)__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Remove Duplicates from 1D Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Remove Duplicates from 1D Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Reorder 1D Array (CDB)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Reorder 1D Array (CDB)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Reorder 1D Array (CSG)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Reorder 1D Array (CSG)__ogtk__jki_vi_tester.vi"/>
@@ -860,7 +858,6 @@
 				<Item Name="1553 Buffer - Define BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC or RT Buffer.vi"/>
 				<Item Name="1553 Buffer - Define RT Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define RT Buffer Header.vi"/>
 				<Item Name="1553 Buffer - Read BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Read BC or RT Buffer.vi"/>
-				<Item Name="1553 Buffer - Write BC or RT Buffer Word.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Write BC or RT Buffer Word.vi"/>
 				<Item Name="1553 Calibration - Set Bus Coupling.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Cal/1553 Calibration - Set Bus Coupling.vi"/>
 				<Item Name="1553 Error Injection.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Error Injection.ctl"/>
 				<Item Name="1553 General - Device Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Device Reset.vi"/>
@@ -869,6 +866,7 @@
 				<Item Name="1553 General - GetErrorDescriptionCvi.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - GetErrorDescriptionCvi.vi"/>
 				<Item Name="1553 General - Initialize the API.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Initialize the API.vi"/>
 				<Item Name="1553 General - Obtain a Device Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Obtain a Device Reference.vi"/>
+				<Item Name="1553 RT - Configure a Mode Code.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Configure a Mode Code.vi"/>
 				<Item Name="1553 RT - Configure a Sub-address.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Configure a Sub-address.vi"/>
 				<Item Name="1553 RT - Initialize an RT.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Initialize an RT.vi"/>
 				<Item Name="1553 RT - Start All RTs.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Start All RTs.vi"/>
