@@ -15,7 +15,6 @@
 		<Item Name="Bus Controller.vi" Type="VI" URL="../System Explorer/Pages/Bus Controller.vi"/>
 		<Item Name="Command Channel.vi" Type="VI" URL="../System Explorer/Pages/Command Channel.vi"/>
 		<Item Name="Configuration Files.vi" Type="VI" URL="../System Explorer/Pages/Configuration Files.vi"/>
-		<Item Name="Error Count Channel.vi" Type="VI" URL="../System Explorer/Pages/Error Count Channel.vi"/>
 		<Item Name="Logging.vi" Type="VI" URL="../System Explorer/Pages/Logging.vi"/>
 		<Item Name="Main Page.vi" Type="VI" URL="../System Explorer/Pages/Main Page.vi"/>
 		<Item Name="Message.vi" Type="VI" URL="../System Explorer/Pages/Message.vi"/>
@@ -23,8 +22,6 @@
 		<Item Name="Port.vi" Type="VI" URL="../System Explorer/Pages/Port.vi"/>
 		<Item Name="Receive Time.vi" Type="VI" URL="../System Explorer/Pages/Receive Time.vi"/>
 		<Item Name="Remote Terminal.vi" Type="VI" URL="../System Explorer/Pages/Remote Terminal.vi"/>
-		<Item Name="Status Section.vi" Type="VI" URL="../System Explorer/Pages/Status Section.vi"/>
-		<Item Name="Status.vi" Type="VI" URL="../System Explorer/Pages/Status.vi"/>
 		<Item Name="Subaddress.vi" Type="VI" URL="../System Explorer/Pages/Subaddress.vi"/>
 		<Item Name="Terminal Status.vi" Type="VI" URL="../System Explorer/Pages/Terminal Status.vi"/>
 		<Item Name="Trigger Channel.vi" Type="VI" URL="../System Explorer/Pages/Trigger Channel.vi"/>
@@ -34,8 +31,8 @@
 		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="AIM Hardware Parameters to Configuration Elements.vi" Type="VI" URL="../System Explorer/subVIs/AIM Hardware Parameters to Configuration Elements.vi"/>
 		<Item Name="Channel Cluster to Table.vi" Type="VI" URL="../System Explorer/subVIs/Channel Cluster to Table.vi"/>
-		<Item Name="Device Parameters to Configuration Elements.vi" Type="VI" URL="../System Explorer/subVIs/Device Parameters to Configuration Elements.vi"/>
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
 		<Item Name="Set System Explorer Busy.vi" Type="VI" URL="../System Explorer/subVIs/Set System Explorer Busy.vi"/>
 		<Item Name="Unset System Explorer Busy.vi" Type="VI" URL="../System Explorer/subVIs/Unset System Explorer Busy.vi"/>

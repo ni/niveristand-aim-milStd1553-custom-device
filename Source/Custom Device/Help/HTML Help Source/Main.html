@@ -9,7 +9,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 	<head>
 		<meta http-equiv="Content-Style-Type" content="text/css">
 		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
-		<title>Ballard MIL-STD-1553</title>
+		<title>AIM MIL-STD-1553</title>
 		<link rel="STYLESHEET" type="text/css" href="css/VSsystemexplorer.css">
 		<script src="common.js" type="text/javascript"></script><script src="js/expandable_tree.js" type="text/javascript"></script>
 		<link rel="STYLESHEET" type="text/css" href="css/expandable_tree.css">
@@ -29,8 +29,8 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 			<p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
 			<hr width="100%" noshade>
 		</noscript>
-		<h1>Ballard MIL-STD-1553</h1>
-		<p>The <strong>Ballard MIL-STD-1553 Custom Device</strong> configures Astronics Ballard hardware designed for avionics communications using the MIL-STD-1553 protocol. This addon configures only one core of a Ballard device. You may use multiple Ballard MIL-STD-1553 addons in your VeriStand project.</p>
+		<h1>AIM MIL-STD-1553</h1>
+		<p>The <strong>AIM MIL-STD-1553 Custom Device</strong> configures AIM hardware designed for avionics communications using the MIL-STD-1553 protocol. This addon configures only one BIU (Bus Interface Unit) of an AIM device. You may use multiple AIM MIL-STD-1553 addons in your VeriStand project.</p>
 		<h2>What do you want to do?</h2>
 		<p>Depending on your goal, complete the following task.</p>
 		<table>
@@ -43,12 +43,12 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 			<td>Configure the hardware device on this page.</td>
 		</tr>
 		<tr>
-			<td>Import Hardware and Parameter Configurations</td>
-			<td>Import hardware and parameter configuration files in the <strong>Configuration Files</strong> section.</td>
+			<td>Import Parameter Configuration</td>
+			<td>Import a parameter configuration file in the <strong>Configuration Files</strong> section.</td>
 		</tr>
 		<tr>
 			<td>View Hardware Channel, Message, and Parameter Configurations</td>
-			<td>Select a hardware channel, a bus controller, a remote terminal a message, or a named parameter in the system tree.</td>
+			<td>Select a hardware channel, bus controller, remote terminal, message, or named parameter in the system tree.</td>
 		</tr>
 		</table></br>
 		<h2>Device Configuration</h2>
@@ -58,8 +58,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				<li><strong>Description</strong>&#8212;Documents this instance of the custom device.</li>
 				<li><strong>Initialization Method</strong>&#8212;Specifies whether to reference the hardware device by PXI Slot Number or Card Number.</li>
 				<li><strong>PXI Slot Number</strong>&#8212;Specifies the PXI Slot Number of the hardware device.</li>
-				<li><strong>Card Number</strong>&#8212;Specifies the card identifier as enumerated by BTITST32 application.</li>
-				<li><strong>Core Number</strong>&#8212;Specifies the hardware device core to use for communication.</li>
+				<li><strong>Card Number</strong>&#8212;Specifies the card identifier as enumerated by the AIM hardware API.</li>
+				<li><strong>BIU Number</strong>&#8212;Specifies the device's BIU (Bus Interface Unit) to use for communication.</li>
+				<li><strong>Coupling Mode</strong>&#8212;Specifies the physical MILbus coupling mode.</li>
+				<li><strong>Bus Selection</strong>&#8212;Specifies the bus for which to configure the coupling mode.</li>
 			</ul></p>
 	</body>
 </html>

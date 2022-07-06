@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+https://github.com/ni/niveristand-aim-milStd1553-custom-device/
+</nicomment>
+<nierror code="-732550">
+The item with the specified name is not an AIM MIL-STD-1553 custom device.
+</nierror>
+<nierror code="-732551">
+The configuration file is missing a required element.
+</nierror>
+<nierror code="-732552">
+An imported value is not within the accepted range.
+</nierror>
+<nierror code="-732553">
+Imported parameters overlap. Configure each parameter with a unique bit range within the message.
+</nierror>
+<nierror code="-732554">
+Unsupported value. Compare the imported value to the published schema.
+</nierror>
+<nierror code="-732555">
+The address (terminal configuration) is not consistent with the message type. 'RT to BC' messages must define one address with 'Tx' direction. 'BC to RT' messages must define one address with 'Rx' direction. 'MC' messages must define one address with direction.'RT to RT' messages must define two addresses, one with 'Tx' direction and one with 'Rx' direction.
+</nierror>
+<nierror code="-732556">
+Parameter handle array size mismatch. If they exist for a given message, the number of Tx, RxRT, and RxBC parameters must be the same.
+</nierror>
+<nierror code="-732557">
+Parameter configuration file path must equal a path to an existing parameter configuration file.
+</nierror>
+<nierror code="-732558">
+Hardware configuration file path must equal a path to an existing hardware configuration file.
+</nierror>
+<nierror code="-732559">
+Parameter configuration file MD5 checksum is not equal to the MD5 checksum saved in the system definition. This difference indicates that the parameter configuration file has changed since import.
+</nierror>
+<nierror code="-732560">
+Tried to add a hardware channel to this BIU when one already exists.  AIM MIL-STD 1553 only supports one hardware channel in the parameters file.
+</nierror>
+<nierror code="-732561">
+Failed to find a Rx buffer ID for a terminal. Ensure all messages have a frame.
+</nierror>
+<nierror code="-732562">
+Failed to find a Tx buffer ID for a terminal. Ensure all messages have a frame.
+</nierror>
+<nierror code="-732563">
+Data loss occurred during encoding of a data word.
+</nierror>
+</nidocument>
