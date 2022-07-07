@@ -169,23 +169,6 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Status Word</eng>
-				<loc>Status Word</loc>
-			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>4F17096B-6A8A-45AE-95B7-2B9A14354A17</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
 				<eng>Terminal Status</eng>
 				<loc>Terminal Status</loc>
 			</Name>
