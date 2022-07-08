@@ -17,14 +17,22 @@
 			<acyclicFrame>
 				<createTriggerChannel>true</createTriggerChannel>
 				<name>Message Buffer 56</name>
+				<messageRefs>
+					<messageRef>Latitude</messageRef>
+				</messageRefs>
 			</acyclicFrame>
 			<acyclicFrame>
 				<createTriggerChannel>true</createTriggerChannel>
 				<name>Message Buffer 57</name>
+				<messageRefs>
+					<messageRef>Longitude</messageRef>
+					<messageRef>Position1</messageRef>
+				</messageRefs>
 			</acyclicFrame>
 			<acyclicFrame>
 				<createTriggerChannel>false</createTriggerChannel>
 				<name>Message Buffer 58</name>
+				<messageRefs></messageRefs>
 			</acyclicFrame>
 		</acyclicFrames>
 		<messages>
@@ -77,7 +85,7 @@
 				</parameters>
 			</message>
 			<message>
-				<name>Position</name>
+				<name>Position1</name>
 				<address>
 					<terminalAddress>1</terminalAddress>
 					<subAddress>2</subAddress>
@@ -115,6 +123,22 @@
 					</parameter>
 				</parameters>
 			</message>
+			<message>
+				<name>Position2</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>2</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<address>
+					<terminalAddress>11</terminalAddress>
+					<subAddress>12</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>RT to RT</messageType>
+				<numberOfWords>6</numberOfWords>
+				<createTimestampChannel>true</createTimestampChannel>
+			</message>
 		</messages>
 	</channel>
 	<channel>
@@ -127,25 +151,80 @@
 				<terminalAddress>0</terminalAddress>
 			</terminal>
 		</terminals>
-		<acyclicFrame>
-			<name>Message Buffer 56</name>
-		</acyclicFrame>
-		<message>
-			<name>Position</name>
-			<address>
-				<terminalAddress>1</terminalAddress>
-				<subAddress>2</subAddress>
-				<direction>Tx</direction>
-			</address>
-			<address>
-				<terminalAddress>11</terminalAddress>
-				<subAddress>12</subAddress>
-				<direction>Rx</direction>
-			</address>
-			<messageType>RT to RT</messageType>
-			<numberOfWords>6</numberOfWords>
-			<createTimestampChannel>true</createTimestampChannel>
-		</message>
+		<majorFrames>
+			<majorFrame>
+				<name>MajorFrameCH1</name>
+				<minorFrameRefs>
+					<minorFrameRef>MinorFrameCH1</minorFrameRef>
+				</minorFrameRefs>
+			</majorFrame>
+		</majorFrames>
+		<minorFrames>
+			<minorFrame>
+				<name>MinorFrameCH1</name>
+				<messageRefs>
+					<messageRef>C MessageCH1</messageRef>
+				</messageRefs>
+			</minorFrame>
+		</minorFrames>
+		<acyclicFrames>
+			<acyclicFrame>
+				<name>Message Buffer 56</name>
+				<messageRefs>
+					<messageRef>AC MessageCH1</messageRef>
+				</messageRefs>
+			</acyclicFrame>
+		</acyclicFrames>
+		<messages>
+			<message>
+				<name>C MessageCH1</name>
+				<address>
+					<terminalAddress>21</terminalAddress>
+					<subAddress>7</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>BC to RT</messageType>
+				<numberOfWords>3</numberOfWords>
+				<createTimestampChannel>true</createTimestampChannel>
+				<parameters>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>true</signed>
+						<startBit>16</startBit>
+						<numberOfBits>32</numberOfBits>
+						<scale>3600</scale>
+						<offset>0.0</offset>
+						<name>Parameter 0</name>
+						<unit>deg</unit>
+						<defaultValue>0.0</defaultValue>
+					</parameter>
+				</parameters>
+			</message>
+			<message>
+				<name>AC MessageCH1</name>
+				<address>
+					<terminalAddress>21</terminalAddress>
+					<subAddress>7</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>BC to RT</messageType>
+				<numberOfWords>3</numberOfWords>
+				<createTimestampChannel>true</createTimestampChannel>
+				<parameters>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>true</signed>
+						<startBit>16</startBit>
+						<numberOfBits>32</numberOfBits>
+						<scale>3600</scale>
+						<offset>0.0</offset>
+						<name>Parameter 0</name>
+						<unit>deg</unit>
+						<defaultValue>0.0</defaultValue>
+					</parameter>
+				</parameters>
+			</message>
+		</messages>
 	</channel>
 	<channel>
 		<hardwareChannel>2</hardwareChannel>

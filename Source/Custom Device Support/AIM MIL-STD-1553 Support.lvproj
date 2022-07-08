@@ -26,6 +26,7 @@
 		</Item>
 		<Item Name="Shared" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Acyclic Frame Definition.ctl" Type="VI" URL="../Shared/Acyclic Frame Definition.ctl"/>
 			<Item Name="AIM Hardware Parameters.ctl" Type="VI" URL="../Shared/AIM Hardware Parameters.ctl"/>
 			<Item Name="Address.ctl" Type="VI" URL="../Shared/Address.ctl"/>
 			<Item Name="BIU Configuration.ctl" Type="VI" URL="../Shared/BIU Configuration.ctl"/>
@@ -938,6 +939,7 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Acyclic Frame Definition.ctl" Type="VI" URL="../Shared/Acyclic Frame Definition.ctl"/>
 			<Item Name="Address.ctl" Type="VI" URL="../Shared/Address.ctl"/>
 			<Item Name="AIM Hardware Parameters.ctl" Type="VI" URL="../Shared/AIM Hardware Parameters.ctl"/>
 			<Item Name="AIM MIL-STD-1553 Hardware API.lvlib" Type="Library" URL="../Hardware API/AIM MIL-STD-1553 Hardware API.lvlib"/>
