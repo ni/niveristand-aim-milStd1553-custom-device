@@ -10,12 +10,14 @@
 
 </Property>
 	<Item Name="Acyclic Frames" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Add Acyclic Frame Triggers in Section.vi" Type="VI" URL="../Acyclic Frames/Add Acyclic Frame Triggers in Section.vi"/>
 		<Item Name="Add Trigger to Acyclic Frames Section.vi" Type="VI" URL="../Acyclic Frames/Add Trigger to Acyclic Frames Section.vi"/>
-		<Item Name="Add Triggers and Buffer IDs to Acyclic Frames.vi" Type="VI" URL="../Acyclic Frames/Add Triggers and Buffer IDs to Acyclic Frames.vi"/>
+		<Item Name="Find All Acyclic Frames.vi" Type="VI" URL="../Acyclic Frames/Find All Acyclic Frames.vi"/>
 		<Item Name="Find Acyclic Frames Section.vi" Type="VI" URL="../Acyclic Frames/Find Acyclic Frames Section.vi"/>
-		<Item Name="Get Acyclic Buffer ID.vi" Type="VI" URL="../Acyclic Frames/Get Acyclic Buffer ID.vi"/>
+		<Item Name="Get Acyclic Frame from Trigger.vi" Type="VI" URL="../Acyclic Frames/Get Acyclic Frame from Trigger.vi"/>
 		<Item Name="Get Trigger Channels.vi" Type="VI" URL="../Acyclic Frames/Get Trigger Channels.vi"/>
-		<Item Name="Set Acyclic Buffer ID.vi" Type="VI" URL="../Acyclic Frames/Set Acyclic Buffer ID.vi"/>
+		<Item Name="Set Acyclic Frame in Trigger.vi" Type="VI" URL="../Acyclic Frames/Set Acyclic Frame in Trigger.vi"/>
 	</Item>
 	<Item Name="Bus Controller" Type="Folder">
 		<Item Name="Add Bus Controller.vi" Type="VI" URL="../Bus Controller/Add Bus Controller.vi"/>
