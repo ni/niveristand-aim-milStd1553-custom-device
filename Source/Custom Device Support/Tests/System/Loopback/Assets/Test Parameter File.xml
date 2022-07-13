@@ -58,6 +58,14 @@
 					<messageRef>BC to RT 1.3</messageRef>
 				</messageRefs>
 			</acyclicFrame>
+			<acyclicFrame>
+				<createTriggerChannel>true</createTriggerChannel>
+				<name>acyclicFrame 2</name>
+				<messageRefs>
+					<messageRef>RT 1.6 to RT 2.7</messageRef>
+					<messageRef>RT 1.5 to BC</messageRef>
+				</messageRefs>
+			</acyclicFrame>
 		</acyclicFrames>
 		<messages>
 			<!-- BC to RT -->
@@ -199,6 +207,17 @@
 				<messageType>RT to BC</messageType>
 				<numberOfWords>2</numberOfWords>
 			</message>
+			<!-- Acyclic RT to BC -->
+			<message>
+				<name>RT 1.5 to BC</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>5</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<messageType>RT to BC</messageType>
+				<numberOfWords>3</numberOfWords>
+			</message>
 			<!-- RT to RT -->
 			<message>
 				<name>RT 2.3 to RT 30.2</name>
@@ -283,6 +302,23 @@
 						<defaultValue>35.0</defaultValue>
 					</parameter>
 				</parameters>
+			</message>
+			<!-- Acyclic RT to RT -->
+			<message>
+				<name>RT 1.6 to RT 2.7</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>6</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<address>
+					<terminalAddress>2</terminalAddress>
+					<subAddress>7</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>RT to RT</messageType>
+				<numberOfWords>3</numberOfWords>
+				<createTimestampChannel>true</createTimestampChannel>
 			</message>
 			<!-- Mode Codes -->
 			<message>
