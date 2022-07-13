@@ -50,6 +50,15 @@
 				</messageRefs>
 			</minorFrame>
 		</minorFrames>
+		<acyclicFrames>
+			<acyclicFrame>
+				<createTriggerChannel>true</createTriggerChannel>
+				<name>acyclicFrame 1</name>
+				<messageRefs>
+					<messageRef>BC to RT 1.3</messageRef>
+				</messageRefs>
+			</acyclicFrame>
+		</acyclicFrames>
 		<messages>
 			<!-- BC to RT -->
 			<message>
@@ -100,6 +109,17 @@
 				<address>
 					<terminalAddress>2</terminalAddress>
 					<subAddress>1</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>BC to RT</messageType>
+				<numberOfWords>3</numberOfWords>
+			</message>
+			<!-- Acyclic BC to RT -->
+			<message>
+				<name>BC to RT 1.3</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>3</subAddress>
 					<direction>Rx</direction>
 				</address>
 				<messageType>BC to RT</messageType>
