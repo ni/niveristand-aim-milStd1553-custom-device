@@ -59,6 +59,11 @@
 			<Item Name="aimMILSTD1553-errors.txt" Type="Document" URL="../Docs/aimMILSTD1553-errors.txt"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Shared" Type="Folder">
+				<Item Name="Create and Script 1553 System Definition.vi" Type="VI" URL="../Tests/Shared/Create and Script 1553 System Definition.vi"/>
+				<Item Name="Remove BC.vi" Type="VI" URL="../Tests/Shared/Remove BC.vi"/>
+				<Item Name="Remove RTs.vi" Type="VI" URL="../Tests/Shared/Remove RTs.vi"/>
+			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Deployment" Type="Folder">
 					<Item Name="Deployment.lvclass" Type="LVClass" URL="../Tests/System/Deployment/Deployment.lvclass"/>
