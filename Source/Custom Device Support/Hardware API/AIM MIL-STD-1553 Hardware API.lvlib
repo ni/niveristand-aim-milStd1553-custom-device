@@ -26,4 +26,5 @@
 	<Item Name="Start All.vi" Type="VI" URL="../Start All.vi"/>
 	<Item Name="Stop All.vi" Type="VI" URL="../Stop All.vi"/>
 	<Item Name="Update Buffer Words.vi" Type="VI" URL="../Update Buffer Words.vi"/>
+	<Item Name="Send Acyclic Frames.vi" Type="VI" URL="../Send Acyclic Frames.vi"/>
 </Library>

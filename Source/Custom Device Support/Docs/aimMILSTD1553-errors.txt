@@ -45,4 +45,7 @@ Failed to find a Tx buffer ID for a terminal. Ensure all messages have a frame.
 <nierror code="-732563">
 Data loss occurred during encoding of a data word.
 </nierror>
+<nierror code="-732564">
+Acyclic message not found in frame.
+</nierror>
 </nidocument>
