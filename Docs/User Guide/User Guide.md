@@ -145,5 +145,3 @@ To send the acyclic messages:
 Once the custom device is configured, you can change the configuration using the **Configuration Files** page in System Explorer. If the Parameters file changes on disk, use the **Refresh** button. If you need to select a new file, press the button to load a new path into the dialog.
 
 Each time the configuration is changed, the **AIM MIL-STD-1553 Refresh** dialog will be displayed to compare the current and new configurations. Press **Apply** to accept the changes, or **Cancel** to exit without reconfiguring.
-
-![Refresh Dialog](Screenshots/Refresh_dialog.PNG)
