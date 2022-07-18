@@ -35,7 +35,9 @@
 		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="1553 Configuration.ctl" Type="VI" URL="../1553 Configuration.ctl"/>
+		<Item Name="Acyclic Frame Configuration.ctl" Type="VI" URL="../Acyclic Frame Configuration.ctl"/>
 		<Item Name="Asynchronous Execution Unit Compiled Information.ctl" Type="VI" URL="../Asynchronous Execution Unit Compiled Information.ctl"/>
 		<Item Name="Asynchronous Execution Unit Runtime Information.ctl" Type="VI" URL="../Asynchronous Execution Unit Runtime Information.ctl"/>
 		<Item Name="Asynchronous Process Parameters.ctl" Type="VI" URL="../Asynchronous Process Parameters.ctl"/>
