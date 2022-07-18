@@ -10,247 +10,402 @@
 				<terminalAddress>1</terminalAddress>
 			</terminal>
 			<terminal>
+				<terminalAddress>2</terminalAddress>
+			</terminal>
+			<terminal>
 				<terminalAddress>15</terminalAddress>
 			</terminal>
 			<terminal>
-				<terminalAddress>21</terminalAddress>
-			</terminal>
-			<terminal>
-				<terminalAddress>31</terminalAddress>
+				<terminalAddress>30</terminalAddress>
 			</terminal>
 		</terminals>
-		<acyclicFrame>
-			<createTriggerChannel>true</createTriggerChannel>
-			<name>acyclicFrame ID56</name>
-		</acyclicFrame>
-		<message>
-			<name>BC to RT 1.02</name>
-			<address>
-				<terminalAddress>1</terminalAddress>
-				<subAddress>2</subAddress>
-				<direction>Rx</direction>
-			</address>
-			<messageType>BC to RT</messageType>
-			<numberOfWords>3</numberOfWords>
-			<createTimestampChannel>true</createTimestampChannel>
-		</message>
-		<message>
-			<name>RT 15.21 to RT 31.21</name>
-			<address>
-				<terminalAddress>15</terminalAddress>
-				<subAddress>21</subAddress>
-				<direction>Tx</direction>
-			</address>
-			<address>
-				<terminalAddress>31</terminalAddress>
-				<subAddress>21</subAddress>
-				<direction>Rx</direction>
-			</address>
-			<messageType>RT to RT</messageType>
-			<numberOfWords>11</numberOfWords>
-			<createTimestampChannel>true</createTimestampChannel>
-			<parameters>
-				<parameter>
-					<encoding>BNR</encoding>
-					<signed>false</signed>
-					<startBit>0</startBit>
-					<numberOfBits>16</numberOfBits>
-					<scale>2</scale>
-					<offset>0.0</offset>
-					<name>Parameter 0</name>
-					<defaultValue>0.0</defaultValue>
-				</parameter>
-				<parameter>
-					<encoding>BNR</encoding>
-					<signed>false</signed>
-					<startBit>16</startBit>
-					<numberOfBits>16</numberOfBits>
-					<scale>1</scale>
-					<offset>50</offset>
-					<name>Parameter 1</name>
-					<defaultValue>0.0</defaultValue>
-				</parameter>
-				<parameter>
-					<encoding>BNR</encoding>
-					<signed>true</signed>
-					<startBit>32</startBit>
-					<numberOfBits>16</numberOfBits>
-					<scale>1</scale>
-					<offset>0.0</offset>
-					<name>Parameter 2</name>
-					<defaultValue>0.0</defaultValue>
-				</parameter>
-				<parameter>
-					<encoding>BNR</encoding>
-					<signed>false</signed>
-					<startBit>48</startBit>
-					<numberOfBits>16</numberOfBits>
-					<scale>1</scale>
-					<offset>0.0</offset>
-					<name>Parameter 3</name>
-					<defaultValue>0.0</defaultValue>
-				</parameter>
-				<parameter>
-					<encoding>BNR</encoding>
-					<signed>false</signed>
-					<startBit>64</startBit>
-					<numberOfBits>16</numberOfBits>
-					<scale>1</scale>
-					<offset>0.0</offset>
-					<name>Parameter 4</name>
-					<defaultValue>0.0</defaultValue>
-				</parameter>
-				<parameter>
-					<encoding>BNR</encoding>
-					<signed>false</signed>
-					<startBit>80</startBit>
-					<numberOfBits>16</numberOfBits>
-					<scale>1</scale>
-					<offset>0.0</offset>
-					<name>Parameter 5</name>
-					<defaultValue>0.0</defaultValue>
-				</parameter>
-				<parameter>
-					<encoding>BNR</encoding>
-					<signed>false</signed>
-					<startBit>96</startBit>
-					<numberOfBits>16</numberOfBits>
-					<scale>1</scale>
-					<offset>0.0</offset>
-					<name>Parameter 6</name>
-					<defaultValue>0.0</defaultValue>
-				</parameter>
-				<parameter>
-					<encoding>BNR</encoding>
-					<signed>false</signed>
-					<startBit>112</startBit>
-					<numberOfBits>16</numberOfBits>
-					<scale>1</scale>
-					<offset>0.0</offset>
-					<name>Parameter 7</name>
-					<defaultValue>0.0</defaultValue>
-				</parameter>
-				<parameter>
-					<encoding>BNR</encoding>
-					<signed>false</signed>
-					<startBit>128</startBit>
-					<numberOfBits>16</numberOfBits>
-					<scale>1</scale>
-					<offset>0.0</offset>
-					<name>Parameter 8</name>
-					<defaultValue>0.0</defaultValue>
-				</parameter>
-				<parameter>
-					<encoding>BNR</encoding>
-					<signed>false</signed>
-					<startBit>144</startBit>
-					<numberOfBits>16</numberOfBits>
-					<scale>1</scale>
-					<offset>0.0</offset>
-					<name>Parameter 9</name>
-					<defaultValue>0.0</defaultValue>
-				</parameter>
-				<parameter>
-					<encoding>BNR</encoding>
-					<signed>false</signed>
-					<startBit>160</startBit>
-					<numberOfBits>16</numberOfBits>
-					<scale>1</scale>
-					<offset>0.0</offset>
-					<name>Parameter 10</name>
-					<defaultValue>0.0</defaultValue>
-				</parameter>
-			</parameters>
-		</message>
-		<message>
-			<name>BC to RT 1.03</name>
-			<address>
-				<terminalAddress>1</terminalAddress>
-				<subAddress>3</subAddress>
-				<direction>Rx</direction>
-			</address>
-			<messageType>BC to RT</messageType>
-			<numberOfWords>4</numberOfWords>
-		</message>
-		<message>
-			<name>RT 1.05 to BC</name>
-			<address>
-				<terminalAddress>1</terminalAddress>
-				<subAddress>5</subAddress>
-				<direction>Tx</direction>
-			</address>
-			<messageType>RT to BC</messageType>
-			<numberOfWords>6</numberOfWords>
-		</message>
-		<message>
-			<name>RT 1.06 to BC</name>
-			<address>
-				<terminalAddress>1</terminalAddress>
-				<subAddress>6</subAddress>
-				<direction>Tx</direction>
-			</address>
-			<messageType>RT to BC</messageType>
-			<numberOfWords>2</numberOfWords>
-			<createTimestampChannel>true</createTimestampChannel>
-		</message>
-		<message>
-			<name>RT 1.20 to RT 15.20</name>
-			<address>
-				<terminalAddress>1</terminalAddress>
-				<subAddress>20</subAddress>
-				<direction>Tx</direction>
-			</address>
-			<address>
-				<terminalAddress>15</terminalAddress>
-				<subAddress>20</subAddress>
-				<direction>Rx</direction>
-			</address>
-			<messageType>RT to RT</messageType>
-			<numberOfWords>4</numberOfWords>
-			<createTimestampChannel>false</createTimestampChannel>
-		</message>
-		<message>
-			<name>BC to RT 31.28</name>
-			<address>
-				<terminalAddress>31</terminalAddress>
-				<subAddress>28</subAddress>
-				<direction>Rx</direction>
-			</address>
-			<messageType>BC to RT</messageType>
-			<numberOfWords>6</numberOfWords>
-		</message>
-		<message>
-			<name>MC 16</name>
-			<address>
-				<terminalAddress>1</terminalAddress>
-				<subAddress>31</subAddress>
-				<direction>Tx</direction>
-			</address>
-			<messageType>MC</messageType>
-			<numberOfWords>1</numberOfWords>
-			<modeCode>16</modeCode>
-		</message>
-		<message>
-			<name>MC 17</name>
-			<address>
-				<terminalAddress>1</terminalAddress>
-				<subAddress>31</subAddress>
-				<direction>Rx</direction>
-			</address>
-			<messageType>MC</messageType>
-			<numberOfWords>1</numberOfWords>
-			<modeCode>17</modeCode>
-		</message>
-		<message>
-			<name>MC 01</name>
-			<address>
-				<terminalAddress>31</terminalAddress>
-				<subAddress>31</subAddress>
-				<direction>Rx</direction>
-			</address>
-			<messageType>MC</messageType>
-			<numberOfWords>0</numberOfWords>
-			<modeCode>1</modeCode>
-		</message>
+		<majorFrames>
+			<majorFrame>
+				<name>MajorCycle</name>
+				<minorFrameRefs>
+					<minorFrameRef>Cycle50Hz</minorFrameRef>
+					<minorFrameRef>Cycle25Hz</minorFrameRef>
+				</minorFrameRefs>
+			</majorFrame>
+		</majorFrames>
+		<minorFrames>
+			<minorFrame>
+				<name>Cycle50Hz</name>
+				<period>20000</period>
+				<messageRefs>
+					<messageRef>BC to RT 1.1</messageRef>
+					<messageRef>BC to RT 2.1</messageRef>
+					<messageRef>RT 1.4 to BC</messageRef>
+					<messageRef>RT 2.3 to RT 30.2</messageRef>
+					<messageRef>RT 30.28 to RT 2.4</messageRef>
+					<messageRef>MC 16</messageRef>
+				</messageRefs>
+			</minorFrame>
+			<minorFrame>
+				<name>Cycle25Hz</name>
+				<period>40000</period>
+				<messageRefs>
+					<messageRef>BC to RT 1.2</messageRef>
+					<messageRef>RT 2.2 to BC</messageRef>
+					<messageRef>RT 30.1 to BC</messageRef>
+					<messageRef>RT 15.22 to RT 30.22</messageRef>
+					<messageRef>MC 01</messageRef>
+					<messageRef>MC 17</messageRef>
+				</messageRefs>
+			</minorFrame>
+		</minorFrames>
+		<acyclicFrames>
+			<acyclicFrame>
+				<createTriggerChannel>true</createTriggerChannel>
+				<name>acyclicFrame 1</name>
+				<messageRefs>
+					<messageRef>BC to RT 1.3</messageRef>
+				</messageRefs>
+			</acyclicFrame>
+			<acyclicFrame>
+				<createTriggerChannel>true</createTriggerChannel>
+				<name>acyclicFrame 2</name>
+				<messageRefs>
+					<messageRef>RT 1.6 to RT 2.7</messageRef>
+					<messageRef>RT 1.5 to BC</messageRef>
+				</messageRefs>
+			</acyclicFrame>
+		</acyclicFrames>
+		<messages>
+			<!-- BC to RT -->
+			<message>
+				<name>BC to RT 1.1</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>1</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>BC to RT</messageType>
+				<numberOfWords>2</numberOfWords>
+				<createTimestampChannel>true</createTimestampChannel>
+			</message>
+			<message>
+				<name>BC to RT 1.2</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>2</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>BC to RT</messageType>
+				<numberOfWords>1</numberOfWords>
+				<parameters>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>false</signed>
+						<startBit>0</startBit>
+						<numberOfBits>8</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 1.2.1</name>
+						<defaultValue>1.0</defaultValue>
+					</parameter>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>false</signed>
+						<startBit>8</startBit>
+						<numberOfBits>8</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 1.2.2</name>
+						<defaultValue>2.0</defaultValue>
+					</parameter>
+				</parameters>
+			</message>
+			<message>
+				<name>BC to RT 2.1</name>
+				<address>
+					<terminalAddress>2</terminalAddress>
+					<subAddress>1</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>BC to RT</messageType>
+				<numberOfWords>3</numberOfWords>
+			</message>
+			<!-- Acyclic BC to RT -->
+			<message>
+				<name>BC to RT 1.3</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>3</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>BC to RT</messageType>
+				<numberOfWords>3</numberOfWords>
+			</message>
+			<!-- RT to BC -->
+			<message>
+				<name>RT 1.4 to BC</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>4</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<messageType>RT to BC</messageType>
+				<numberOfWords>3</numberOfWords>
+			</message>
+			<message>
+				<name>RT 2.2 to BC</name>
+				<address>
+					<terminalAddress>2</terminalAddress>
+					<subAddress>2</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<messageType>RT to BC</messageType>
+				<numberOfWords>8</numberOfWords>
+				<createTimestampChannel>true</createTimestampChannel>
+				<parameters>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>true</signed>
+						<startBit>0</startBit>
+						<numberOfBits>32</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 2.2.1</name>
+						<defaultValue>21.0</defaultValue>
+					</parameter>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>false</signed>
+						<startBit>32</startBit>
+						<numberOfBits>32</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 2.2.2</name>
+						<defaultValue>22.0</defaultValue>
+					</parameter>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>true</signed>
+						<startBit>64</startBit>
+						<numberOfBits>32</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 2.2.3</name>
+						<defaultValue>23.0</defaultValue>
+					</parameter>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>false</signed>
+						<startBit>96</startBit>
+						<numberOfBits>32</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 2.2.4</name>
+						<defaultValue>24.0</defaultValue>
+					</parameter>
+				</parameters>
+			</message>
+			<message>
+				<name>RT 30.1 to BC</name>
+				<address>
+					<terminalAddress>30</terminalAddress>
+					<subAddress>1</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<messageType>RT to BC</messageType>
+				<numberOfWords>2</numberOfWords>
+			</message>
+			<!-- Acyclic RT to BC -->
+			<message>
+				<name>RT 1.5 to BC</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>5</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<messageType>RT to BC</messageType>
+				<numberOfWords>3</numberOfWords>
+			</message>
+			<!-- RT to RT -->
+			<message>
+				<name>RT 2.3 to RT 30.2</name>
+				<address>
+					<terminalAddress>2</terminalAddress>
+					<subAddress>3</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<address>
+					<terminalAddress>30</terminalAddress>
+					<subAddress>2</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>RT to RT</messageType>
+				<numberOfWords>6</numberOfWords>
+				<createTimestampChannel>true</createTimestampChannel>
+			</message>
+			<message>
+				<name>RT 30.28 to RT 2.4</name>
+				<address>
+					<terminalAddress>30</terminalAddress>
+					<subAddress>28</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<address>
+					<terminalAddress>2</terminalAddress>
+					<subAddress>4</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>RT to RT</messageType>
+				<numberOfWords>8</numberOfWords>
+				<createTimestampChannel>false</createTimestampChannel>
+				<parameters>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>true</signed>
+						<startBit>0</startBit>
+						<numberOfBits>32</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 30.28.1</name>
+						<defaultValue>31.0</defaultValue>
+					</parameter>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>false</signed>
+						<startBit>32</startBit>
+						<numberOfBits>32</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 30.28.2</name>
+						<defaultValue>32.0</defaultValue>
+					</parameter>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>true</signed>
+						<startBit>64</startBit>
+						<numberOfBits>32</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 30.28.3</name>
+						<defaultValue>33.0</defaultValue>
+					</parameter>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>false</signed>
+						<startBit>96</startBit>
+						<numberOfBits>16</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 30.28.4</name>
+						<defaultValue>34.0</defaultValue>
+					</parameter>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>false</signed>
+						<startBit>112</startBit>
+						<numberOfBits>16</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 30.28.5</name>
+						<defaultValue>35.0</defaultValue>
+					</parameter>
+				</parameters>
+			</message>
+			<message>
+				<name>RT 15.22 to RT 30.22</name>
+				<address>
+					<terminalAddress>15</terminalAddress>
+					<subAddress>22</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<address>
+					<terminalAddress>30</terminalAddress>
+					<subAddress>22</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>RT to RT</messageType>
+				<numberOfWords>3</numberOfWords>
+				<createTimestampChannel>true</createTimestampChannel>
+				<parameters>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>false</signed>
+						<startBit>0</startBit>
+						<numberOfBits>16</numberOfBits>
+						<scale>2</scale>
+						<offset>0.0</offset>
+						<name>Parameter 0</name>
+						<defaultValue>0.0</defaultValue>
+					</parameter>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>false</signed>
+						<startBit>16</startBit>
+						<numberOfBits>16</numberOfBits>
+						<scale>1</scale>
+						<offset>50</offset>
+						<name>Parameter 1</name>
+						<defaultValue>0.0</defaultValue>
+					</parameter>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>true</signed>
+						<startBit>32</startBit>
+						<numberOfBits>16</numberOfBits>
+						<scale>1</scale>
+						<offset>0.0</offset>
+						<name>Parameter 2</name>
+						<defaultValue>0.0</defaultValue>
+					</parameter>
+				</parameters>
+			</message>
+			<!-- Acyclic RT to RT -->
+			<message>
+				<name>RT 1.6 to RT 2.7</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>6</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<address>
+					<terminalAddress>2</terminalAddress>
+					<subAddress>7</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>RT to RT</messageType>
+				<numberOfWords>3</numberOfWords>
+				<createTimestampChannel>true</createTimestampChannel>
+			</message>
+			<!-- Mode Codes -->
+			<message>
+				<name>MC 01</name>
+				<address>
+					<terminalAddress>31</terminalAddress>
+					<subAddress>31</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>MC</messageType>
+				<numberOfWords>0</numberOfWords>
+				<modeCode>1</modeCode>
+			</message>
+			<message>
+				<name>MC 16</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>31</subAddress>
+					<direction>Tx</direction>
+				</address>
+				<messageType>MC</messageType>
+				<numberOfWords>1</numberOfWords>
+				<modeCode>16</modeCode>
+			</message>
+			<message>
+				<name>MC 17</name>
+				<address>
+					<terminalAddress>1</terminalAddress>
+					<subAddress>31</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>MC</messageType>
+				<numberOfWords>1</numberOfWords>
+				<modeCode>17</modeCode>
+			</message>
+		</messages>
 	</channel>
 </parameters>
