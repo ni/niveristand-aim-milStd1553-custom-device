@@ -27,11 +27,9 @@
 				<period>100000</period>
 				<messageRefs>
 					<messageRef>MC 16</messageRef>
-					<messageRef>MC 17</messageRef>
 					<messageRef>BC to RT1 (SA2)</messageRef>
-					<messageRef>BC to RT15 (SA3)</messageRef>
+					<messageRef>RT15 to BC (SA6)</messageRef>
 					<messageRef>RT1 to RT15 (SA20)</messageRef>
-					<messageRef>RT15 to RT1 (SA21)</messageRef>
 				</messageRefs>
 			</minorFrame>
 		</minorFrames>
@@ -40,8 +38,10 @@
 				<name>acyclicFrame1</name>
 				<createTriggerChannel>true</createTriggerChannel>
 				<messageRefs>
+					<messageRef>MC 17</messageRef>
+					<messageRef>BC to RT15 (SA3)</messageRef>
 					<messageRef>RT1 to BC (SA5)</messageRef>
-					<messageRef>RT15 to BC (SA6)</messageRef>
+					<messageRef>RT15 to RT1 (SA21)</messageRef>
 				</messageRefs>
 			</acyclicFrame>
 		</acyclicFrames>
