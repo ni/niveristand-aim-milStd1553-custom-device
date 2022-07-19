@@ -4,7 +4,7 @@ This guide demonstrates how to configure and deploy the AIM MIL-STD-1553 custom 
 
 ## Configure the AIM MIL-STD-1553 Hardware
 
-The custom device targets one **BIU** (Bus Interface Unit) of a AIM MIL-STD-1553 PXIe module. To target multiple modules or multiple BIUs on the same module, you must use multiple instances of the custom device.
+The custom device targets one **BIU** (Bus Interface Unit) of an AIM MIL-STD-1553 PXIe module. To target multiple modules or multiple BIUs on the same module, you must use multiple instances of the custom device.
 
 ## Configure the Custom Device
 
@@ -28,7 +28,7 @@ These terminals send and receive messages of each type supported by the Custom D
 - **RT to RT** - Remote Terminal to Remote Terminal
 - **MC** - Mode Code
 
-Each pair of messages (BC to RT, RT to BC, and RT to RT) are configured with similar settings. Message `BC to RT1 (SA2)` does not define parameters under the message, which will result in VeriStand channels for as many U16 datatype words as are found in the `<numberOfWords>` tag. Message `BC to RT15 (SA3)` defines two unscaled 32-bit parameters with BNR encoding, one signed and the other unsigned. Below is the configuration of the two BC to RT messages:
+Each pair of messages (BC to RT, RT to BC, and RT to RT) is configured with similar settings. Message `BC to RT1 (SA2)` does not define parameters under the message, which will result in VeriStand channels for as many U16 datatype words as are found in the `<numberOfWords>` tag. Message `BC to RT15 (SA3)` defines two unscaled 32-bit parameters with BNR encoding, one signed and the other unsigned. Below is the configuration of the two BC to RT messages:
 
 ```xml
 <message>
