@@ -41,6 +41,13 @@
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Unit" Type="Folder">
+				<Item Name="AIM MIL-STD-1553 Unit Tests" Type="Folder">
+					<Item Name="AIM MIL-STD-1553 Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/AIM MIL-STD-1553 Unit Tests/AIM MIL-STD-1553 Unit Tests.lvclass"/>
+				</Item>
+			</Item>
+		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
