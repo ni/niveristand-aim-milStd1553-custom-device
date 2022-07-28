@@ -56,7 +56,6 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Shared" Type="Folder">
-				<Item Name="Apply Override File.vi" Type="VI" URL="../Tests/Shared/Apply Override File.vi"/>
 				<Item Name="Create and Script 1553 System Definition.vi" Type="VI" URL="../Tests/Shared/Create and Script 1553 System Definition.vi"/>
 				<Item Name="Remove BC.vi" Type="VI" URL="../Tests/Shared/Remove BC.vi"/>
 				<Item Name="Remove RTs.vi" Type="VI" URL="../Tests/Shared/Remove RTs.vi"/>
