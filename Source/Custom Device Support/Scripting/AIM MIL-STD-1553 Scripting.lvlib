@@ -86,6 +86,7 @@
 		<Item Name="Add Message-Subaddress Pair.vi" Type="VI" URL="../Messages and Subaddresses/Add Message-Subaddress Pair.vi"/>
 		<Item Name="Add Message-Subaddress Set (RT to RT).vi" Type="VI" URL="../Messages and Subaddresses/Add Message-Subaddress Set (RT to RT).vi"/>
 		<Item Name="Add Messages-Subaddresses from Configurations.vi" Type="VI" URL="../Messages and Subaddresses/Add Messages-Subaddresses from Configurations.vi"/>
+		<Item Name="Add Minor Frame Period.vi" Type="VI" URL="../Messages and Subaddresses/Add Minor Frame Period.vi"/>
 		<Item Name="Add Mode Code Message-Subaddress Pair.vi" Type="VI" URL="../Messages and Subaddresses/Add Mode Code Message-Subaddress Pair.vi"/>
 		<Item Name="Add Parameter Channels with Definitions.vi" Type="VI" URL="../Messages and Subaddresses/Add Parameter Channels with Definitions.vi"/>
 		<Item Name="Add Subaddress to Remote Terminal.vi" Type="VI" URL="../Messages and Subaddresses/Add Subaddress to Remote Terminal.vi"/>
@@ -108,6 +109,7 @@
 		<Item Name="Get Terminal Subaddress.vi" Type="VI" URL="../Messages and Subaddresses/Get Terminal Subaddress.vi"/>
 		<Item Name="Get Terminal Type.vi" Type="VI" URL="../Messages and Subaddresses/Get Terminal Type.vi"/>
 		<Item Name="Read Major and Minor Frames.vi" Type="VI" URL="../Messages and Subaddresses/Read Major and Minor Frames.vi"/>
+		<Item Name="Read Minor Frame Period.vi" Type="VI" URL="../Messages and Subaddresses/Read Minor Frame Period.vi"/>
 		<Item Name="Remove Messages and Subaddresses.vi" Type="VI" URL="../Messages and Subaddresses/Remove Messages and Subaddresses.vi"/>
 		<Item Name="Remove Subaddress.vi" Type="VI" URL="../Remote Terminal/Remove Subaddress.vi"/>
 		<Item Name="Set Direction.vi" Type="VI" URL="../Messages and Subaddresses/Set Direction.vi"/>

@@ -131,8 +131,10 @@
 				<Item Name="1553 BC - Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Start.vi"/>
 				<Item Name="1553 BC - Stop.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Stop.vi"/>
 				<Item Name="1553 BC Transfer Settings.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 BC Transfer Settings.ctl"/>
-				<Item Name="1553 BM - Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Start.vi"/>
-				<Item Name="1553 BM - Stop.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Stop.vi"/>
+				<Item Name="1553 BM - Initialize Record with Queuing Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Initialize Record with Queuing Mode.vi"/>
+				<Item Name="1553 BM - Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Initialize.vi"/>
+				<Item Name="1553 BM - Queue Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Queue Start.vi"/>
+				<Item Name="1553 BM - Queue Stop.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Queue Stop.vi"/>
 				<Item Name="1553 Buffer - Define BC Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC Buffer Header.vi"/>
 				<Item Name="1553 Buffer - Define BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC or RT Buffer.vi"/>
 				<Item Name="1553 Buffer - Define RT Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define RT Buffer Header.vi"/>
@@ -157,6 +159,8 @@
 				<Item Name="1553 System - PXI Geographical Address.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - PXI Geographical Address.vi"/>
 				<Item Name="1553 Transfer Descriptor.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Transfer Descriptor.ctl"/>
 				<Item Name="1553 Utility - AIM Error Code Array Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - AIM Error Code Array Global.vi"/>
+				<Item Name="1553 Utility - Convert sa_type Flag to Direction and Type.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Convert sa_type Flag to Direction and Type.vi"/>
+				<Item Name="1553 Utility - Convert Transfer Time Tag to Time Stamp.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Convert Transfer Time Tag to Time Stamp.vi"/>
 				<Item Name="1553 Utility - DLL Path Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - DLL Path Global.vi"/>
 				<Item Name="1553 Utility - NI error Offset for AIM Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - NI error Offset for AIM Global.vi"/>
 				<Item Name="1553 Utility - Resolve and Test DLL Path.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Resolve and Test DLL Path.vi"/>
@@ -632,6 +636,7 @@
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Script Logging.vi" Type="VI" URL="../Tests/Shared/Script Logging.vi"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -861,8 +866,10 @@
 				<Item Name="1553 BC - Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Start.vi"/>
 				<Item Name="1553 BC - Stop.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Stop.vi"/>
 				<Item Name="1553 BC Transfer Settings.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 BC Transfer Settings.ctl"/>
-				<Item Name="1553 BM - Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Start.vi"/>
-				<Item Name="1553 BM - Stop.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Stop.vi"/>
+				<Item Name="1553 BM - Initialize Record with Queuing Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Initialize Record with Queuing Mode.vi"/>
+				<Item Name="1553 BM - Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Initialize.vi"/>
+				<Item Name="1553 BM - Queue Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Queue Start.vi"/>
+				<Item Name="1553 BM - Queue Stop.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Queue Stop.vi"/>
 				<Item Name="1553 Buffer - Define BC Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC Buffer Header.vi"/>
 				<Item Name="1553 Buffer - Define BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC or RT Buffer.vi"/>
 				<Item Name="1553 Buffer - Define RT Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define RT Buffer Header.vi"/>
@@ -887,11 +894,12 @@
 				<Item Name="1553 System - PXI Geographical Address.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - PXI Geographical Address.vi"/>
 				<Item Name="1553 Transfer Descriptor.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Transfer Descriptor.ctl"/>
 				<Item Name="1553 Utility - AIM Error Code Array Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - AIM Error Code Array Global.vi"/>
+				<Item Name="1553 Utility - Convert sa_type Flag to Direction and Type.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Convert sa_type Flag to Direction and Type.vi"/>
+				<Item Name="1553 Utility - Convert Transfer Time Tag to Time Stamp.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Convert Transfer Time Tag to Time Stamp.vi"/>
 				<Item Name="1553 Utility - DLL Path Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - DLL Path Global.vi"/>
 				<Item Name="1553 Utility - NI error Offset for AIM Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - NI error Offset for AIM Global.vi"/>
 				<Item Name="1553 Utility - Resolve and Test DLL Path.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Resolve and Test DLL Path.vi"/>
 				<Item Name="1553 Utility - RT Mode Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Mid-Level Release/1553 Utility - RT Mode Global.vi"/>
-				<Item Name="BTI1553LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI1553Lib/BTI1553LV.lvlib"/>
 				<Item Name="Function - Round to Nearest (N).vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Utilities/Function - Round to Nearest (N).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -952,12 +960,6 @@
 			<Item Name="AIM MIL-STD-1553 Hardware API.lvlib" Type="Library" URL="../Hardware API/AIM MIL-STD-1553 Hardware API.lvlib"/>
 			<Item Name="AIM MIL-STD-1553 Scripting.lvlib" Type="Library" URL="../Scripting/AIM MIL-STD-1553 Scripting.lvlib"/>
 			<Item Name="BIU Configuration.ctl" Type="VI" URL="../Shared/BIU Configuration.ctl"/>
-			<Item Name="BTI1553LV.dll" Type="Document" URL="BTI1553LV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../Shared/Build Linux Log File Path.vi"/>
 			<Item Name="Bus Selection.ctl" Type="VI" URL="../Shared/Bus Selection.ctl"/>
 			<Item Name="Check Value in Range.vim" Type="VI" URL="../Shared/Check Value in Range.vim"/>
