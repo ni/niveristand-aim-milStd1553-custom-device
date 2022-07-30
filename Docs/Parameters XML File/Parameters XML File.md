@@ -219,9 +219,9 @@ Notes:
 		</majorFrame>
 	</majorFrames>
 	<minorFrames>
+		<minorFramePeriod>100000</minorFramePeriod>
 		<minorFrame>
 			<name>MinorFrame1</name>
-			<period>100000</period>
 			<messageRefs>
 				<messageRef>Message1</messageRef>
 			</messageRefs>
@@ -234,6 +234,7 @@ Notes:
 - The names of messages included in minorFrames and minorFrames included in majorFrames must match exactly.
 - If simulating the Bus Controller (terminal 0), all frames and messages must be defined in the Parameters XML file. This determines the frames and messages simulated on the bus and the channels created in VeriStand.
 - If only simulating Remote Terminals, only the frames and messages to be read and written by VeriStand need to be defined. This determines only the channels created in VeriStand.
+- Minor frames will be executed sequentially within the major frame, each lasting for the duration defined in minorFramePeriod, in microseconds.
 
 ### Example (Acyclic Frames)
 
@@ -294,9 +295,9 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |→→→→`<minorFrameRef>`|Yes|string|1/unbounded|Specifies the minor frame to include in the major frame. This string must match the minor frame name.|
 ||||||
 |→`<minorFrames>`|No<sup>2</sup>|complex|0/1|Opening tag for minor frames definition.|
+|→→`<period>`|Yes|integer|1|Specifies the period, in microseconds, to transmit each minor frame|
 |→→`<minorFrame>`|Yes|complex|1/unbounded|Opening tag for minor frame definition.|
 |→→→`<name>`|Yes|string|1|Specifies the minor frame name.|
-|→→→`<period>`|Yes|integer|1|Specifies the period, in microseconds, to transmit the minor frame|
 |→→→`<messageRefs>`|Yes|complex|1|Opening tag for messages contained in the minor frame|
 |→→→→`<messageRef>`|Yes|string|1/unbounded|Specifies the message reference to include in the minor frame. This string must match the message name.|
 ||||||
