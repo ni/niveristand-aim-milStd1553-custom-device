@@ -16,15 +16,19 @@
 	<Item Name="Global - Disable Hardware API Constant.vi" Type="VI" URL="../Global - Disable Hardware API Constant.vi"/>
 	<Item Name="Initialize 1553 Module.vi" Type="VI" URL="../Initialize 1553 Module.vi"/>
 	<Item Name="Initialize Bus Controller.vi" Type="VI" URL="../Initialize Bus Controller.vi"/>
+	<Item Name="Initialize Bus Monitor.vi" Type="VI" URL="../Initialize Bus Monitor.vi"/>
 	<Item Name="Initialize Mode Code.vi" Type="VI" URL="../Initialize Mode Code.vi"/>
 	<Item Name="Initialize RT.vi" Type="VI" URL="../Initialize RT.vi"/>
 	<Item Name="Initialize Subaddress.vi" Type="VI" URL="../Initialize Subaddress.vi"/>
 	<Item Name="Library Initialize and Exit.vi" Type="VI" URL="../Library Initialize and Exit.vi"/>
 	<Item Name="Module Reference.ctl" Type="VI" URL="../Module Reference.ctl"/>
 	<Item Name="Read Buffer.vi" Type="VI" URL="../Read Buffer.vi"/>
+	<Item Name="Read Bus Monitor Entries.vi" Type="VI" URL="../Read Bus Monitor Entries.vi"/>
+	<Item Name="1553 BM - Read the Queue Modified.vi" Type="VI" URL="../1553 BM - Read the Queue Modified.vi"/>
+	<Item Name="Send Acyclic Frames.vi" Type="VI" URL="../Send Acyclic Frames.vi"/>
 	<Item Name="Set Device Coupling.vi" Type="VI" URL="../Set Device Coupling.vi"/>
+	<Item Name="Shortened Queue Entry.ctl" Type="VI" URL="../Shortened Queue Entry.ctl"/>
 	<Item Name="Start All.vi" Type="VI" URL="../Start All.vi"/>
 	<Item Name="Stop All.vi" Type="VI" URL="../Stop All.vi"/>
 	<Item Name="Update Buffer Words.vi" Type="VI" URL="../Update Buffer Words.vi"/>
-	<Item Name="Send Acyclic Frames.vi" Type="VI" URL="../Send Acyclic Frames.vi"/>
 </Library>

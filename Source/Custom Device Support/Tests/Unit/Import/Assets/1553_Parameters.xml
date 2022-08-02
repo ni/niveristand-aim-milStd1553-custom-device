@@ -4,6 +4,9 @@
 		<hardwareChannel>0</hardwareChannel>
 		<terminals>
 			<terminal>
+				<terminalAddress>0</terminalAddress>
+			</terminal>
+			<terminal>
 				<terminalAddress>24</terminalAddress>
 			</terminal>
 			<terminal>
@@ -12,7 +15,35 @@
 			<terminal>
 				<terminalAddress>26</terminalAddress>
 			</terminal>
+			<terminal>
+				<terminalAddress>31</terminalAddress>
+			</terminal>
 		</terminals>
+		<majorFrames>
+			<majorFrame>
+				<name>MajorFrame</name>
+				<minorFrameRefs>
+					<minorFrameRef>MinorFrame1</minorFrameRef>
+					<minorFrameRef>MinorFrame2</minorFrameRef>
+				</minorFrameRefs>
+			</majorFrame>
+		</majorFrames>
+		<minorFrames>
+			<minorFramePeriod>12345</minorFramePeriod>
+			<minorFrame>
+				<name>MinorFrame1</name>
+				<messageRefs>
+					<messageRef>Position3</messageRef>
+				</messageRefs>
+			</minorFrame>
+			<minorFrame>
+				<name>MinorFrame2</name>
+				<messageRefs>
+					<messageRef>Position4</messageRef>
+					<messageRef>Position5</messageRef>
+				</messageRefs>
+			</minorFrame>
+		</minorFrames>
 		<acyclicFrames>
 			<acyclicFrame>
 				<createTriggerChannel>true</createTriggerChannel>
@@ -139,45 +170,8 @@
 				<numberOfWords>6</numberOfWords>
 				<createTimestampChannel>true</createTimestampChannel>
 			</message>
-		</messages>
-	</channel>
-	<channel>
-		<hardwareChannel>1</hardwareChannel>
-		<terminals>
-			<terminal>
-				<terminalAddress>31</terminalAddress>
-			</terminal>
-			<terminal>
-				<terminalAddress>0</terminalAddress>
-			</terminal>
-		</terminals>
-		<majorFrames>
-			<majorFrame>
-				<name>MajorFrameCH1</name>
-				<minorFrameRefs>
-					<minorFrameRef>MinorFrameCH1</minorFrameRef>
-				</minorFrameRefs>
-			</majorFrame>
-		</majorFrames>
-		<minorFrames>
-			<minorFrame>
-				<name>MinorFrameCH1</name>
-				<messageRefs>
-					<messageRef>C MessageCH1</messageRef>
-				</messageRefs>
-			</minorFrame>
-		</minorFrames>
-		<acyclicFrames>
-			<acyclicFrame>
-				<name>Message Buffer 56</name>
-				<messageRefs>
-					<messageRef>AC MessageCH1</messageRef>
-				</messageRefs>
-			</acyclicFrame>
-		</acyclicFrames>
-		<messages>
 			<message>
-				<name>C MessageCH1</name>
+				<name>Position3</name>
 				<address>
 					<terminalAddress>21</terminalAddress>
 					<subAddress>7</subAddress>
@@ -201,9 +195,9 @@
 				</parameters>
 			</message>
 			<message>
-				<name>AC MessageCH1</name>
+				<name>Position4</name>
 				<address>
-					<terminalAddress>21</terminalAddress>
+					<terminalAddress>31</terminalAddress>
 					<subAddress>7</subAddress>
 					<direction>Rx</direction>
 				</address>
@@ -224,14 +218,30 @@
 					</parameter>
 				</parameters>
 			</message>
+			<message>
+				<name>Position5</name>
+				<address>
+					<terminalAddress>31</terminalAddress>
+					<subAddress>12</subAddress>
+					<direction>Rx</direction>
+				</address>
+				<messageType>BC to RT</messageType>
+				<numberOfWords>3</numberOfWords>
+				<createTimestampChannel>true</createTimestampChannel>
+				<parameters>
+					<parameter>
+						<encoding>BNR</encoding>
+						<signed>true</signed>
+						<startBit>16</startBit>
+						<numberOfBits>32</numberOfBits>
+						<scale>3600</scale>
+						<offset>0.0</offset>
+						<name>Parameter 0</name>
+						<unit>deg</unit>
+						<defaultValue>0.0</defaultValue>
+					</parameter>
+				</parameters>
+			</message>
 		</messages>
-	</channel>
-	<channel>
-		<hardwareChannel>2</hardwareChannel>
-		<terminals>
-			<terminal>
-				<terminalAddress>1</terminalAddress>
-			</terminal>
-		</terminals>
 	</channel>
 </parameters>

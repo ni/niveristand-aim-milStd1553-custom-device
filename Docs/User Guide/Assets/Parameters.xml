@@ -22,9 +22,9 @@
 			</majorFrame>
 		</majorFrames>
 		<minorFrames>
+			<minorFramePeriod>100000</minorFramePeriod>
 			<minorFrame>
 				<name>MinorFrame1</name>
-				<period>100000</period>
 				<messageRefs>
 					<messageRef>MC 16</messageRef>
 					<messageRef>BC to RT1 (SA2)</messageRef>

@@ -21,17 +21,17 @@
 		</terminals>
 		<majorFrames>
 			<majorFrame>
-				<name>MajorCycle</name>
+				<name>MajorFrame</name>
 				<minorFrameRefs>
-					<minorFrameRef>Cycle50Hz</minorFrameRef>
-					<minorFrameRef>Cycle25Hz</minorFrameRef>
+					<minorFrameRef>MinorFrame1</minorFrameRef>
+					<minorFrameRef>MinorFrame2</minorFrameRef>
 				</minorFrameRefs>
 			</majorFrame>
 		</majorFrames>
 		<minorFrames>
+			<minorFramePeriod>20000</minorFramePeriod>
 			<minorFrame>
-				<name>Cycle50Hz</name>
-				<period>20000</period>
+				<name>MinorFrame1</name>
 				<messageRefs>
 					<messageRef>BC to RT 1.1</messageRef>
 					<messageRef>BC to RT 2.1</messageRef>
@@ -42,8 +42,7 @@
 				</messageRefs>
 			</minorFrame>
 			<minorFrame>
-				<name>Cycle25Hz</name>
-				<period>40000</period>
+				<name>MinorFrame2</name>
 				<messageRefs>
 					<messageRef>BC to RT 1.2</messageRef>
 					<messageRef>RT 2.2 to BC</messageRef>
