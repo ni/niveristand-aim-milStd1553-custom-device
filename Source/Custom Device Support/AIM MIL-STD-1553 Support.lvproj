@@ -59,6 +59,7 @@
 				<Item Name="Create and Script 1553 System Definition.vi" Type="VI" URL="../Tests/Shared/Create and Script 1553 System Definition.vi"/>
 				<Item Name="Remove BC.vi" Type="VI" URL="../Tests/Shared/Remove BC.vi"/>
 				<Item Name="Remove RTs.vi" Type="VI" URL="../Tests/Shared/Remove RTs.vi"/>
+				<Item Name="Script Logging.vi" Type="VI" URL="../Tests/Shared/Script Logging.vi"/>
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Deployment" Type="Folder">
@@ -636,7 +637,6 @@
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Script Logging.vi" Type="VI" URL="../Tests/Shared/Script Logging.vi"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

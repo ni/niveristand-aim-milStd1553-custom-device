@@ -295,7 +295,7 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |→→→→`<minorFrameRef>`|Yes|string|1/unbounded|Specifies the minor frame to include in the major frame. This string must match the minor frame name.|
 ||||||
 |→`<minorFrames>`|No<sup>2</sup>|complex|0/1|Opening tag for minor frames definition.|
-|→→`<period>`|Yes|integer|1|Specifies the period, in microseconds, to transmit each minor frame|
+|→→`<minorFramePeriod>`|Yes|integer|1|Specifies the period, in microseconds, to transmit each minor frame|
 |→→`<minorFrame>`|Yes|complex|1/unbounded|Opening tag for minor frame definition.|
 |→→→`<name>`|Yes|string|1|Specifies the minor frame name.|
 |→→→`<messageRefs>`|Yes|complex|1|Opening tag for messages contained in the minor frame|
