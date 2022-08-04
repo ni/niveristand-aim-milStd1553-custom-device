@@ -13,6 +13,8 @@
 	<Item Name="Configure Minor Frame.vi" Type="VI" URL="../Configure Minor Frame.vi"/>
 	<Item Name="Configure Simple Frame.vi" Type="VI" URL="../Configure Simple Frame.vi"/>
 	<Item Name="Create BC Transfer and Buffer.vi" Type="VI" URL="../Create BC Transfer and Buffer.vi"/>
+	<Item Name="Disable RT.vi" Type="VI" URL="../Disable RT.vi"/>
+	<Item Name="Enable RT.vi" Type="VI" URL="../Enable RT.vi"/>
 	<Item Name="Global - Disable Hardware API Constant.vi" Type="VI" URL="../Global - Disable Hardware API Constant.vi"/>
 	<Item Name="Initialize 1553 Module.vi" Type="VI" URL="../Initialize 1553 Module.vi"/>
 	<Item Name="Initialize Bus Controller.vi" Type="VI" URL="../Initialize Bus Controller.vi"/>
@@ -29,6 +31,8 @@
 	<Item Name="Set Device Coupling.vi" Type="VI" URL="../Set Device Coupling.vi"/>
 	<Item Name="Shortened Queue Entry.ctl" Type="VI" URL="../Shortened Queue Entry.ctl"/>
 	<Item Name="Start All.vi" Type="VI" URL="../Start All.vi"/>
+	<Item Name="Start Bus Controller.vi" Type="VI" URL="../Start Bus Controller.vi"/>
 	<Item Name="Stop All.vi" Type="VI" URL="../Stop All.vi"/>
+	<Item Name="Stop Bus Controller.vi" Type="VI" URL="../Stop Bus Controller.vi"/>
 	<Item Name="Update Buffer Words.vi" Type="VI" URL="../Update Buffer Words.vi"/>
 </Library>
