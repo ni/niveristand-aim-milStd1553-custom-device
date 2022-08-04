@@ -10,7 +10,7 @@ The custom device supports the following functionality:
    - Scheduled and Acyclic
    - Multiple parameters per message
    - Multiple messages per BIU
-<!-- - Log all messages per BIU -->
+   - Log all messages per BIU
 
 ## Using the Custom Device
 
