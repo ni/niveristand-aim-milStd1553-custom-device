@@ -100,9 +100,7 @@
 					<Item Name="Refresh.lvclass" Type="LVClass" URL="../Tests/Unit/Refresh/Refresh.lvclass"/>
 				</Item>
 				<Item Name="Scripting" Type="Folder">
-					<Item Name="Assets" Type="Folder">
-						<Item Name="1553_HW_Reference_007.xml" Type="Document" URL="../Tests/Unit/Scripting/Assets/1553_HW_Reference_007.xml"/>
-					</Item>
+					<Item Name="Assets" Type="Folder"/>
 					<Item Name="Scripting.lvclass" Type="LVClass" URL="../Tests/Unit/Scripting/Scripting.lvclass"/>
 				</Item>
 				<Item Name="Shared" Type="Folder">
