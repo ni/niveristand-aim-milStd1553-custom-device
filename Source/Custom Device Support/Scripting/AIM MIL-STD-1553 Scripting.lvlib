@@ -45,7 +45,10 @@
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Custom Device.vi" Type="VI" URL="../Custom Device/Add Custom Device.vi"/>
+		<Item Name="Check if Custom Device Enabled.vi" Type="VI" URL="../Custom Device/Check if Custom Device Enabled.vi"/>
 		<Item Name="Check If Error Exists.vi" Type="VI" URL="../Custom Device/Check If Error Exists.vi"/>
+		<Item Name="Disable Custom Device.vi" Type="VI" URL="../Custom Device/Disable Custom Device.vi"/>
+		<Item Name="Enable Custom Device.vi" Type="VI" URL="../Custom Device/Enable Custom Device.vi"/>
 		<Item Name="Export Custom Device.vi" Type="VI" URL="../Custom Device/Export Custom Device.vi"/>
 		<Item Name="Find All Custom Devices.vi" Type="VI" URL="../Custom Device/Find All Custom Devices.vi"/>
 		<Item Name="Find Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find Custom Device by Name.vi"/>
