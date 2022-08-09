@@ -259,6 +259,7 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |--- |--- |--- |--- |--- |
 |`<channel>`|Yes|complex|1/unbounded|Opening tag for a channel definition.|
 |→`<hardwareChannel>`|Yes|integer|1|Specifies the Hardware Channel used. Range is: [0:1].|
+|→`<startingBufferIndex>`|No|integer|1|Overrides the standard starting buffer index for BIUs with more than 2000 channels.  Note: buffers are 1-indexed.|
 ||||||
 |→`<terminals>`|Yes|complex|0/1|Opening tag for terminals (bus controller and remote terminals) definition.|
 |→→`<terminal>`|Yes|complex|0/1|Opening tag for terminal definition.|

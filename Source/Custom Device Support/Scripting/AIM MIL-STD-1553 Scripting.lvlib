@@ -64,6 +64,9 @@
 		<Item Name="Write BIU Configuration.vi" Type="VI" URL="../Custom Device/Write BIU Configuration.vi"/>
 	</Item>
 	<Item Name="Hardware Parameters" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Add Starting Buffer Index.vi" Type="VI" URL="../Hardware Parameters/Add Starting Buffer Index.vi"/>
+		<Item Name="Read Starting Buffer Index.vi" Type="VI" URL="../Hardware Parameters/Read Starting Buffer Index.vi"/>
 		<Item Name="Get AIM Hardware Parameters.vi" Type="VI" URL="../Hardware Parameters/Get AIM Hardware Parameters.vi"/>
 		<Item Name="Set AIM Hardware Parameters.vi" Type="VI" URL="../Hardware Parameters/Set AIM Hardware Parameters.vi"/>
 	</Item>
