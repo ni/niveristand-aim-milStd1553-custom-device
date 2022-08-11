@@ -13,6 +13,9 @@
 	<Item Name="Pages" Type="Folder">
 		<Item Name="Acyclic Frames.vi" Type="VI" URL="../System Explorer/Pages/Acyclic Frames.vi"/>
 		<Item Name="Bus Controller.vi" Type="VI" URL="../System Explorer/Pages/Bus Controller.vi"/>
+		<Item Name="Bus Status Count.vi" Type="VI" URL="../System Explorer/Pages/Bus Status Count.vi"/>
+		<Item Name="Bus Status Load.vi" Type="VI" URL="../System Explorer/Pages/Bus Status Load.vi"/>
+		<Item Name="Bus Status Section.vi" Type="VI" URL="../System Explorer/Pages/Bus Status Section.vi"/>
 		<Item Name="Command Channel.vi" Type="VI" URL="../System Explorer/Pages/Command Channel.vi"/>
 		<Item Name="Configuration Files.vi" Type="VI" URL="../System Explorer/Pages/Configuration Files.vi"/>
 		<Item Name="Logging.vi" Type="VI" URL="../System Explorer/Pages/Logging.vi"/>
