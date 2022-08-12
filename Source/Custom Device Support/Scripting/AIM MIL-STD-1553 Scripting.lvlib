@@ -25,6 +25,12 @@
 		<Item Name="Find Bus Controller.vi" Type="VI" URL="../Bus Controller/Find Bus Controller.vi"/>
 		<Item Name="Remove Bus Controller.vi" Type="VI" URL="../Bus Controller/Remove Bus Controller.vi"/>
 	</Item>
+	<Item Name="Bus Status" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Add Bus Status Section with Channels.vi" Type="VI" URL="../Bus Status/Add Bus Status Section with Channels.vi"/>
+		<Item Name="Get Bus Status Channel Names.vi" Type="VI" URL="../Bus Status/Get Bus Status Channel Names.vi"/>
+		<Item Name="Get Bus Status Section and Channels.vi" Type="VI" URL="../Bus Status/Get Bus Status Section and Channels.vi"/>
+	</Item>
 	<Item Name="Channel" Type="Folder">
 		<Item Name="Add Channel.vi" Type="VI" URL="../Channel/Add Channel.vi"/>
 		<Item Name="Add Command Channel.vi" Type="VI" URL="../Channel/Add Command Channel.vi"/>

@@ -9,6 +9,7 @@
 
 </Property>
 	<Item Name="BC Transfer Descriptor.ctl" Type="VI" URL="../BC Transfer Descriptor.ctl"/>
+	<Item Name="Check Status.vi" Type="VI" URL="../Check Status.vi"/>
 	<Item Name="Configure Major Frame.vi" Type="VI" URL="../Configure Major Frame.vi"/>
 	<Item Name="Configure Minor Frame.vi" Type="VI" URL="../Configure Minor Frame.vi"/>
 	<Item Name="Configure Simple Frame.vi" Type="VI" URL="../Configure Simple Frame.vi"/>

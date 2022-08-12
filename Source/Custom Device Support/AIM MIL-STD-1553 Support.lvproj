@@ -135,6 +135,9 @@
 				<Item Name="1553 BM - Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Initialize.vi"/>
 				<Item Name="1553 BM - Queue Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Queue Start.vi"/>
 				<Item Name="1553 BM - Queue Stop.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Queue Stop.vi"/>
+				<Item Name="1553 BM - Read Status.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Read Status.vi"/>
+				<Item Name="1553 BM - Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Start.vi"/>
+				<Item Name="1553 BM - Stop.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Stop.vi"/>
 				<Item Name="1553 Buffer - Define BC Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC Buffer Header.vi"/>
 				<Item Name="1553 Buffer - Define BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC or RT Buffer.vi"/>
 				<Item Name="1553 Buffer - Define RT Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define RT Buffer Header.vi"/>
@@ -870,6 +873,9 @@
 				<Item Name="1553 BM - Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Initialize.vi"/>
 				<Item Name="1553 BM - Queue Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Queue Start.vi"/>
 				<Item Name="1553 BM - Queue Stop.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Queue Stop.vi"/>
+				<Item Name="1553 BM - Read Status.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Read Status.vi"/>
+				<Item Name="1553 BM - Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Start.vi"/>
+				<Item Name="1553 BM - Stop.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Stop.vi"/>
 				<Item Name="1553 Buffer - Define BC Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC Buffer Header.vi"/>
 				<Item Name="1553 Buffer - Define BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC or RT Buffer.vi"/>
 				<Item Name="1553 Buffer - Define RT Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define RT Buffer Header.vi"/>
