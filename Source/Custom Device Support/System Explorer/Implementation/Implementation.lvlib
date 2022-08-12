@@ -41,6 +41,7 @@
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
 		<Item Name="Set System Explorer Busy.vi" Type="VI" URL="../System Explorer/subVIs/Set System Explorer Busy.vi"/>
 		<Item Name="Unset System Explorer Busy.vi" Type="VI" URL="../System Explorer/subVIs/Unset System Explorer Busy.vi"/>
+		<Item Name="Update Frame Trees.vi" Type="VI" URL="../System Explorer/subVIs/Update Frame Trees.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Browse Button.ctl" Type="VI" URL="../System Explorer/Types/Browse Button.ctl"/>
