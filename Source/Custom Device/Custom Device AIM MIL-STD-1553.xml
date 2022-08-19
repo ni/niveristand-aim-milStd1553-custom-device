@@ -401,6 +401,23 @@
 				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
+		<Page>
+			<Name>
+				<eng>Execution Monitor</eng>
+				<loc>Execution Monitor</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>88D6B64E-8237-4D92-B6F9-A951DB72295C</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\timing.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\MIL-STD-1553\Windows\AIM MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
 	</Pages>
 	<CustomXML>
 		<Dummy></Dummy>

@@ -26,6 +26,8 @@
 			<Item Name="Initialize VeriStand Globals.vi" Type="VI" URL="../Initialize VeriStand Globals.vi"/>
 			<Item Name="Log RT Driver Error.vi" Type="VI" URL="../Log RT Driver Error.vi"/>
 			<Item Name="Read from Inline Execution Units.vi" Type="VI" URL="../Read from Inline Execution Units.vi"/>
+			<Item Name="Timed Read from Hardware.vi" Type="VI" URL="../Timed Read from Hardware.vi"/>
+			<Item Name="Timed Write to Hardware.vi" Type="VI" URL="../Timed Write to Hardware.vi"/>
 			<Item Name="Write Error to System Log.vi" Type="VI" URL="../Write Error to System Log.vi"/>
 			<Item Name="Write to Inline Execution Units.vi" Type="VI" URL="../Write to Inline Execution Units.vi"/>
 		</Item>

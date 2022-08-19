@@ -69,6 +69,14 @@
 		<Item Name="Update Error.vi" Type="VI" URL="../Custom Device/Update Error.vi"/>
 		<Item Name="Write BIU Configuration.vi" Type="VI" URL="../Custom Device/Write BIU Configuration.vi"/>
 	</Item>
+	<Item Name="Execution Monitor" Type="Folder">
+		<Item Name="Add Execution Monitor Section.vi" Type="VI" URL="../Execution Monitor/Add Execution Monitor Section.vi"/>
+		<Item Name="Get Execution Monitor Section.vi" Type="VI" URL="../Execution Monitor/Get Execution Monitor Section.vi"/>
+		<Item Name="Get Logging Execution Time.vi" Type="VI" URL="../Execution Monitor/Get Logging Execution Time.vi"/>
+		<Item Name="Get Rx Execution Time.vi" Type="VI" URL="../Execution Monitor/Get Rx Execution Time.vi"/>
+		<Item Name="Get Triggers Execution Time.vi" Type="VI" URL="../Execution Monitor/Get Triggers Execution Time.vi"/>
+		<Item Name="Get Tx Execution Time.vi" Type="VI" URL="../Execution Monitor/Get Tx Execution Time.vi"/>
+	</Item>
 	<Item Name="Hardware Parameters" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Add Starting Buffer Index.vi" Type="VI" URL="../Hardware Parameters/Add Starting Buffer Index.vi"/>
