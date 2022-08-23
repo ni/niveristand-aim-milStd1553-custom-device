@@ -407,7 +407,6 @@
 				<loc>Execution Monitor</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
 			<GUID>88D6B64E-8237-4D92-B6F9-A951DB72295C</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>

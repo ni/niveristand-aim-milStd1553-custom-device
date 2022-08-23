@@ -76,6 +76,7 @@
 		<Item Name="Get Rx Execution Time.vi" Type="VI" URL="../Execution Monitor/Get Rx Execution Time.vi"/>
 		<Item Name="Get Triggers Execution Time.vi" Type="VI" URL="../Execution Monitor/Get Triggers Execution Time.vi"/>
 		<Item Name="Get Tx Execution Time.vi" Type="VI" URL="../Execution Monitor/Get Tx Execution Time.vi"/>
+		<Item Name="Remove Execution Monitor Section.vi" Type="VI" URL="../Execution Monitor/Remove Execution Monitor Section.vi"/>
 	</Item>
 	<Item Name="Hardware Parameters" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>

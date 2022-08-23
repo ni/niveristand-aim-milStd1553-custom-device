@@ -32,6 +32,7 @@
 	</Item>
 	<Item Name="RTM" Type="Folder">
 		<Item Name="EnableDisable RTM.vi" Type="VI" URL="../System Explorer/RTM/EnableDisable RTM.vi"/>
+		<Item Name="Execution Monitor RTM.vi" Type="VI" URL="../System Explorer/RTM/Execution Monitor RTM.vi"/>
 		<Item Name="Export Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Export Configuration RTM.vi"/>
 		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
 	</Item>
