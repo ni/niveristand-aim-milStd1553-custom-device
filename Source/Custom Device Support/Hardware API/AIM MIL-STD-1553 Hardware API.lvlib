@@ -30,6 +30,7 @@
 	<Item Name="1553 BM - Read the Queue Modified.vi" Type="VI" URL="../1553 BM - Read the Queue Modified.vi"/>
 	<Item Name="Send Acyclic Frames.vi" Type="VI" URL="../Send Acyclic Frames.vi"/>
 	<Item Name="Set Device Coupling.vi" Type="VI" URL="../Set Device Coupling.vi"/>
+	<Item Name="Set Timing Source.vi" Type="VI" URL="../Set Timing Source.vi"/>
 	<Item Name="Shortened Queue Entry.ctl" Type="VI" URL="../Shortened Queue Entry.ctl"/>
 	<Item Name="Start All.vi" Type="VI" URL="../Start All.vi"/>
 	<Item Name="Start Bus Controller.vi" Type="VI" URL="../Start Bus Controller.vi"/>

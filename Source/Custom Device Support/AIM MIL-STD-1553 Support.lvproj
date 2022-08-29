@@ -33,6 +33,8 @@
 			<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../Shared/Build Linux Log File Path.vi"/>
 			<Item Name="Bus Selection.ctl" Type="VI" URL="../Shared/Bus Selection.ctl"/>
 			<Item Name="Check Value in Range.vim" Type="VI" URL="../Shared/Check Value in Range.vim"/>
+			<Item Name="Convert AIM Time Stamp to NI Time Stamp.vi" Type="VI" URL="../Shared/Convert AIM Time Stamp to NI Time Stamp.vi"/>
+			<Item Name="Convert NI Time Stamp to AIM Time Stamp.vi" Type="VI" URL="../Shared/Convert NI Time Stamp to AIM Time Stamp.vi"/>
 			<Item Name="Coupling Mode.ctl" Type="VI" URL="../Shared/Coupling Mode.ctl"/>
 			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
@@ -49,6 +51,7 @@
 			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
 			<Item Name="String to Value.vim" Type="VI" URL="../Shared/String to Value.vim"/>
 			<Item Name="Terminal Endpoint.ctl" Type="VI" URL="../Shared/Terminal Endpoint.ctl"/>
+			<Item Name="Timing Mode.ctl" Type="VI" URL="../Shared/Timing Mode.ctl"/>
 			<Item Name="Value to String.vim" Type="VI" URL="../Shared/Value to String.vim"/>
 			<Item Name="Running Status.ctl" Type="VI" URL="../Shared/Running Status.ctl"/>
 		</Item>
@@ -160,7 +163,10 @@
 				<Item Name="1553 SA Control.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 SA Control.ctl"/>
 				<Item Name="1553 Select Direction.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Select Direction.ctl"/>
 				<Item Name="1553 Status Word Exception.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Status Word Exception.ctl"/>
+				<Item Name="1553 System - Get IRIG Time Value.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Get IRIG Time Value.vi"/>
 				<Item Name="1553 System - PXI Geographical Address.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - PXI Geographical Address.vi"/>
+				<Item Name="1553 System - Set IRIG Time Source.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Set IRIG Time Source.vi"/>
+				<Item Name="1553 System - Set IRIG Time Value.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Set IRIG Time Value.vi"/>
 				<Item Name="1553 Transfer Descriptor.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Transfer Descriptor.ctl"/>
 				<Item Name="1553 Utility - AIM Error Code Array Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - AIM Error Code Array Global.vi"/>
 				<Item Name="1553 Utility - Convert sa_type Flag to Direction and Type.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Convert sa_type Flag to Direction and Type.vi"/>
@@ -898,7 +904,10 @@
 				<Item Name="1553 SA Control.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 SA Control.ctl"/>
 				<Item Name="1553 Select Direction.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Select Direction.ctl"/>
 				<Item Name="1553 Status Word Exception.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Status Word Exception.ctl"/>
+				<Item Name="1553 System - Get IRIG Time Value.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Get IRIG Time Value.vi"/>
 				<Item Name="1553 System - PXI Geographical Address.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - PXI Geographical Address.vi"/>
+				<Item Name="1553 System - Set IRIG Time Source.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Set IRIG Time Source.vi"/>
+				<Item Name="1553 System - Set IRIG Time Value.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Set IRIG Time Value.vi"/>
 				<Item Name="1553 Transfer Descriptor.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Transfer Descriptor.ctl"/>
 				<Item Name="1553 Utility - AIM Error Code Array Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - AIM Error Code Array Global.vi"/>
 				<Item Name="1553 Utility - Convert sa_type Flag to Direction and Type.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Convert sa_type Flag to Direction and Type.vi"/>
@@ -970,6 +979,8 @@
 			<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../Shared/Build Linux Log File Path.vi"/>
 			<Item Name="Bus Selection.ctl" Type="VI" URL="../Shared/Bus Selection.ctl"/>
 			<Item Name="Check Value in Range.vim" Type="VI" URL="../Shared/Check Value in Range.vim"/>
+			<Item Name="Convert AIM Time Stamp to NI Time Stamp.vi" Type="VI" URL="../Shared/Convert AIM Time Stamp to NI Time Stamp.vi"/>
+			<Item Name="Convert NI Time Stamp to AIM Time Stamp.vi" Type="VI" URL="../Shared/Convert NI Time Stamp to AIM Time Stamp.vi"/>
 			<Item Name="Coupling Mode.ctl" Type="VI" URL="../Shared/Coupling Mode.ctl"/>
 			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
@@ -1005,6 +1016,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Terminal Endpoint.ctl" Type="VI" URL="../Shared/Terminal Endpoint.ctl"/>
+			<Item Name="Timing Mode.ctl" Type="VI" URL="../Shared/Timing Mode.ctl"/>
 			<Item Name="Value to String.vim" Type="VI" URL="../Shared/Value to String.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
