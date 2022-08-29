@@ -59,6 +59,7 @@
 		<Item Name="Find All Custom Devices.vi" Type="VI" URL="../Custom Device/Find All Custom Devices.vi"/>
 		<Item Name="Find Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find Custom Device by Name.vi"/>
 		<Item Name="Get Description.vi" Type="VI" URL="../Custom Device/Get Description.vi"/>
+		<Item Name="Get Owning Custom Device.vi" Type="VI" URL="../Custom Device/Get Owning Custom Device.vi"/>
 		<Item Name="Import Custom Device (In Place).vi" Type="VI" URL="../Custom Device/Import Custom Device (In Place).vi"/>
 		<Item Name="Import Custom Device (New).vi" Type="VI" URL="../Custom Device/Import Custom Device (New).vi"/>
 		<Item Name="Import Custom Device.vi" Type="VI" URL="../Custom Device/Import Custom Device.vi"/>
@@ -68,6 +69,15 @@
 		<Item Name="Set Description.vi" Type="VI" URL="../Custom Device/Set Description.vi"/>
 		<Item Name="Update Error.vi" Type="VI" URL="../Custom Device/Update Error.vi"/>
 		<Item Name="Write BIU Configuration.vi" Type="VI" URL="../Custom Device/Write BIU Configuration.vi"/>
+	</Item>
+	<Item Name="Execution Monitor" Type="Folder">
+		<Item Name="Add Execution Monitor Section.vi" Type="VI" URL="../Execution Monitor/Add Execution Monitor Section.vi"/>
+		<Item Name="Get Execution Monitor Section.vi" Type="VI" URL="../Execution Monitor/Get Execution Monitor Section.vi"/>
+		<Item Name="Get Logging Execution Time.vi" Type="VI" URL="../Execution Monitor/Get Logging Execution Time.vi"/>
+		<Item Name="Get Rx Execution Time.vi" Type="VI" URL="../Execution Monitor/Get Rx Execution Time.vi"/>
+		<Item Name="Get Triggers Execution Time.vi" Type="VI" URL="../Execution Monitor/Get Triggers Execution Time.vi"/>
+		<Item Name="Get Tx Execution Time.vi" Type="VI" URL="../Execution Monitor/Get Tx Execution Time.vi"/>
+		<Item Name="Remove Execution Monitor Section.vi" Type="VI" URL="../Execution Monitor/Remove Execution Monitor Section.vi"/>
 	</Item>
 	<Item Name="Hardware Parameters" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>

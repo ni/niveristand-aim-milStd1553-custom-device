@@ -18,6 +18,7 @@
 		<Item Name="Bus Status Section.vi" Type="VI" URL="../System Explorer/Pages/Bus Status Section.vi"/>
 		<Item Name="Command Channel.vi" Type="VI" URL="../System Explorer/Pages/Command Channel.vi"/>
 		<Item Name="Configuration Files.vi" Type="VI" URL="../System Explorer/Pages/Configuration Files.vi"/>
+		<Item Name="Execution Monitor.vi" Type="VI" URL="../System Explorer/Pages/Execution Monitor.vi"/>
 		<Item Name="Logging.vi" Type="VI" URL="../System Explorer/Pages/Logging.vi"/>
 		<Item Name="Main Page.vi" Type="VI" URL="../System Explorer/Pages/Main Page.vi"/>
 		<Item Name="Message.vi" Type="VI" URL="../System Explorer/Pages/Message.vi"/>
@@ -31,6 +32,7 @@
 	</Item>
 	<Item Name="RTM" Type="Folder">
 		<Item Name="EnableDisable RTM.vi" Type="VI" URL="../System Explorer/RTM/EnableDisable RTM.vi"/>
+		<Item Name="Execution Monitor RTM.vi" Type="VI" URL="../System Explorer/RTM/Execution Monitor RTM.vi"/>
 		<Item Name="Export Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Export Configuration RTM.vi"/>
 		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
 	</Item>
