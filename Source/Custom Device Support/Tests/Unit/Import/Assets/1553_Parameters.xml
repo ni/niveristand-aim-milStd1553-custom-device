@@ -21,54 +21,62 @@
 		</terminals>
 		<majorFrames>
 			<majorFrame>
-				<name>MajorFrame</name>
+				<name>Major Frame</name>
 				<minorFrameRefs>
-					<minorFrameRef>MinorFrame1</minorFrameRef>
-					<minorFrameRef>MinorFrame2</minorFrameRef>
+					<minorFrameRef>Minor Frame 1</minorFrameRef>
+					<minorFrameRef>Minor Frame 2</minorFrameRef>
 				</minorFrameRefs>
+			</majorFrame>
+			<majorFrame>
+				<name>Empty Major Frame</name>
+				<minorFrameRefs></minorFrameRefs>
 			</majorFrame>
 		</majorFrames>
 		<minorFrames>
 			<minorFramePeriod>12345</minorFramePeriod>
 			<minorFrame>
-				<name>MinorFrame1</name>
+				<name>Minor Frame 1</name>
 				<messageRefs>
-					<messageRef>Position3</messageRef>
+					<messageRef>Message4</messageRef>
 				</messageRefs>
 			</minorFrame>
 			<minorFrame>
-				<name>MinorFrame2</name>
+				<name>Minor Frame 2</name>
 				<messageRefs>
-					<messageRef>Position4</messageRef>
-					<messageRef>Position5</messageRef>
+					<messageRef>Message5</messageRef>
+					<messageRef>Message6</messageRef>
 				</messageRefs>
+			</minorFrame>
+			<minorFrame>
+				<name>Empty Minor Frame</name>
+				<messageRefs></messageRefs>
 			</minorFrame>
 		</minorFrames>
 		<acyclicFrames>
 			<acyclicFrame>
+				<name>Acyclic Frame 1</name>
 				<createTriggerChannel>true</createTriggerChannel>
-				<name>Message Buffer 56</name>
 				<messageRefs>
-					<messageRef>Latitude</messageRef>
+					<messageRef>Message1</messageRef>
 				</messageRefs>
 			</acyclicFrame>
 			<acyclicFrame>
+				<name>Acyclic Frame 2</name>
 				<createTriggerChannel>true</createTriggerChannel>
-				<name>Message Buffer 57</name>
 				<messageRefs>
-					<messageRef>Longitude</messageRef>
-					<messageRef>Position1</messageRef>
+					<messageRef>Message2</messageRef>
+					<messageRef>Message3</messageRef>
 				</messageRefs>
 			</acyclicFrame>
 			<acyclicFrame>
+				<name>Empty Acyclic Frame</name>
 				<createTriggerChannel>false</createTriggerChannel>
-				<name>Message Buffer 58</name>
 				<messageRefs></messageRefs>
 			</acyclicFrame>
 		</acyclicFrames>
 		<messages>
 			<message>
-				<name>Latitude</name>
+				<name>Message1</name>
 				<address>
 					<terminalAddress>21</terminalAddress>
 					<subAddress>7</subAddress>
@@ -92,7 +100,7 @@
 				</parameters>
 			</message>
 			<message>
-				<name>Longitude</name>
+				<name>Message2</name>
 				<address>
 					<terminalAddress>22</terminalAddress>
 					<subAddress>7</subAddress>
@@ -116,7 +124,7 @@
 				</parameters>
 			</message>
 			<message>
-				<name>Position1</name>
+				<name>Message3</name>
 				<address>
 					<terminalAddress>1</terminalAddress>
 					<subAddress>2</subAddress>
@@ -155,7 +163,7 @@
 				</parameters>
 			</message>
 			<message>
-				<name>Position2</name>
+				<name>Message4</name>
 				<address>
 					<terminalAddress>1</terminalAddress>
 					<subAddress>2</subAddress>
@@ -171,7 +179,7 @@
 				<createTimestampChannel>true</createTimestampChannel>
 			</message>
 			<message>
-				<name>Position3</name>
+				<name>Message5</name>
 				<address>
 					<terminalAddress>21</terminalAddress>
 					<subAddress>7</subAddress>
@@ -195,34 +203,10 @@
 				</parameters>
 			</message>
 			<message>
-				<name>Position4</name>
+				<name>Message6</name>
 				<address>
 					<terminalAddress>31</terminalAddress>
 					<subAddress>7</subAddress>
-					<direction>Rx</direction>
-				</address>
-				<messageType>BC to RT</messageType>
-				<numberOfWords>3</numberOfWords>
-				<createTimestampChannel>true</createTimestampChannel>
-				<parameters>
-					<parameter>
-						<encoding>BNR</encoding>
-						<signed>true</signed>
-						<startBit>16</startBit>
-						<numberOfBits>32</numberOfBits>
-						<scale>3600</scale>
-						<offset>0.0</offset>
-						<name>Parameter 0</name>
-						<unit>deg</unit>
-						<defaultValue>0.0</defaultValue>
-					</parameter>
-				</parameters>
-			</message>
-			<message>
-				<name>Position5</name>
-				<address>
-					<terminalAddress>31</terminalAddress>
-					<subAddress>12</subAddress>
 					<direction>Rx</direction>
 				</address>
 				<messageType>BC to RT</messageType>
