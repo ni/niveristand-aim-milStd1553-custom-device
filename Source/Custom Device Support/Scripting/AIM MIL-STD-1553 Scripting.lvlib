@@ -60,6 +60,7 @@
 		<Item Name="Find Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find Custom Device by Name.vi"/>
 		<Item Name="Get Description.vi" Type="VI" URL="../Custom Device/Get Description.vi"/>
 		<Item Name="Get Owning Custom Device.vi" Type="VI" URL="../Custom Device/Get Owning Custom Device.vi"/>
+		<Item Name="Get Run Rx Asynchronously.vi" Type="VI" URL="../Custom Device/Get Run Rx Asynchronously.vi"/>
 		<Item Name="Import Custom Device (In Place).vi" Type="VI" URL="../Custom Device/Import Custom Device (In Place).vi"/>
 		<Item Name="Import Custom Device (New).vi" Type="VI" URL="../Custom Device/Import Custom Device (New).vi"/>
 		<Item Name="Import Custom Device.vi" Type="VI" URL="../Custom Device/Import Custom Device.vi"/>
@@ -67,6 +68,7 @@
 		<Item Name="Read BIU Configuration.vi" Type="VI" URL="../Custom Device/Read BIU Configuration.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
 		<Item Name="Set Description.vi" Type="VI" URL="../Custom Device/Set Description.vi"/>
+		<Item Name="Set Run Rx Asynchronously.vi" Type="VI" URL="../Custom Device/Set Run Rx Asynchronously.vi"/>
 		<Item Name="Update Error.vi" Type="VI" URL="../Custom Device/Update Error.vi"/>
 		<Item Name="Write BIU Configuration.vi" Type="VI" URL="../Custom Device/Write BIU Configuration.vi"/>
 	</Item>
