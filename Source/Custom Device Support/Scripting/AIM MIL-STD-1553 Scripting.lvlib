@@ -21,7 +21,6 @@
 	</Item>
 	<Item Name="Bus Controller" Type="Folder">
 		<Item Name="Add Bus Controller.vi" Type="VI" URL="../Bus Controller/Add Bus Controller.vi"/>
-		<Item Name="Add Message Section.vi" Type="VI" URL="../Bus Controller/Add Message Section.vi"/>
 		<Item Name="Find Bus Controller.vi" Type="VI" URL="../Bus Controller/Find Bus Controller.vi"/>
 		<Item Name="Remove Bus Controller.vi" Type="VI" URL="../Bus Controller/Remove Bus Controller.vi"/>
 	</Item>
@@ -32,8 +31,8 @@
 		<Item Name="Get Bus Status Section and Channels.vi" Type="VI" URL="../Bus Status/Get Bus Status Section and Channels.vi"/>
 	</Item>
 	<Item Name="Channel" Type="Folder">
-		<Item Name="Add Channel.vi" Type="VI" URL="../Channel/Add Channel.vi"/>
 		<Item Name="Add Command Channel.vi" Type="VI" URL="../Channel/Add Command Channel.vi"/>
+		<Item Name="Add Parameter Channel.vi" Type="VI" URL="../Channel/Add Parameter Channel.vi"/>
 		<Item Name="Add Start and Stop Channels.vi" Type="VI" URL="../Channel/Add Start and Stop Channels.vi"/>
 		<Item Name="Add Timestamp Channel.vi" Type="VI" URL="../Channel/Add Timestamp Channel.vi"/>
 		<Item Name="Get Start and Stop Channels.vi" Type="VI" URL="../Channel/Get Start and Stop Channels.vi"/>
@@ -73,6 +72,7 @@
 		<Item Name="Write BIU Configuration.vi" Type="VI" URL="../Custom Device/Write BIU Configuration.vi"/>
 	</Item>
 	<Item Name="Execution Monitor" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Add Execution Monitor Section.vi" Type="VI" URL="../Execution Monitor/Add Execution Monitor Section.vi"/>
 		<Item Name="Get Execution Monitor Section.vi" Type="VI" URL="../Execution Monitor/Get Execution Monitor Section.vi"/>
 		<Item Name="Get Logging Execution Time.vi" Type="VI" URL="../Execution Monitor/Get Logging Execution Time.vi"/>
@@ -109,7 +109,7 @@
 		<Item Name="Add Message-Subaddress Pair (RT to BC).vi" Type="VI" URL="../Messages and Subaddresses/Add Message-Subaddress Pair (RT to BC).vi"/>
 		<Item Name="Add Message-Subaddress Pair.vi" Type="VI" URL="../Messages and Subaddresses/Add Message-Subaddress Pair.vi"/>
 		<Item Name="Add Message-Subaddress Set (RT to RT).vi" Type="VI" URL="../Messages and Subaddresses/Add Message-Subaddress Set (RT to RT).vi"/>
-		<Item Name="Add Messages-Subaddresses from Configurations.vi" Type="VI" URL="../Messages and Subaddresses/Add Messages-Subaddresses from Configurations.vi"/>
+		<Item Name="Add Messages and Subaddresses from Definitions.vi" Type="VI" URL="../Messages and Subaddresses/Add Messages and Subaddresses from Definitions.vi"/>
 		<Item Name="Add Minor Frame Period.vi" Type="VI" URL="../Messages and Subaddresses/Add Minor Frame Period.vi"/>
 		<Item Name="Add Mode Code Message-Subaddress Pair.vi" Type="VI" URL="../Messages and Subaddresses/Add Mode Code Message-Subaddress Pair.vi"/>
 		<Item Name="Add Parameter Channels with Definitions.vi" Type="VI" URL="../Messages and Subaddresses/Add Parameter Channels with Definitions.vi"/>
@@ -117,7 +117,7 @@
 		<Item Name="Add Subaddress.vi" Type="VI" URL="../Messages and Subaddresses/Add Subaddress.vi"/>
 		<Item Name="Find Messages and Subaddresses by Name.vi" Type="VI" URL="../Messages and Subaddresses/Find Messages and Subaddresses by Name.vi"/>
 		<Item Name="Find Subaddress.vi" Type="VI" URL="../Messages and Subaddresses/Find Subaddress.vi"/>
-		<Item Name="Get All Message Configurations.vi" Type="VI" URL="../Messages and Subaddresses/Get All Message Configurations.vi"/>
+		<Item Name="Get All Message Definitions.vi" Type="VI" URL="../Messages and Subaddresses/Get All Message Definitions.vi"/>
 		<Item Name="Get All Messages and Subaddresses.vi" Type="VI" URL="../Messages and Subaddresses/Get All Messages and Subaddresses.vi"/>
 		<Item Name="Get All Subaddress and Mode Codes in Remote Terminal.vi" Type="VI" URL="../Messages and Subaddresses/Get All Subaddress and Mode Codes in Remote Terminal.vi"/>
 		<Item Name="Get Direction.vi" Type="VI" URL="../Messages and Subaddresses/Get Direction.vi"/>
@@ -165,6 +165,7 @@
 		<Item Name="Set Remote Terminal Name.vi" Type="VI" URL="../Remote Terminal/Set Remote Terminal Name.vi"/>
 	</Item>
 	<Item Name="Terminal" Type="Folder">
+		<Item Name="Add Message Section.vi" Type="VI" URL="../Terminal/Add Message Section.vi"/>
 		<Item Name="Add Terminal Status Channel.vi" Type="VI" URL="../Terminal/Add Terminal Status Channel.vi"/>
 		<Item Name="Conditionally Create Default Terminal Name.vi" Type="VI" URL="../Terminal/Conditionally Create Default Terminal Name.vi"/>
 		<Item Name="Get Terminal Status Channel.vi" Type="VI" URL="../Terminal/Get Terminal Status Channel.vi"/>

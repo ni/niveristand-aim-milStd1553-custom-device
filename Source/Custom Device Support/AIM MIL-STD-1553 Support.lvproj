@@ -23,6 +23,7 @@
 			<Item Name="Message.mnu" Type="Document" URL="../Scripting/Palettes/Message.mnu"/>
 			<Item Name="Port.mnu" Type="Document" URL="../Scripting/Palettes/Port.mnu"/>
 			<Item Name="Remote Terminal.mnu" Type="Document" URL="../Scripting/Palettes/Remote Terminal.mnu"/>
+			<Item Name="Troubleshooting.mnu" Type="Document" URL="../Scripting/Palettes/Troubleshooting.mnu"/>
 		</Item>
 		<Item Name="Shared" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -175,7 +176,6 @@
 				<Item Name="1553 Utility - NI error Offset for AIM Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - NI error Offset for AIM Global.vi"/>
 				<Item Name="1553 Utility - Resolve and Test DLL Path.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Resolve and Test DLL Path.vi"/>
 				<Item Name="1553 Utility - RT Mode Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Mid-Level Release/1553 Utility - RT Mode Global.vi"/>
-				<Item Name="BTI1553LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI1553Lib/BTI1553LV.lvlib"/>
 				<Item Name="Function - Round to Nearest (N).vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Utilities/Function - Round to Nearest (N).vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
@@ -614,12 +614,6 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
-			<Item Name="BTI1553LV.dll" Type="Document" URL="BTI1553LV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -765,7 +759,7 @@
 				<Property Name="Destination[2].destName" Type="Str">Top Level</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/Scripting</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{43DDBA72-C87F-47FB-AF6D-F24970D90B1C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{148ED479-C975-40A4-929F-868D5E687829}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AIM MIL-STD-1553 Scripting.lvlib</Property>
@@ -779,6 +773,9 @@
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/MIL-STD 1553 Import.lvlib/Read Tag Value.vim</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Palettes/Troubleshooting.mnu</Property>
+				<Property Name="Source[12].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/AIM MIL-STD-1553 Engine.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -810,7 +807,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Palettes/Remote Terminal.mnu</Property>
 				<Property Name="Source[9].lvfile" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 			</Item>
 		</Item>
 	</Item>
