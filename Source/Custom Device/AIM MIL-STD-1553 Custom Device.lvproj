@@ -64,14 +64,6 @@
 				<Item Name="Append Path to Root if Relative - Root Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Root Path Array__ogtk.vi"/>
 				<Item Name="Append Path to Root if Relative - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Scalar__ogtk.vi"/>
 				<Item Name="Append Path to Root if Relative__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative__ogtk.vi"/>
-				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
-				<Item Name="Build Path - File Names and Paths Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays__ogtk.vi"/>
-				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
-				<Item Name="Build Path - File Names Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array__ogtk.vi"/>
-				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
-				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
-				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
-				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CDB)__ogtk.vi"/>
@@ -93,12 +85,6 @@
 				<Item Name="Remove Duplicates from 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U64)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Variant)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array__ogtk.vi"/>
-				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
-				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
-				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
-				<Item Name="Temporary Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Temporary Directory__ogtk.vi"/>
-				<Item Name="Temporary Filename__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Temporary Filename__ogtk.vi"/>
-				<Item Name="Valid Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path - Traditional__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -112,10 +98,6 @@
 				<Item Name="Build Path - Traditional__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - Traditional__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
-				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
-				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
-				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="CHM Generator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Compiled HTML Menu Tool/CHM Generator/CHM Generator.lvclass"/>
@@ -155,7 +137,6 @@
 				<Item Name="Convert EOLs (String)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Convert EOLs (String)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Convert EOLs__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Convert EOLs__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
 				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Delete Elements from 1D Array (CDB)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (CDB)__ogtk__jki_vi_tester.vi"/>
@@ -283,19 +264,14 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="MergeError.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/MergeError.vi"/>
 				<Item Name="Multi-line String to Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Multi-line String to Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
-				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
-				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
 				<Item Name="Random Number - Within Range__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Random Number - Within Range__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Refnum Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Refnum Subtype Enum__ogtk__jki_vi_tester.ctl"/>
@@ -428,7 +404,6 @@
 				<Item Name="Strip Path Extension - String__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Path Extension - String__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Strip Path Extension__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Path Extension__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Strip Units__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Units__ogtk__jki_vi_tester.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -445,49 +420,16 @@
 				<Item Name="Type Descriptor Enumeration__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Type Descriptor Enumeration__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="Type Descriptor Header__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Type Descriptor Header__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="Type Descriptor__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Type Descriptor__ogtk__jki_vi_tester.ctl"/>
-				<Item Name="UnpackedFlatVectorToMatrix.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/UnpackedFlatVectorToMatrix.vi"/>
 				<Item Name="Variant to Header Info__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Variant to Header Info__ogtk__jki_vi_tester.vi"/>
+				<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/VeriStand Custom Device Testing Tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 				<Item Name="VITesterUtilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/VITesterUtilities.lvlib"/>
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="1553 BM - Read the Queue Modified.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Hardware API/1553 BM - Read the Queue Modified.vi"/>
-			<Item Name="Abstract Consumer.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Consumer/Abstract Consumer/Abstract Consumer.lvclass"/>
-			<Item Name="Abstract Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Parameters/Abstract Init Parameters/Abstract Init Parameters.lvclass"/>
-			<Item Name="Abstract Message Queue.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Message Queue/Abstract Message Queue/Abstract Message Queue.lvclass"/>
-			<Item Name="Abstract Message.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Message/Abstract Message/Abstract Message.lvclass"/>
-			<Item Name="Abstract Producer.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Producer/Abstract Producer/Abstract Producer.lvclass"/>
-			<Item Name="Abstract Request Message.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Message/Abstract Request Message/Abstract Request Message.lvclass"/>
-			<Item Name="Abstract Response Message.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Message/Abstract Response Message/Abstract Response Message.lvclass"/>
-			<Item Name="Async.Engine.Close.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Close.vi"/>
-			<Item Name="Async.Engine.Initialize.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Initialize.vi"/>
-			<Item Name="Async.Engine.Read Data from HW.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Read Data from HW.vi"/>
-			<Item Name="Async.Engine.Start.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Start.vi"/>
-			<Item Name="Async.Engine.Write Data to HW.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Write Data to HW.vi"/>
-			<Item Name="CSV Word Logger.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Logging/CSV Word Logger/CSV Word Logger.lvclass"/>
-			<Item Name="Data Access Engine.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass/Data Access Engine.ctl"/>
-			<Item Name="Data Access Engine.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass"/>
-			<Item Name="Data.Engine.Read Data from HW.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Engine.Read Data from HW.vi"/>
-			<Item Name="Data.Engine.Write Data to HW.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Engine.Write Data to HW.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Error Handling Settings.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Types/Error Handling Settings.ctl"/>
-			<Item Name="Execution Unit Factory.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Execution Unit Factory/Execution Unit Factory.lvclass"/>
-			<Item Name="Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Execution Unit/Execution Unit.lvclass"/>
-			<Item Name="Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Execution Unit/Execution Unit.lvclass"/>
-			<Item Name="Global - Disable Hardware API Constant.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Hardware API/Global - Disable Hardware API Constant.vi"/>
-			<Item Name="Log Message.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Logging/Word Logging/Log Message/Log Message.lvclass"/>
-			<Item Name="Log Producer.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Logging/Word Logging/Log Producer/Log Producer.lvclass"/>
-			<Item Name="Logger Interface.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Logging/Word Logging/Logger Interface/Logger Interface.lvclass"/>
-			<Item Name="Logging Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Logging Execution Unit/Logging Execution Unit.lvclass"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.ClientAPI" Type="Document" URL="NationalInstruments.VeriStand.ClientAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.Internal" Type="Document" URL="NationalInstruments.VeriStand.Internal">
@@ -502,28 +444,10 @@
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Process.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
-			<Item Name="Read.Data.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Read.Data.vi"/>
-			<Item Name="Read.Lookup.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Read.Lookup.vi"/>
-			<Item Name="ReadWrite.Data.Reset.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/ReadWrite.Data.Reset.vi"/>
-			<Item Name="ReadWrite.Data.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/ReadWrite.Data.vi"/>
-			<Item Name="ReadWrite.Lookup.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/ReadWrite.Lookup.vi"/>
-			<Item Name="ReadWrite.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.lvclass"/>
-			<Item Name="Rx Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Rx Execution Unit/Rx Execution Unit.lvclass"/>
-			<Item Name="Shared Resources Factory.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Shared Resources Factory/Shared Resources Factory.lvclass"/>
-			<Item Name="Shared Resources.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Shared Resources/Shared Resources.lvclass"/>
-			<Item Name="Shared Resources.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Shared Resources/Shared Resources.lvclass"/>
-			<Item Name="Shortened Queue Entry.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Hardware API/Shortened Queue Entry.ctl"/>
+			<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="../../../Includes/NIVeriStand_DataServices.dll"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Triggers Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Triggers Execution Unit/Triggers Execution Unit.lvclass"/>
-			<Item Name="Tx Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Tx Execution Unit/Tx Execution Unit.lvclass"/>
-			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
-			<Item Name="VS Inline Async API.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass/VS Inline Async API.ctl"/>
-			<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass"/>
-			<Item Name="Write.Data.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Data.vi"/>
-			<Item Name="Write.Lookup.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Lookup.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
@@ -823,13 +747,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Abstract Consumer.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Consumer/Abstract Consumer/Abstract Consumer.lvclass"/>
-			<Item Name="Abstract Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Parameters/Abstract Init Parameters/Abstract Init Parameters.lvclass"/>
-			<Item Name="Abstract Message Queue.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Message Queue/Abstract Message Queue/Abstract Message Queue.lvclass"/>
-			<Item Name="Abstract Message.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Message/Abstract Message/Abstract Message.lvclass"/>
-			<Item Name="Abstract Producer.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Producer/Abstract Producer/Abstract Producer.lvclass"/>
-			<Item Name="Abstract Request Message.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Message/Abstract Request Message/Abstract Request Message.lvclass"/>
-			<Item Name="Abstract Response Message.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Message/Abstract Response Message/Abstract Response Message.lvclass"/>
 			<Item Name="AIM MIL-STD-1553 Engine.lvlibp" Type="LVLibp" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp">
 				<Item Name="1553 BC - Define a Major Frame.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Define a Major Frame.vi"/>
 				<Item Name="1553 BC - Define a Minor Frame.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Define a Minor Frame.vi"/>
@@ -844,6 +761,9 @@
 				<Item Name="1553 BM - Initialize.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Initialize.vi"/>
 				<Item Name="1553 BM - Queue Start.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Queue Start.vi"/>
 				<Item Name="1553 BM - Queue Stop.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Queue Stop.vi"/>
+				<Item Name="1553 BM - Read Status.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Read Status.vi"/>
+				<Item Name="1553 BM - Start.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Start.vi"/>
+				<Item Name="1553 BM - Stop.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Stop.vi"/>
 				<Item Name="1553 Buffer - Define BC Buffer Header.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC Buffer Header.vi"/>
 				<Item Name="1553 Buffer - Define BC or RT Buffer.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC or RT Buffer.vi"/>
 				<Item Name="1553 Buffer - Define RT Buffer Header.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define RT Buffer Header.vi"/>
@@ -858,6 +778,7 @@
 				<Item Name="1553 General - Obtain a Device Reference.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Obtain a Device Reference.vi"/>
 				<Item Name="1553 RT - Configure a Mode Code.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Configure a Mode Code.vi"/>
 				<Item Name="1553 RT - Configure a Sub-address.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Configure a Sub-address.vi"/>
+				<Item Name="1553 RT - Enable or Disable an RT.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Enable or Disable an RT.vi"/>
 				<Item Name="1553 RT - Initialize an RT.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Initialize an RT.vi"/>
 				<Item Name="1553 RT - Start All RTs.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Start All RTs.vi"/>
 				<Item Name="1553 RT - Stop All RTs.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Stop All RTs.vi"/>
@@ -865,7 +786,10 @@
 				<Item Name="1553 SA Control.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/AIM Controls/1553 SA Control.ctl"/>
 				<Item Name="1553 Select Direction.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/AIM Controls/1553 Select Direction.ctl"/>
 				<Item Name="1553 Status Word Exception.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/AIM Controls/1553 Status Word Exception.ctl"/>
+				<Item Name="1553 System - Get IRIG Time Value.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Get IRIG Time Value.vi"/>
 				<Item Name="1553 System - PXI Geographical Address.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - PXI Geographical Address.vi"/>
+				<Item Name="1553 System - Set IRIG Time Source.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Set IRIG Time Source.vi"/>
+				<Item Name="1553 System - Set IRIG Time Value.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Set IRIG Time Value.vi"/>
 				<Item Name="1553 Transfer Descriptor.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/AIM Controls/1553 Transfer Descriptor.ctl"/>
 				<Item Name="1553 Utility - AIM Error Code Array Global.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - AIM Error Code Array Global.vi"/>
 				<Item Name="1553 Utility - Convert sa_type Flag to Direction and Type.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Convert sa_type Flag to Direction and Type.vi"/>
@@ -881,8 +805,13 @@
 				<Item Name="AIM MIL-STD-1553 Scripting.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Scripting/AIM MIL-STD-1553 Scripting.lvlib"/>
 				<Item Name="BIU Configuration.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/BIU Configuration.ctl"/>
 				<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Build Linux Log File Path.vi"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Bus Selection.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Bus Selection.ctl"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Convert AIM Time Stamp to NI Time Stamp.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Convert AIM Time Stamp to NI Time Stamp.vi"/>
+				<Item Name="Convert NI Time Stamp to AIM Time Stamp.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Convert NI Time Stamp to AIM Time Stamp.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Coupling Mode.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Coupling Mode.ctl"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Create NI GUID.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
@@ -891,74 +820,62 @@
 				<Item Name="Custom Device.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Custom Device/Custom Device.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Data Word Format.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Data Word Format.ctl"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Direction.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Direction.ctl"/>
 				<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NI VeriStand Encoding and Decoding/Encoding and Decoding.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="Function - Round to Nearest (N).vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/_AIM MIL-STD-1553/AIM Utilities/Function - Round to Nearest (N).vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Implementation.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Implementation.lvlib"/>
 				<Item Name="Initialization Method.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Initialization Method.ctl"/>
 				<Item Name="Interfaces.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Interfaces.lvlib"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Major Frame Definition.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Major Frame Definition.ctl"/>
 				<Item Name="Message Definition.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Message Definition.ctl"/>
 				<Item Name="Message Type.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Message Type.ctl"/>
 				<Item Name="Messaging.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Messaging.lvlib"/>
 				<Item Name="Minor Frame Definition.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Minor Frame Definition.ctl"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="nirviCommon.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Parameter Definition.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Parameter Definition.ctl"/>
+				<Item Name="Running Status.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Running Status.ctl"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Terminal Endpoint.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Terminal Endpoint.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Timing Mode.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Shared/Timing Mode.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Async.Engine.Close.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Close.vi"/>
-			<Item Name="Async.Engine.Initialize.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Initialize.vi"/>
-			<Item Name="Async.Engine.Read Data from HW.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Read Data from HW.vi"/>
-			<Item Name="Async.Engine.Start.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Start.vi"/>
-			<Item Name="Async.Engine.Write Data to HW.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Write Data to HW.vi"/>
-			<Item Name="CSV Word Logger.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Logging/CSV Word Logger/CSV Word Logger.lvclass"/>
-			<Item Name="Data Access Engine.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass/Data Access Engine.ctl"/>
-			<Item Name="Data.Engine.Read Data from HW.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Engine.Read Data from HW.vi"/>
-			<Item Name="Data.Engine.Write Data to HW.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Engine.Write Data to HW.vi"/>
-			<Item Name="Error Handling Settings.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Types/Error Handling Settings.ctl"/>
-			<Item Name="Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Execution Unit/Execution Unit.lvclass"/>
-			<Item Name="Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Execution Unit/Execution Unit.lvclass"/>
-			<Item Name="Log Message.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Logging/Word Logging/Log Message/Log Message.lvclass"/>
-			<Item Name="Log Producer.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Logging/Word Logging/Log Producer/Log Producer.lvclass"/>
-			<Item Name="Logger Interface.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Logging/Word Logging/Logger Interface/Logger Interface.lvclass"/>
-			<Item Name="Logging Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Logging Execution Unit/Logging Execution Unit.lvclass"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Process.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
-			<Item Name="Read.Data.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Read.Data.vi"/>
-			<Item Name="Read.Lookup.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Read.Lookup.vi"/>
-			<Item Name="ReadWrite.Data.Reset.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/ReadWrite.Data.Reset.vi"/>
-			<Item Name="ReadWrite.Data.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/ReadWrite.Data.vi"/>
-			<Item Name="ReadWrite.Lookup.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/ReadWrite.Lookup.vi"/>
-			<Item Name="Rx Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Rx Execution Unit/Rx Execution Unit.lvclass"/>
-			<Item Name="Shared Resources.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Shared Resources/Shared Resources.lvclass"/>
-			<Item Name="Shared Resources.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Shared Resources/Shared Resources.lvclass"/>
+			<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="../../../Includes/NIVeriStand_DataServices.dll"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Triggers Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Triggers Execution Unit/Triggers Execution Unit.lvclass"/>
-			<Item Name="Tx Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Tx Execution Unit/Tx Execution Unit.lvclass"/>
-			<Item Name="VS Inline Async API.ctl" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass/VS Inline Async API.ctl"/>
-			<Item Name="Write.Data.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Data.vi"/>
-			<Item Name="Write.Lookup.vi" Type="VI" URL="../../../Includes/AIM MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Lookup.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">
