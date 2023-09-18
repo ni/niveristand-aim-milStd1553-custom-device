@@ -60,6 +60,10 @@ LabVIEW 2020
 - [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
   - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-testing-tools/releases)
 
+Note:  This custom device was originally branched from the [VeriStand Communications Bus Template](https://github.com/ni/niveristand-communications-bus-template).  The guides for the template may prove useful when getting started developing or building this custom device: 
+ - [Communications Bus Template User's Guide](https://github.com/ni/niveristand-communications-bus-template/blob/main/Docs/User%20Guide.md)
+ - [Communications Bus Template Developer's Guide](https://github.com/ni/niveristand-communications-bus-template/blob/main/Docs/Developer%20Guide.md).
+
 ## Git History & Rebasing Policy
 
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
