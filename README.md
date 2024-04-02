@@ -35,7 +35,7 @@ The custom device supports the following functionality:
 
 ## LabVIEW Source Code Version
 
-LabVIEW 2020
+LabVIEW 2021
 
 ## Dependencies
 
@@ -50,7 +50,7 @@ LabVIEW 2020
 
 ### Developing or building from source
 
-- [LabVIEW 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW 2021 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
 - [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - AIM MIL-STD-1553 BSP and LabVIEW API
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
