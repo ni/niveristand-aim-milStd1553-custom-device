@@ -307,7 +307,7 @@
 			<DeleteProtection>true</DeleteProtection>
 			<GUID>5333719F-F2BC-4D23-960E-7A40219D41E7</GUID>
 			<Glyph>
-				<Type>To Common Doc Dir</Type>
+				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\RM Folder.png</Path>
 			</Glyph>
 			<Item2Launch>
