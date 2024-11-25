@@ -42,9 +42,11 @@
 		<Item Name="Add Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Add Configuration Files Section.vi"/>
 		<Item Name="Get Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Get Configuration Files Section.vi"/>
 		<Item Name="Get Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File.vi"/>
+		<Item Name="Get Property - Include Direction Section.vi" Type="VI" URL="../Configuration Files/Get Property - Include Direction Section.vi"/>
 		<Item Name="Get Property - Parameters Configuration File Required.vi" Type="VI" URL="../Configuration Files/Get Property - Parameters Configuration File Required.vi"/>
 		<Item Name="Import Configuration File.vi" Type="VI" URL="../Configuration Files/Import Configuration File.vi"/>
 		<Item Name="Set Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File.vi"/>
+		<Item Name="Set Property - Include Direction Section.vi" Type="VI" URL="../Configuration Files/Set Property - Include Direction Section.vi"/>
 		<Item Name="Set Property - Parameters Configuration File Required.vi" Type="VI" URL="../Configuration Files/Set Property - Parameters Configuration File Required.vi"/>
 		<Item Name="Update Parameters Configuration File Error.vi" Type="VI" URL="../Configuration Files/Update Parameters Configuration File Error.vi"/>
 	</Item>
@@ -129,6 +131,7 @@
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Messages and Subaddresses/Get Number of Words.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Messages and Subaddresses/Get Parameter Definition.vi"/>
 		<Item Name="Get Parameters.vi" Type="VI" URL="../Messages and Subaddresses/Get Parameters.vi"/>
+		<Item Name="Get Parent of Subaddress.vi" Type="VI" URL="../Messages and Subaddresses/Get Parent of Subaddress.vi"/>
 		<Item Name="Get Subaddress Endpoint.vi" Type="VI" URL="../Messages and Subaddresses/Get Subaddress Endpoint.vi"/>
 		<Item Name="Get Terminal Subaddress.vi" Type="VI" URL="../Messages and Subaddresses/Get Terminal Subaddress.vi"/>
 		<Item Name="Get Terminal Type.vi" Type="VI" URL="../Messages and Subaddresses/Get Terminal Type.vi"/>
@@ -171,4 +174,5 @@
 		<Item Name="Get Terminal Status Channel.vi" Type="VI" URL="../Terminal/Get Terminal Status Channel.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+	<Item Name="GlobalVariables.vi" Type="VI" URL="../GlobalVariables.vi"/>
 </Library>
