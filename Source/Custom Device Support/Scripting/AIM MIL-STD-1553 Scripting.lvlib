@@ -131,6 +131,7 @@
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Messages and Subaddresses/Get Number of Words.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Messages and Subaddresses/Get Parameter Definition.vi"/>
 		<Item Name="Get Parameters.vi" Type="VI" URL="../Messages and Subaddresses/Get Parameters.vi"/>
+		<Item Name="Get Parent of Subaddress.vi" Type="VI" URL="../Messages and Subaddresses/Get Parent of Subaddress.vi"/>
 		<Item Name="Get Subaddress Endpoint.vi" Type="VI" URL="../Messages and Subaddresses/Get Subaddress Endpoint.vi"/>
 		<Item Name="Get Terminal Subaddress.vi" Type="VI" URL="../Messages and Subaddresses/Get Terminal Subaddress.vi"/>
 		<Item Name="Get Terminal Type.vi" Type="VI" URL="../Messages and Subaddresses/Get Terminal Type.vi"/>
