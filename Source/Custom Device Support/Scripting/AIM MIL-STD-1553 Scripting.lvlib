@@ -44,7 +44,7 @@
 		<Item Name="Get Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File.vi"/>
 		<Item Name="Get Property - Include Direction Section.vi" Type="VI" URL="../Configuration Files/Get Property - Include Direction Section.vi"/>
 		<Item Name="Get Property - Parameters Configuration File Required.vi" Type="VI" URL="../Configuration Files/Get Property - Parameters Configuration File Required.vi"/>
-		<Item Name="Get Property From differenct hierarchy - Include Direction Section.vi" Type="VI" URL="../Configuration Files/Get Property From differenct hierarchy - Include Direction Section.vi"/>
+		<Item Name="Get Property from different hierarchy - Include Direction Section.vi" Type="VI" URL="../Configuration Files/Get Property from different hierarchy - Include Direction Section.vi"/>
 		<Item Name="Import Configuration File.vi" Type="VI" URL="../Configuration Files/Import Configuration File.vi"/>
 		<Item Name="Set Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File.vi"/>
 		<Item Name="Set Property - Include Direction Section.vi" Type="VI" URL="../Configuration Files/Set Property - Include Direction Section.vi"/>
