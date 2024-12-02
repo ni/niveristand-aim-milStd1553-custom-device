@@ -19,6 +19,9 @@
 # Output directory
 Built/
 
+# Include directory
+Includes/
+
 # Intermediate Help Files
 *.log
 *.hhp
