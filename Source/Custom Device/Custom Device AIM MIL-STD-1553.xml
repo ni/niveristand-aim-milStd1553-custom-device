@@ -253,8 +253,8 @@
 				<eng>Remote Terminal</eng>
 				<loc>Remote Terminal</loc>
 			</Name>
-			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<DeleteProtection>true</DeleteProtection>
 			<GUID>DAD7DF52-76CE-4065-A310-4B0BE1A080E9</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
