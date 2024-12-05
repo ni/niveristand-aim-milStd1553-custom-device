@@ -42,9 +42,12 @@
 		<Item Name="Add Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Add Configuration Files Section.vi"/>
 		<Item Name="Get Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Get Configuration Files Section.vi"/>
 		<Item Name="Get Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File.vi"/>
+		<Item Name="Get Property - Create Direction Subfolder.vi" Type="VI" URL="../Configuration Files/Get Property - Create Direction Subfolder.vi"/>
 		<Item Name="Get Property - Parameters Configuration File Required.vi" Type="VI" URL="../Configuration Files/Get Property - Parameters Configuration File Required.vi"/>
+		<Item Name="Get Property from different hierarchy - Create Direction Subfolder.vi" Type="VI" URL="../Configuration Files/Get Property from different hierarchy - Create Direction Subfolder.vi"/>
 		<Item Name="Import Configuration File.vi" Type="VI" URL="../Configuration Files/Import Configuration File.vi"/>
 		<Item Name="Set Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File.vi"/>
+		<Item Name="Set Property - Create Direction Folder.vi" Type="VI" URL="../Configuration Files/Set Property - Create Direction Folder.vi"/>
 		<Item Name="Set Property - Parameters Configuration File Required.vi" Type="VI" URL="../Configuration Files/Set Property - Parameters Configuration File Required.vi"/>
 		<Item Name="Update Parameters Configuration File Error.vi" Type="VI" URL="../Configuration Files/Update Parameters Configuration File Error.vi"/>
 	</Item>
@@ -129,6 +132,7 @@
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Messages and Subaddresses/Get Number of Words.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Messages and Subaddresses/Get Parameter Definition.vi"/>
 		<Item Name="Get Parameters.vi" Type="VI" URL="../Messages and Subaddresses/Get Parameters.vi"/>
+		<Item Name="Get Parent of Subaddress.vi" Type="VI" URL="../Messages and Subaddresses/Get Parent of Subaddress.vi"/>
 		<Item Name="Get Subaddress Endpoint.vi" Type="VI" URL="../Messages and Subaddresses/Get Subaddress Endpoint.vi"/>
 		<Item Name="Get Terminal Subaddress.vi" Type="VI" URL="../Messages and Subaddresses/Get Terminal Subaddress.vi"/>
 		<Item Name="Get Terminal Type.vi" Type="VI" URL="../Messages and Subaddresses/Get Terminal Type.vi"/>

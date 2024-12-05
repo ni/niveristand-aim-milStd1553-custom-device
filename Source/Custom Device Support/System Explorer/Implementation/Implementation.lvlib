@@ -18,6 +18,7 @@
 		<Item Name="Bus Status Section.vi" Type="VI" URL="../System Explorer/Pages/Bus Status Section.vi"/>
 		<Item Name="Command Channel.vi" Type="VI" URL="../System Explorer/Pages/Command Channel.vi"/>
 		<Item Name="Configuration Files.vi" Type="VI" URL="../System Explorer/Pages/Configuration Files.vi"/>
+		<Item Name="Direction.vi" Type="VI" URL="../System Explorer/Pages/Direction.vi"/>
 		<Item Name="Execution Monitor.vi" Type="VI" URL="../System Explorer/Pages/Execution Monitor.vi"/>
 		<Item Name="Logging.vi" Type="VI" URL="../System Explorer/Pages/Logging.vi"/>
 		<Item Name="Main Page.vi" Type="VI" URL="../System Explorer/Pages/Main Page.vi"/>
